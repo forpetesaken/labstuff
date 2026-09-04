@@ -1,0 +1,230 @@
+# CTCF Motif Orientation Analysis - Detailed Flowchart Guide
+
+## **Starting Point: Raw Data**
+- **CTCF motifs**: BED files from FIMO with various score thresholds (4.0, 5.0, 5.5, 6.0)
+- **Domain boundaries**: BEDPE file (5000_blocks.bedpe) with chromatin domain calls and scores
+- **Goal**: Understand CTCF orientation patterns in functional genomic contexts
+
+---
+
+## **Phase 1: Data Quality & Filtering**
+
+### Box 1: Initial Motif Filtering
+- **Input**: Raw FIMO output at multiple thresholds
+- **Decision**: Which threshold gives biologically relevant motifs?
+- **Output**: Selected 5.5 threshold for balance of sensitivity/specificity
+
+### Box 2: Domain-Aware Filtering
+- **Logic**: CTCF function is linked to chromatin structure
+- **Process**: Filter motifs to those within 10kb of domain boundaries
+- **Output**: `5.5_near_domains_10kb.bed`
+- **Result**: 43,354/49,907 motifs retained (86.87%)
+
+### Box 3: Domain Quality Filtering
+- **Input**: 5000_blocks.bedpe with score column
+- **Decision Node**: "Should we focus on high-confidence domains?"
+- **Branch A**: Top 50th percentile (score > 1.066) → 10,340 domains
+- **Branch B**: Top 10th percentile (score > 1.504) → 2,068 domains
+- **Reasoning**: Stricter filtering = cleaner signal
+
+---
+
+## **Phase 2: Three Parallel Analysis Approaches**
+
+### **Analysis Track 1: Basic Proximity Pairs (ctcfbeds.py)**
+```
+START
+  ↓
+Take all CTCF motifs (e.g., 5.5 threshold)
+  ↓
+For each motif, find neighbors within MAX_DIST (500bp default)
+  ↓
+Classify each pair by strand orientation:
+  • +/- = convergent ><
+  • -/+ = divergent <>
+  • +/+ = tandem_plus >>
+  • -/- = tandem_minus <<
+  ↓
+Aggregate counts across genome
+  ↓
+Generate pie chart
+END
+```
+**Purpose**: Baseline distribution without domain context
+
+---
+
+### **Analysis Track 2: Domain Boundary Pairs (ctcfbeds_domainpairs.py)**
+```
+START
+  ↓
+Load domain intervals from BEDPE (chr, start, end)
+  ↓
+For each domain:
+  ├─ LEFT BOUNDARY = domain start
+  └─ RIGHT BOUNDARY = domain end
+  ↓
+For LEFT boundary:
+  Find CTCF motifs in [start, start+10kb] (interior side)
+  ↓
+  DECISION: Multiple motifs found?
+    ├─ MODE: nearest → pick closest to boundary
+    ├─ MODE: interior → pick furthest from boundary (most internal)
+    ├─ MODE: strongest → pick highest score
+    └─ MODE: discard → skip this domain entirely
+  ↓
+For RIGHT boundary:
+  Find CTCF motifs in [end-10kb, end] (interior side)
+  ↓
+  Apply same selection MODE
+  ↓
+If BOTH boundaries have a motif:
+  Classify orientation of the pair
+  (left_strand, right_strand) → convergent/divergent/tandem
+  ↓
+Aggregate across all domains
+  ↓
+Generate pie chart
+END
+```
+
+**Key Design Choices**:
+- **10kb window**: Balances proximity vs. coverage
+- **Interior-only search**: Enforces biologically relevant inward-facing architecture
+- **Selection modes**: Handle ambiguity when multiple strong motifs cluster
+
+---
+
+### **Analysis Track 3: Single-Boundary Local Pairs (ctcf_boundary_pairs.py)**
+```
+START
+  ↓
+Load domain boundaries (both starts AND ends counted separately)
+  ↓
+For each boundary coordinate:
+  Find all CTCF motifs within 10kb window
+  ↓
+  DECISION: How to handle multiple motifs?
+    ├─ MODE: all → classify ALL consecutive pairs
+    └─ MODE: strongest2 → take only top 2 motifs by score
+  ↓
+For each valid pair at this boundary:
+  Classify orientation
+  ↓
+Aggregate across all boundaries
+  ↓
+Generate pie chart
+END
+```
+
+**Purpose**: Captures local CTCF clustering at individual boundaries (not long-range domain architecture)
+
+---
+
+## **Phase 3: Statistical Validation**
+
+### Enrichment Analysis (ctcf_boundary_enrichment.py)
+```
+START
+  ↓
+Count motifs near ACTUAL boundaries (within 10kb)
+  ↓
+Generate SHIFT CONTROLS:
+  For each boundary:
+    ├─ Randomly shift ±500kb along chromosome
+    ├─ Count motifs at shifted position
+    └─ Repeat 1000 times
+  ↓
+Calculate:
+  • Mean shift control count
+  • Standard deviation
+  • Z-score = (actual - shift_mean) / shift_std
+  • Enrichment fold-change
+  ↓
+OUTPUT: "CTCF is 2.45x enriched at boundaries vs. random"
+END
+```
+
+**Purpose**: Validate that observed patterns aren't random noise
+
+---
+
+## **Phase 4: Interpretation Framework**
+
+### Decision Tree for Understanding Results
+
+```
+START: Look at pie chart
+  ↓
+Q1: Is convergent >< the dominant orientation?
+  ├─ YES → Consistent with loop extrusion model
+  │         (cohesin traps at convergent CTCF)
+  └─ NO → Check analysis parameters:
+            ├─ Are you using domain pairs? (should show convergent bias)
+            ├─ Using strict domain filtering? (top 10% better than all)
+            └─ Selection mode appropriate? (discard/interior may help)
+  ↓
+Q2: What's the convergent percentage?
+  ├─ 40-60%: Strong biological signal
+  ├─ 25-35%: Weak bias (check filtering)
+  └─ ~25%: Random (equal distribution)
+  ↓
+Q3: Are tandem pairs (~50% combined) dominating?
+  ├─ YES in basic proximity → Expected (linear genome bias)
+  └─ YES in domain pairs → Problem: filter logic may be wrong
+  ↓
+Q4: Mode comparison (for domain pairs):
+  • nearest vs. interior: Tests boundary definition sensitivity
+  • strongest vs. discard: Tests ambiguity handling
+  • If results differ wildly → Data has high motif density
+END
+```
+
+---
+
+## **Critical Thinking Checkpoints**
+
+### Checkpoint 1: "Why filter by domains?"
+- **Problem**: Random CTCF pairs across genome = no functional context
+- **Solution**: Domain boundaries = functional structural anchors
+- **Test**: Enrichment analysis proves boundaries aren't random
+
+### Checkpoint 2: "Why different selection modes?"
+- **Problem**: Real biology has multiple CTCFs near boundaries
+- **Challenge**: Which one is the functional anchor?
+- **Strategies**:
+  - **Strongest**: Assumes score = function
+  - **Interior**: Assumes position = function
+  - **Discard**: Conservative (only unambiguous cases)
+
+### Checkpoint 3: "Why compare domain pairs vs. boundary pairs?"
+- **Domain pairs**: Long-range architecture (domain loop formation)
+- **Boundary pairs**: Local clustering (insulator complexes)
+- **Different biology**: Should show different orientation biases
+
+### Checkpoint 4: "What does convergent bias mean?"
+- **Biology**: Loop extrusion model predicts convergent CTCF stops cohesin
+- **Expected**: Domain pairs should be ~40-50% convergent
+- **Validation**: Random genome = 25% each orientation
+
+---
+
+## **Flowchart Structure Summary**
+
+```
+[Raw Data] 
+    ↓
+[Quality Filters] → Domain scores, motif thresholds
+    ↓
+    ├─ [Track 1: Proximity Pairs] → Baseline
+    ├─ [Track 2: Domain Pairs] → Long-range structure
+    └─ [Track 3: Boundary Pairs] → Local clustering
+    ↓
+[Statistical Validation] → Shift controls
+    ↓
+[Interpretation] → Compare tracks, assess convergent bias
+    ↓
+[Biological Conclusion]
+```
+
+This multi-track approach lets you triangulate signal: if all three analyses agree, the pattern is robust. If they differ, you learn something about the biological scale of CTCF function.

@@ -1,0 +1,7 @@
+Chromosome,Plus_Count,Minus_Count,Total,Ratio_Minus/Plus
+1,1,6,7,6.000
+2,1,1,2,1.000
+3,1,2,3,2.000
+4,3,1,4,0.333
+5,2,0,2,0.000
+TOTAL,8,10,18,1.250

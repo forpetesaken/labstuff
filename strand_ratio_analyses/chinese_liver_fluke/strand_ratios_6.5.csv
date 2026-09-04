@@ -1,0 +1,9 @@
+Chromosome,Plus_Count,Minus_Count,Total,Ratio_Minus/Plus
+HiC_scaffold_1,60,78,138,1.300
+HiC_scaffold_2,51,53,104,1.039
+HiC_scaffold_3,7,13,20,1.857
+HiC_scaffold_4,12,8,20,0.667
+HiC_scaffold_5,8,9,17,1.125
+HiC_scaffold_6,10,6,16,0.600
+HiC_scaffold_7,13,16,29,1.231
+TOTAL,161,183,344,1.137

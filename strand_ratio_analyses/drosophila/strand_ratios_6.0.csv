@@ -1,0 +1,12 @@
+Chromosome,Plus_Count,Minus_Count,Total,Ratio_Minus/Plus
+chr2L,74,102,176,1.378
+chr2R,84,87,171,1.036
+chr3L,85,88,173,1.035
+chr3R,88,97,185,1.102
+chr4,3,2,5,0.667
+chrUn_CP007105v1,1,0,1,0.000
+chrUn_DS483562v1,0,1,1,inf
+chrUn_DS484632v1,1,0,1,0.000
+chrX,126,135,261,1.071
+chrY,1,1,2,1.000
+TOTAL,463,513,976,1.108
