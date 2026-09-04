@@ -1,0 +1,7 @@
+Protein: SMC3
+Total: 81
+Vertebrates: 36
+Invertebrates: 45
+Full all: 81
+Vertebrate query: Human_SMC3
+Invertebrate query: Ciona_intestinalis

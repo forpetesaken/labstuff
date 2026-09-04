@@ -1,0 +1,9 @@
+Total: 32
+Boundary index (1-based): 23
+Vertebrates: 21
+Invertebrates: 11
+Full all: 32
+Vertebrate query: Human_PDS5A
+Invertebrate query: Ciona_intestinalis
+Moved invertebrate outliers above boundary: 1
+  - Ciona_intestinalis_NCBI

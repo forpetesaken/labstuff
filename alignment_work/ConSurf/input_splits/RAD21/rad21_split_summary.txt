@@ -1,0 +1,8 @@
+Total: 83
+Boundary index (1-based): 36
+Vertebrates: 34
+Invertebrates: 49
+Vertebrate query: Human_RAD21
+Invertebrate query: Ciona_intestinalis
+Moved invertebrate outliers above boundary: 1
+  - Branchiostoma_lanceolatum_DNAZOO

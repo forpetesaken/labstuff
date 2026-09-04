@@ -1,0 +1,7 @@
+Protein: WAPL
+Total: 73
+Vertebrates: 36
+Invertebrates: 37
+Full all: 73
+Vertebrate query: Human_WAPL
+Invertebrate query: Ciona_intestinalis

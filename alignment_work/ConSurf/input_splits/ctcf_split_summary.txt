@@ -1,0 +1,7 @@
+Total: 69
+Vertebrates: 32
+Invertebrates: 37
+Vertebrate query: Human_CTCF
+Invertebrate query: Ciona_intestinalis
+Vertebrate FASTA: C:\Users\Nat\Downloads\AIDEN Lab\Code\alignment_work\ConSurf\input_splits\ctcf_vertebrates_sanitized.fasta
+Invertebrate FASTA: C:\Users\Nat\Downloads\AIDEN Lab\Code\alignment_work\ConSurf\input_splits\ctcf_invertebrates_sanitized.fasta

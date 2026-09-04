@@ -1,0 +1,7 @@
+Protein: ESCO2
+Total: 19
+Vertebrates: 15
+Invertebrates: 4
+Full reduced: 19
+Vertebrate query: Human_ESCO2
+Invertebrate query: Ciona_intestinalis

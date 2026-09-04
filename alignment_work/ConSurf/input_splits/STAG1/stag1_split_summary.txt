@@ -1,0 +1,6 @@
+Total: 51
+Vertebrates: 18
+Invertebrates: 33
+Full reduced: 50
+Vertebrate query: Human_STAG1
+Invertebrate query: Branchiostoma_lanceolatum

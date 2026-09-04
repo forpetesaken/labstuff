@@ -1,0 +1,7 @@
+Protein: NIPBL
+Total: 80
+Vertebrates: 36
+Invertebrates: 44
+Full all: 80
+Vertebrate query: Human_NIPBL
+Invertebrate query: Ciona_intestinalis

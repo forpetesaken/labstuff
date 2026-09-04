@@ -1,0 +1,6 @@
+Total: 40
+Vertebrates: 26
+Invertebrates: 14
+Full reduced: 40
+Vertebrate query: Human_STAG2
+Invertebrate query: Ciona_intestinalis

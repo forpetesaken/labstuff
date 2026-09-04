@@ -1,0 +1,7 @@
+Protein: SMC1
+Total: 78
+Vertebrates: 35
+Invertebrates: 43
+Full all: 78
+Vertebrate query: Human_SMC1
+Invertebrate query: Ciona_intestinalis

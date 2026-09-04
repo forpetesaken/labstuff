@@ -1,0 +1,9 @@
+Total: 67
+Boundary index (1-based): 28
+Vertebrates: 26
+Invertebrates: 41
+Full all: 67
+Vertebrate query: Human_PDS5B
+Invertebrate query: Ciona_intestinalis
+Moved invertebrate outliers above boundary: 1
+  - Branchiostoma_lanceolatum_DNAZOO
