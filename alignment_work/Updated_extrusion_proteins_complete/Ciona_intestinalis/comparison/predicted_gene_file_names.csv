@@ -1,0 +1,14 @@
+species,human_gene,reciprocal_hit_gene,fasta_filename
+Ciona_intestinalis,CTCF,CTCF,top_hit_CTCF_Ciona_intestinalis.fa
+Ciona_intestinalis,ESCO1,ESCO2,top_hit_ESCO1_Ciona_intestinalis.fa
+Ciona_intestinalis,ESCO2,ESCO2,top_hit_ESCO2_Ciona_intestinalis.fa
+Ciona_intestinalis,HDAC8,HDAC8,top_hit_HDAC8_Ciona_intestinalis.fa
+Ciona_intestinalis,NIPBL,NIPBL,top_hit_NIPBL_Ciona_intestinalis.fa
+Ciona_intestinalis,PDS5A,PDS5B,top_hit_PDS5A_Ciona_intestinalis.fa
+Ciona_intestinalis,PDS5B,PDS5B,top_hit_PDS5B_Ciona_intestinalis.fa
+Ciona_intestinalis,RAD21,ZBED5,top_hit_RAD21_Ciona_intestinalis.fa
+Ciona_intestinalis,SMC1,SMC1A,top_hit_SMC1_Ciona_intestinalis.fa
+Ciona_intestinalis,SMC3,SMC3,top_hit_SMC3_Ciona_intestinalis.fa
+Ciona_intestinalis,STAG1,STAG2,top_hit_STAG1_Ciona_intestinalis.fa
+Ciona_intestinalis,STAG2,STAG2,top_hit_STAG2_Ciona_intestinalis.fa
+Ciona_intestinalis,WAPL,WAPL,top_hit_WAPL_Ciona_intestinalis.fa

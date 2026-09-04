@@ -1,0 +1,14 @@
+species,human_gene,reciprocal_hit_gene,fasta_filename
+Python_bivittatus,CTCF,CTCF,top_hit_CTCF_Python_bivittatus.fa
+Python_bivittatus,ESCO1,ESCO1,top_hit_ESCO1_Python_bivittatus.fa
+Python_bivittatus,ESCO2,ESCO2,top_hit_ESCO2_Python_bivittatus.fa
+Python_bivittatus,HDAC8,PHKA1,top_hit_HDAC8_Python_bivittatus.fa
+Python_bivittatus,NIPBL,NIPBL,top_hit_NIPBL_Python_bivittatus.fa
+Python_bivittatus,PDS5A,PDS5A,top_hit_PDS5A_Python_bivittatus.fa
+Python_bivittatus,PDS5B,PDS5B,top_hit_PDS5B_Python_bivittatus.fa
+Python_bivittatus,RAD21,RAD21,top_hit_RAD21_Python_bivittatus.fa
+Python_bivittatus,SMC1,SMC1A,top_hit_SMC1_Python_bivittatus.fa
+Python_bivittatus,SMC3,SMC3,top_hit_SMC3_Python_bivittatus.fa
+Python_bivittatus,STAG1,STAG1,top_hit_STAG1_Python_bivittatus.fa
+Python_bivittatus,STAG2,STAG1,top_hit_STAG2_Python_bivittatus.fa
+Python_bivittatus,WAPL,WAPL,top_hit_WAPL_Python_bivittatus.fa

@@ -1,0 +1,14 @@
+species,human_gene,reciprocal_hit_gene,filename
+Strongylocentrotus_purpuratus,CTCF,CTCFL,top_hit_human_CTCF.fa
+Strongylocentrotus_purpuratus,ESCO1,ESCO1,top_hit_human_ESCO1.fa
+Strongylocentrotus_purpuratus,ESCO2,ESCO1,top_hit_human_ESCO2.fa
+Strongylocentrotus_purpuratus,HDAC8,HDAC8,top_hit_human_HDAC8.fa
+Strongylocentrotus_purpuratus,NIPBL,NIPBL,top_hit_human_NIPBL.fa
+Strongylocentrotus_purpuratus,PDS5A,PDS5B,top_hit_human_PDS5A.fa
+Strongylocentrotus_purpuratus,PDS5B,PDS5B,top_hit_human_PDS5B.fa
+Strongylocentrotus_purpuratus,RAD21,RAD21,top_hit_human_RAD21.fa
+Strongylocentrotus_purpuratus,SMC1,SMC1A,top_hit_human_SMC1.fa
+Strongylocentrotus_purpuratus,SMC3,SMC3,top_hit_human_SMC3.fa
+Strongylocentrotus_purpuratus,STAG1,STAG2,top_hit_human_STAG1.fa
+Strongylocentrotus_purpuratus,STAG2,STAG2,top_hit_human_STAG2.fa
+Strongylocentrotus_purpuratus,WAPL,WAPL,top_hit_human_WAPL.fa

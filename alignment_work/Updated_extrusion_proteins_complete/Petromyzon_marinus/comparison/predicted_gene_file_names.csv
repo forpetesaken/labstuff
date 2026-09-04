@@ -1,0 +1,14 @@
+species,human_gene,reciprocal_hit_gene,fasta_filename
+Petromyzon_marinus,CTCF,CTCF,top_hit_CTCF_Petromyzon_marinus.fa
+Petromyzon_marinus,ESCO1,ESCO1,top_hit_ESCO1_Petromyzon_marinus.fa
+Petromyzon_marinus,ESCO2,ESCO1,top_hit_ESCO2_Petromyzon_marinus.fa
+Petromyzon_marinus,HDAC8,HDAC2,top_hit_HDAC8_Petromyzon_marinus.fa
+Petromyzon_marinus,NIPBL,NIPBL,top_hit_NIPBL_Petromyzon_marinus.fa
+Petromyzon_marinus,PDS5A,PDS5B,top_hit_PDS5A_Petromyzon_marinus.fa
+Petromyzon_marinus,PDS5B,PDS5B,top_hit_PDS5B_Petromyzon_marinus.fa
+Petromyzon_marinus,RAD21,RAD21,top_hit_RAD21_Petromyzon_marinus.fa
+Petromyzon_marinus,SMC1,SMC1A,top_hit_SMC1_Petromyzon_marinus.fa
+Petromyzon_marinus,SMC3,SMC3,top_hit_SMC3_Petromyzon_marinus.fa
+Petromyzon_marinus,STAG1,STAG2,top_hit_STAG1_Petromyzon_marinus.fa
+Petromyzon_marinus,STAG2,STAG2,top_hit_STAG2_Petromyzon_marinus.fa
+Petromyzon_marinus,WAPL,WAPL,top_hit_WAPL_Petromyzon_marinus.fa

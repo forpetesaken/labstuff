@@ -1,0 +1,982 @@
+CLUSTAL O(1.2.2) multiple sequence alignment
+
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------------------------------
+Rattus_norvegicus                       ------------------------------------------MLCV---LILCCTYVYVK
+Bos_taurus                              MLRILQARLQQHVNRELPDVQAGFRKGRGTRHQIANIRWIIDKAREFQKNIYFCFIDYAK
+Gallus_gallus                           ----------------------------------MDLGVLIDAGLN---MSQQCAQVAKK
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          ------------------------------------------------------------
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   -----------------------------MTSRSYTKSYSRKVGVTAGSIQFDKLF----
+Drosophila_melanogaster                 -----------------------------------MSRWGKNIVVPLDS---LCKE----
+Aedes_aegypti                           ------------------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------------------------------
+Rattus_norvegicus                       ALDAVE----------LELQTVVRCHFLPT----------FSLLLIYSLYVSHTPYQTLA
+Bos_taurus                              AFDCVDHNKLWKILKEMGIPDHLTCLLRNLYAAPFIEEAVFAALYILASFVKNKFFSLLR
+Gallus_gallus                           ANGILACIR-------NSVASRNREVIIPL----------YS---------------ALV
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          ------------------------------------------------------------
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ------------------------------------------------------------
+Drosophila_melanogaster                 ------------------------------------------------------------
+Aedes_aegypti                           ------------------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------------------------------
+Rattus_norvegicus                       GYSHKFCATIALASF-------AEPAGTSVKFCEWTELLLLTYELNCILQMTQKGV----
+Bos_taurus                              GNAFSFSPQRIMFA-------------------VGFSCMAFT-MLSMLWPFPNSGE----
+Gallus_gallus                           RPHLEYCVQFWAPHCKKDIEALQHVQRRATKLVRGLEHRPYEEQLK------ELGL----
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          ----------------------------MAAFCGGILR-------GCILK--PLGF----
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   -----------------RENSNRPSAAKSAGTVGKWGITSFTSIRSTNINGRRDDIHNTF
+Drosophila_melanogaster                 -----------------KENTNRPTVARSVGTVGKWGKMGFTSTRTYTLP----AIHPMA
+Aedes_aegypti                           -------------------------------------MALLRYIKHLSIN--RETVHREM
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------------------------------
+Rattus_norvegicus                       ----------------------------------APKNLFKQ-----------VHSPTPA
+Bos_taurus                              ----------------------------------SPSNPVANHP-------GPSPNPGSR
+Gallus_gallus                           ----------------------------------FSLEK-RR-----------LRGDLIA
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          ----------------------------------SGSLQIKRNV-------RALRRTPVR
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   GAKRMKLDYGNQNRVSSG----------------KDPFSFETDPDN----KPDASPTVVK
+Drosophila_melanogaster                 AA------------AAAAAAAASPSQ--------SPASTQDHDPN----DLSVSVPEPPK
+Aedes_aegypti                           GTSRLISTDSEDVHSPPHGSAVQPSVAPAASQQPTPPASQESEPPPAPITEPAVNPVPSA
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------------------------------
+Rattus_norvegicus                       LYPFFSTTSAVTEA----------LLRG---L----------------------------
+Bos_taurus                              QVNYFKLTSEPSLV----------TSPPKAAFGRLPLKVKLSEGSSIQL-----------
+Gallus_gallus                           LYNYLKGGCSELGD----------GLFS---QGD---------GNKRNK-----------
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          L----------IQA----------AEKS---PGR---------KEVEAN-----------
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   PKKFFKSRNVPPVVEESRQDVAIYRQVPDSQYGRARTPKQP-------------------
+Drosophila_melanogaster                 PKKFFKSRNTAPPE-V---IAQIIQQLPHCGAGASPMRDHFSSAGAGAGGLTPTSGAQEA
+Aedes_aegypti                           SATFFTGLTPPEEE-PKKDDLKIKITLSKGLISNGSSKHKKE------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            -------------------------------------------------------MTVKD
+Rattus_norvegicus                       ----------------------------------SSR--------------SFRGVRSDI
+Bos_taurus                              ----------------------------------WSK--------------GSLL-----
+Gallus_gallus                           ----------------------------------MPV--------------EFHPLRELN
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          ----------------------------------WPK----------------QPRQSEH
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ------------------------------------AQ---------QPMQKQQPMQKQQ
+Drosophila_melanogaster                 GGVKLKPGKGASSAERKRKSPKKKAATTSASTPSTPGAFYGASDRDGDGLSDPASEQPEQ
+Aedes_aegypti                           ------------------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            PRRETLTQTLK--S---RDSRVPKKT------LRPYIKCRRE------------------
+Rattus_norvegicus                       PFLGGGGWEEK--S---CTLILHSEC------FVALELLLPE------------------
+Bos_taurus                              ---TASGQTEGEKN---DENKNP-GDPRR-ALKSQTDITSGE------------------
+Gallus_gallus                           SPAAESGWDLV--I---C--------------SVLLLAYLRE------------------
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          RACTAQGVNPA--A---VEIETPAPEFRY-ERALPGDKRLRE------------------
+Danio_rerio                             ---------MKKKV---IMQEEKAPGLHLKGLRALKQHDSWE------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   PMQKQQPTQKQQPTQKQQQQQQQAVTKV--------------------------------
+Drosophila_melanogaster                 PSSAS-GKQKQKKPKEEKKLKPEAPPSRVLG-RARKAVNYREVDEDERYPTPTKDLIIPK
+Aedes_aegypti                           ------------SKKELRHFKKRAIARE--------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------MTSRFGKTYSRKGG--NGSSKFDEVFSNKRTTLSTKWG----
+Mus_musculus                            ------------YETGVKMTSRFGKTYSRKGG--NGSSKFDEVFSNKRTTLSTKWG----
+Rattus_norvegicus                       ------------YETGVKMTSRFGKTYSRKGG--NGSSKFDEVFSNKRTTLSTKWG----
+Bos_taurus                              ------------YETGVKMTSRFGKTYSRKGG--NGSSKFDEVFSNKRTTLSTKWG----
+Gallus_gallus                           ------------YETGAKMTSRFGKTYSRKGG--NGSSKFDEVFSNKRTTLSTKWG----
+Python_bivittatus                       ------------------MTSRFGKTYSRKGG--NGNSKFDEVFSNKRTTLSTKWG----
+Xenopus_laevis                          ------------YETGFKMTSRFGKTYSRKGG--NSNSKFDEVFSNKRTTLSTKWG----
+Danio_rerio                             ------------YETDATMTSRFGKTYSRKGG--DGTSKFDEVLSNKRAMLSTKWG----
+Petromyzon_marinus                      ------------------MASRYGRTYSRKQQSPGAPSRFDELLGSKTSPEAGGWR----
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      -------------LVNNTMPRYGAKTYGRTVR-KDDNDHFDDLWNKSKDSTRPVTRHSPA
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   --------------SHAPIKKV--------------------------------------
+Drosophila_melanogaster                 AGRQPAEVAATATLAAASSEAFISSTFGSPGSEPSLPPPT----SAPSASASTSSQ----
+Aedes_aegypti                           --------------KGGSSK------RAK-------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            --------------------ETTFMAKLGQKRPNFKP-----DI--QEIPK-KPKVEE-E
+Mus_musculus                            --------------------ETTFMAKLGQKRPNFKP-----DI--QEIPK-KPKVEE-E
+Rattus_norvegicus                       --------------------ETTFMAKLGQKRPNFKP-----DI--QEIPK-KPKVEE-E
+Bos_taurus                              --------------------ETTFMAKLGQKRPNFKP-----DI--QEVPK-KPKIEE-E
+Gallus_gallus                           --------------------ETTFMAKLGQKRPSVKA-----DI--SEVPK-KPRVED-E
+Python_bivittatus                       --------------------ETTFMAKLGQKRPNIKP-----DI--SEIPK-KPKVEE-E
+Xenopus_laevis                          --------------------ETTFMAKLGQKRPNHKQ-----DV--KDTPK-KPKVDD-D
+Danio_rerio                             --------------------ETTYKAKVGAKRPGLKT-----EV--TDQTK-RSKVSEGD
+Petromyzon_marinus                      --------------------ERALDAFTDDETSTPSAAT---AL-ATAVPAKRRRLDSGD
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      KRPANNQVQTTSRQTRSSPSKPLRMASSESSRPTRQNTVLKEDVVGVTSPKRRRR---AS
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ----------------------VESLDSTSTHDTPNREESKPPI-VLRICKGTARLVCGD
+Drosophila_melanogaster                 ---------------------LPSASGSASNPPSASRTPEHPPI-VLRISKGTSRLVSTD
+Aedes_aegypti                           ----------------------RGDGGDTQEEDDERR----------------D------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            STGDPFGFDSDDESL-------------------PVS-----SKNLAQVKCSSYSES---
+Mus_musculus                            DTGDPFGFDSDDESL-------------------PVS-----SKNLAQGKGSSYSES---
+Rattus_norvegicus                       DTGDPFGFDSDDESL-------------------PVS-----SKSLAQGKGSSYSES---
+Bos_taurus                              NTGDPFGFDSDDESL-------------------PVS-----SKNLAKGSSY--TES---
+Gallus_gallus                           VTEDPFGFDSDEESL-------------------PVS-----SKNVAQGKSSSQLDP---
+Python_bivittatus                       AIEDPFGFDSDEESL-------------------PVS-----SKNVSQAKGSAQLEL---
+Xenopus_laevis                          LAEDPFGFDSDEDSI-------------------PVS-----SKNVPQPKNNIQQPL---
+Danio_rerio                             GSEDPFGFDSDDESK-------------------PVT-----SRNIAQSKAKVTSST---
+Petromyzon_marinus                      -------SDSCEASV-------------------A--------EAACRPKSRRG------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      STDDPFSFSSDDDKS-------------------PVK-----RATTDQNNASDSNNS---
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   VHQDTQELEPDT---------------------------YRISTPLTSPSKVDVERK---
+Drosophila_melanogaster                 SEEPPSSSPAHQNQLNQLSVTEEEPAERSGDETVPASTPKITVKPLRPPTAADSVDGSSA
+Aedes_aegypti                           -EELLGGVAEDLRVVDPIVLPNIRPQ-----FPLPGTDAYELYRTLASPSGGDDFDSQSS
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            --SEAA----QLEEVTSVLEANSKISHVVVEDTVVSD-KCFPLEDTLLGK---E-KSTNR
+Mus_musculus                            --SEAA----QLEEVTSVFEANSKCSHVVGEDSFASD-RCLLVEDTLIGK---E-KSISR
+Rattus_norvegicus                       --SEAV----QLEEVTSVLEANSKCSHAVGEDSFASD-RCLLVEDSLIGK---E-KNTNR
+Bos_taurus                              --SEAA----QLEEVTSVLEANSKISHVMGEDSVVSD-KCLRLEDTLLGK---E-KSTNR
+Gallus_gallus                           --NEAA----QSEDFTSLLEANSKSNQPDGGENTASS-KQTPADSTAPPI---KEKSTSK
+Python_bivittatus                       --VEAS----QPADFSSVLESNSKIPPSIGEDTL-SS-RCVSFDNAVHDL---KEKDSAR
+Xenopus_laevis                          --EQLG----NADNFTSKIEENNKAGQPITAENTVSC-KFISFDSALHGL---REKNTNK
+Danio_rerio                             --G--------GSQASLTLEPNSRVNQPASVEAVAPSRASFSLSS---------ERSAHK
+Petromyzon_marinus                      ----------------------RGGGQPAATGGAAASAAAAAATPTASGRGKAEQKHEAK
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      --N------------------------------SRQTRASLQFDNGVESRNS------SR
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   TLNTEV-----------PL----------KSDHRSLRTHQ-------------PTVSTVS
+Drosophila_melanogaster                 AVGGASAGDSFEERKSQSLEPNEDEEEEEEEEDEEEEPPE-------------INYCTVK
+Aedes_aegypti                           ILGSASSNNTPK---HVGLAAADDCR--------IIHSRG-------------SSDCGSD
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            IVEDDASISSCNKLIT----------SDKVEN-FHEEHEKNSHHIHKNADDSTKKPNAET
+Mus_musculus                            IPEDNANKSSCTKLLT----------SDKVEN-FSEEHEKNSHHFHKNAEDSTKKPNAET
+Rattus_norvegicus                       IPEDNANKSSCTKLIT----------SDKVEN-FSEEHEKNSHHFHKNAEDSTKKPNAET
+Bos_taurus                              VLEDDASRSSCAKLMT----------SDKVEN-FSEEHEKNSHHIYKNAEDSTKKHNAET
+Gallus_gallus                           NVEDGECKGSSAKPTS----------ADKMQN-LNEDDEKSSHFIFETAEDSNKTN-AET
+Python_bivittatus                       NMADEDFK--CS--------------SADTEL-NYSEDNENSHFLYKNAEDNTVNAQIAE
+Xenopus_laevis                          IEDGKRQHSSPKKKNV----------TGNVQH-FTE---DNSYSFPKRSNNGNK------
+Danio_rerio                             VPEDPGKYFNTS---T----------TGKTPSWPAESTDRHSYSWYKNPSECDTRPLAQT
+Petromyzon_marinus                      VPGRGRGAGVHAAKAA----------AAPCGSKAERGGAGGGVQAAKPSGEARLKPQPKA
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      AAPRAANTTRSSAKEK----------SPGN--------QTLITQF---------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   IPLENSDMRRT-------------------------TRS-RAKNLHLDL----TATSSAV
+Drosophila_melanogaster                 ISPDKPPKERLKLIIKTDVIRNAIAKAAAAAESRSEKKSRSKKHKHKQL----LAAGSGA
+Aedes_aegypti                           LELENTQDNKEE------------------------------------------EAKEPV
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            TVASEIK-----ETNDTWNSQFGK--------------------------------RPES
+Mus_musculus                            AVASEYKADETKETNDTWNSQSGK--------------------------------RTES
+Rattus_norvegicus                       VAASECKADET-KTSDTWNSQSAK--------------------------------RTES
+Bos_taurus                              TVASGYKADEI-KENDTWNSQLGK--------------------------------RSES
+Gallus_gallus                           TDTS-GYKIEAKDLPDSWDSHAGK--------------------------------PTDS
+Python_bivittatus                       IPG---YNIEIKESHDSWDSHIAN---------------------------------RDS
+Xenopus_laevis                          ------KPIEEALTDTVWDLGNES--------------------------------GSNS
+Danio_rerio                             TTLKS-EKTEDKDSYDAWSAVVGL--------------------------------GARS
+Petromyzon_marinus                      AE---------PSNGGTQGAGDNP--------------------------------GARK
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ----------------------AK--------------------------------NSRN
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   TPS------TTPITPNSHGSGLSLTLRKSVTD---------------------------S
+Drosophila_melanogaster                 APASGATPAEINSEFKTPSPHLALSEANSQQAQHTPSHLHQLHQLHPQRGSAVISPTTRS
+Aedes_aegypti                           KPV--EEKKEPPKEERVEV--LKLSLKGTRST-----------------------RTTRS
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            PSEISPIKGS--------VRTGLFEWDNDFED-IRSEDCILSLDSDPLLEMKDDDF----
+Mus_musculus                            PSESCPVKGS--------VRTGLYEWDNDFED-IRSEDCILSLDNESLLEMKDEDL----
+Rattus_norvegicus                       PSESCPVKGS--------VRTGLYEWDNDFED-IRSEDCILSLDNDSLLEMKDEDL----
+Bos_taurus                              PSETSSIKGS--------VRTGLYEWDNDFED-SRSEDCILNLDSDPLLEMKDEDF----
+Gallus_gallus                           VSEASQTKGP--------LRTHLYEWDDEPED-SRTGEYVLDFDSEHLSEMKSKDE----
+Python_bivittatus                       PSDVSHTKGS--------LITGLYDWEDENED-AQRGEYMLGFDDEPLAEIKNKDE----
+Xenopus_laevis                          PSKSEQIKET--------STVVFYEWEELNQENTDISELELNSDINSISESKNDDS----
+Danio_rerio                             TSLFTAPKE-----------SSSMLWASSSYSH-------SNIQGKSSTETRLDNF----
+Petromyzon_marinus                      NSRFSCMKDIFDSDEENENQNGLLSWTDKYPKAL--------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      NDSSSEKRDN--------TDVEMISLD---------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   NNTLISHYD------------------------IIKTDCSSTYSSKPVIE---------P
+Drosophila_melanogaster                 DHDFDSQSSVLGSISSKGNST-----PQLLAQAVQEDSCVIRSRGSSVITSDLETSQHSS
+Aedes_aegypti                           KMKNTAHVEVI---------------------------------------SKPEPVPVPA
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            -----------------------------------------------KNR---LENLNEA
+Mus_musculus                            -----------------------------------------------KNRIGGLENLNET
+Rattus_norvegicus                       -----------------------------------------------KNRIGGLENLNEA
+Bos_taurus                              -----------------------------------------------KN---RLENLNEA
+Gallus_gallus                           -----------------------------------------------EGDKEDTENSKEA
+Python_bivittatus                       -----------------------------------------------DLVREEMESPKEA
+Xenopus_laevis                          -----------------------------------------------LSNKEKNYNEEEH
+Danio_rerio                             -----------------------------------------------HQ-GEFNVPVEPS
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   LIGRDQPLPTTTQELIDILSSDSDTRPAPALPPPPPSSS------PPSPSLP--------
+Drosophila_melanogaster                 LVAPPSDIESRLESMMMTI-DGAGTGAASAVPETPLQEDILAVLRGEVPRLNGNTDPEPT
+Aedes_aegypti                           AISSPEPAVKKFAPVLKAATRQYSRRKKNVVPPDY-QHDLLTS--PKRPAL---------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            IEEDIVQSVLRPTNCRTYCRANKT--------KSSQGASNFDKLM----DGTSQALAKAN
+Mus_musculus                            FEEDIIQSVLRPSNCRTYCRANKA--------RSSQGASNFDKLM----DGTSQSLAKAN
+Rattus_norvegicus                       FEEDIIQSVLRPSNCRTYCRANKA--------KSSQGTSNFDKLM----DGTSQTLAKAN
+Bos_taurus                              IEEDMMQSVLRPSNCRTYCRANKA--------KSSQGASSFDKLM----DGTSQALAKAN
+Gallus_gallus                           ICEELVQTIPRPSNCRTYCRSNKA---------KQQGTTNFDKLM----DGTSQSLSKAN
+Python_bivittatus                       INEELMQTVLRPSNCRTYCRSNKT---------KLQGMTNFDKLL----DGTLQPLAKAN
+Xenopus_laevis                          VSGEAVQSGLKLSNCRTYCRSNKV--------KQSQDSSNFDKLL----DGTSQQATKSN
+Danio_rerio                             ESEDHSQSVLRAPNCRTYCRPNKG--------KQPGGADGSGSASSHISTGVLQTI----
+Petromyzon_marinus                      ---SDEDLSFRASSCRTYSRPGRK--------SDSPVDGLLG-------DSKLPPQS---
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ---------MKSMSKRTYSRKRKD------------------------------------
+Strongylocentrotus_purpuratus_NCBI      -------DSLGSPNGSDFSSSQTSVVSLSSGSQRSSGSSAVNARQGRRTAGKLKTVAETT
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ---------------------PPLPSPSPSPPSSPSVIPNDNDNAENTTAQTSE------
+Drosophila_melanogaster                 EEEDQQQQPKRATRGRGRKANNNVDVTPPATETRT---RGRAKGADATTAAISPPTGKRN
+Aedes_aegypti                           ---------------------EPIDSPPPFTLSSE---TESAL----------------A
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            SESSKDGLNQAKKGGVSCGTSFRGTVGRTRDYTVLHPSCLSVCNVTIQDTMERSMDEFTA
+Mus_musculus                            SESSKDGLNQAKKGSASCGTSFRGTVGRTRDYTVLHPSCLSVCNVTIQDTMERSMDEFTA
+Rattus_norvegicus                       SESSKDGLNQAKKGSVSCGTSFRGTVGRTRDYTVLHPSCLSVCNVTIQDTMERSMDEFTA
+Bos_taurus                              SESSKDGLNQAKKGSVSCGTSFRGTVGRTRDYTVLHPSCLSVCNVTIQDTMERSMDEFTA
+Gallus_gallus                           NESNNDGLNPAKKASLSSGTSYRGTVGRTRDYTVLHPSCLSVCNVTIQDTMER-IDEFTT
+Python_bivittatus                       SDSNTDGVNPVRKVALSSGTSFKGTVGRTRDYTVLHPSCLSVCNVTIQDTMDR-IDEFAT
+Xenopus_laevis                          YASEKERSNPVDKSFSTG----TRSTVRTRDYTVLHPSCLSVCNVTIQDSMERGVDEFTT
+Danio_rerio                             ---------------GTDNASKTTNRGRTRDFTVLHPSCVSMFNVTFQDSMDRSVEEYTA
+Petromyzon_marinus                      --QKDLTWNPQVEVAF-------PKACASRDPITLPNSFFSPTGVTLQEVGEPPKPSTAT
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 -------------------------------------------------TAEAKFDALFS
+Strongylocentrotus_purpuratus_NCBI      STD---------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ----------------------------------NVESEVQHCSIDILTNEIVV------
+Drosophila_melanogaster                 TR-------------------------------GTRGSRKAEQEVDMEVDETAM------
+Aedes_aegypti                           SM-------------------------------KSPRSLAPATGLDLTTNSSRS------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            STP--------------------------------------------------ADLGEAG
+Mus_musculus                            STP--------------------------------------------------ADLGEAG
+Rattus_norvegicus                       STP--------------------------------------------------ADLGEAG
+Bos_taurus                              STP--------------------------------------------------ADLGEAG
+Gallus_gallus                           ATP--------------------------------------------------TDLGEAG
+Python_bivittatus                       ATP--------------------------------------------------TDLGEAG
+Xenopus_laevis                          TPT--------------------------------------------------TDLGEAG
+Danio_rerio                             STQA-------------------------------------------------SGPGDEG
+Petromyzon_marinus                      APPVVAVDSALA---------------------------------VRKASAGAAGSGAGG
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 NEPKD-----------------------------------------------DVVTVEVK
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------GSSSQLSSGSAS
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   -PVVRP------------------------------------------------------
+Drosophila_melanogaster                 -TTVPANEEQLEQATLPPRRGRNAAARANNNNLASVNNNINKIAANLSAKAEASRLAEGG
+Aedes_aegypti                           -EPVPVVGPFHDE-----------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            RLRKKADIA----T-SKTT--TRFRPSNTKS-KKDVKLEFFGFEDHETGG-DEGG-----
+Mus_musculus                            RLRKKADIA----T-SKTT--TRFRPSNTKS-KKDVKLEFFGFEDHDETGGDEGG-----
+Rattus_norvegicus                       RLRKKADIA----T-SKTT--TRFRPSNTKS-KKDVKLEFFGFEDHDETGGDEGG-----
+Bos_taurus                              RLRKKADIA----T-SKTT--TRFRPSNTKS-KKDVKLEFFGFEDHDETGGDEGG-----
+Gallus_gallus                           RLRKKADIA----T-TKTT--TRFRPSNTKS-KKDVKLEFFGFDDQDEGEGDEGASR---
+Python_bivittatus                       RLRKKADIA----T-AKTT--TRFRPSNTKS-KKDVKLEFFGFDDSDEGGGGEGGSR---
+Xenopus_laevis                          RLRKKADLA----T-AKTT--IRFRPGNPKS-KKDVKLEFFGFDQDDGG-SGEGGSK---
+Danio_rerio                             RLKKKTETE------SKPL--SRSRPTQSKM--KSSKLELFGFDDTDAVADDD--DS---
+Petromyzon_marinus                      PASVRGGCA----AAGGAR--RPSGRGGSSS-KRQAKLEMFGFEDDSDGEEGGSSEG---
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 RVRTGPSTFTDSPSDSKLS--KRICKSKTNG-SSPMKTELAPFTKTNEVTSGNVKQSFSP
+Strongylocentrotus_purpuratus_NCBI      SLRGKTRATNSASQSSKKN--LRTNPSGSSQ-DSAMKSDDDSDDSEVIISSTSRSSS---
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   -----------------ETVAIAQQPEPEVDLDPE-------------------------
+Drosophila_melanogaster                 VAGGAARSYGRKRKNQQVTQVLQQEPVPEEQETPDAEEEQPTPAKIPHTDHREHSPDHDP
+Aedes_aegypti                           ---------------------------------------------------------NKP
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------------SGSSNYKIKYFGFDDLSESEDDEDDDCQVERKTSKK
+Mus_musculus                            ------------------------SGSSNYKIKYFGFDDLSESEDDDDDDCQVERKKDKK
+Rattus_norvegicus                       ------------------------SGSSNYKIKYFGFDDLSESEDDDDDDCQVERKKDKK
+Bos_taurus                              ------------------------SGSSNYKIKYFGFDDLSESEDDEDDDCQVERKTSKK
+Gallus_gallus                           ----------------------S-SGSSNYKIKYFGFDDLSESEDEDEEWQIAERKASKK
+Python_bivittatus                       ----------------------T-SGSSNYKIKYFGFDDLSESEDDDEERLLERKVNKKR
+Xenopus_laevis                          ----------------------S-LGQSNYRIKYFGFDDLSESEEEDDDGWHQKEKKVKN
+Danio_rerio                             ----------------------A-SGSSSYRIKYFGFDDLSESDSEEEEGSSHRRRAKRM
+Petromyzon_marinus                      ----------------------A-APCAAYKIKYFGFDEMVEEEGEDIPAVEVKARGGAG
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 NPALIKVNSGVTNSSLNSTVTGSVGQHLLNSTAHSKYDMLFQRNEKSASDKFDALFGDGG
+Strongylocentrotus_purpuratus_NCBI      ----------------------S-QGSSS--------QSLSQSSGTSKS-----------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   --------------------------SEPEPPARIGMTDIVAIETTVAATTAAKT-LVDQ
+Drosophila_melanogaster                 DPDPDELSNNSNNSSLQHD-----GSSSSPPPRDFKFKDKFKRTLTLDTQGAANA-G---
+Aedes_aegypti                           EPTEYKI-------------------KNKFKRSYFRSEELAKQQQLQESRPLAET-SGNN
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            RTKT------AP-SPSLQPPPE-----SNDNSQDSQSG------TNNAENLDFTEDLPG-
+Mus_musculus                            RTKT------AP-SPSQQPPPE-----SSDNSQDSQSS------TNNA------EDLPG-
+Rattus_norvegicus                       RTKT------AP-SPSQQPPPE-----SSDNSQDSQSS------TNNA------EDLPG-
+Bos_taurus                              RTKT------AP-SPSLQPPPE----SNDN--SQDSQSSSNNADSRTRNDLRIDSLH---
+Gallus_gallus                           RTRA------AP-SPSLQPTSD-----SNENCSQDNQV------NTNTDLLEFSEDASG-
+Python_bivittatus                       SQTT------AS-SSSQQSTSD-----GHESYSQDSQS------SSNSELLDFAEDSSS-
+Xenopus_laevis                          KTRS------AV-VPSESIPPS----SGIAENLK---D------NQSTYNSEFSEDQHA-
+Danio_rerio                             AAAE------AEPLLSIDTNVD----SPPPREMQSSHSSYTAGHSLKHDPLEFPDIPFP-
+Petromyzon_marinus                      DWWCSSTDATGEASSTVATS---------QDSLQSS---QESTTSRDTDILESGSEEGAW
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 STNKTDQNPKYKAEPTIKDEFDDLFGFETSPSKQNKHST------------IPNSQEKAV
+Strongylocentrotus_purpuratus_NCBI      ----------STSKPSLKTSKS----L----------PPAKPSSSTAYDEFDFSEDDEEI
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   DWFSGSDDS-EGASGNAESEIALHVTST-VSESQVS---------------DPPSTTVPA
+Drosophila_melanogaster                 -------------------------AGGAAAAAPPE---------------SSGEQRGAV
+Aedes_aegypti                           TIPSA-----APASALTVPPITIPIGLSNSSSHQSS---------------TTPDQQQPV
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            --VPESVKKPI--NKQGDK----------------------SKENTRKIFSG---PKRSP
+Mus_musculus                            --VPESVKKPI--SKQGDK----------------------SKENTRKIFSG---PKRSP
+Rattus_norvegicus                       --VPESVKKPI--SKQGDK----------------------SKENTRKIFSG---PKRV-
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           --VPEGNKKST--NKQGDK----------------------SKENTRKIFSG---PKRV-
+Python_bivittatus                       --VPESNKKST--NPQSDK----------------------SKENTRKIFSG---PKRSP
+Xenopus_laevis                          --VPEVFKKPA--SKQADK----------------------SKDGARKIFSG---PKRSP
+Danio_rerio                             --FET-VRKPQ--VKAQEK----------------------AK-ESRRIFSG---PKKSP
+Petromyzon_marinus                      SACSRSGSIAK--HNAERK----------------------NEDGKKLIFHS---PKKPL
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 QLSTQKLQQKSPIKGATMKTVAGHVVLNIHRGSGASPKKTLVQNITQKSKNT---SQISI
+Strongylocentrotus_purpuratus_NCBI      EAPPALLKAKS--A----G----------------------ALDNVKKIFNS---PKKSP
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   SIKPAAKKGSI------FK-----------------------SRST-----G---ATDGN
+Drosophila_melanogaster                 KLVISKKKGSI------FK-----------------------SRALVPSDQA---EQATV
+Aedes_aegypti                           KLVISKKKGSI------FK-----------------------SRP---LTGS---AEAAD
+Caenorhabditis_elegans                  ------------------------------MSSDANSDDPFSKPIVRKRFQATLAQQGIE
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            TKAVYNARHWNHPDSEELPGPPVVKPQSVTV-----------------------------
+Mus_musculus                            TKAVYNARHWNHPDSEELPGPPIAKPQRVTV-----------------------------
+Rattus_norvegicus                       ------------------------------------------------------------
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ------------------------------------------------------------
+Python_bivittatus                       TKAVYNARHWNQPESEVLPAPQMLKNPNVPA-----------------------------
+Xenopus_laevis                          TKAVYNARHWNQPESEELPAVPALKSQTAPA-----------------------------
+Danio_rerio                             TKAVYNARHWNQPEAEEMLPMPPSRSQAPPA-----------------------------
+Petromyzon_marinus                      GKAVYNARHWNHPEEEMKAPRLDRAS-SAPASVGREREREREKE--HERGERKVLG----
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 TKASYNSRPWIPSSEEICSEKSESLSSSQPSMQS--------------------------
+Strongylocentrotus_purpuratus_NCBI      AKAKYNARSWNKPDVPEEDEFASSSASSSQGSIP--------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   KRRALYKHKWCDSDKESTAADTPTTGNNTPTTAS--------------------------
+Drosophila_melanogaster                 AKRHLYKHSWDAALEANGGGTNSDASNASASGVGVAGA----KDHLHH---------LAA
+Aedes_aegypti                           KKRHVYKHKWDDDDDDGKEKSAMAEA----------------------------------
+Caenorhabditis_elegans                  DDQLPSVRSSDSPDVPDTPDVPVNQLSSPPLSLPETLSEGNAETNLSDDSEPEMLSQSST
+Arabidopsis_thaliana                    ---------------------------------------------------------MME
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------------------------------
+Rattus_norvegicus                       ------------------------------------------------------------
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ------------------------------------------------------------
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          ------------------------------------------------------------
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      -ELESRREGDARPGKDGERR----ADAASPEGST-------------RRGEEKQHP----
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      -----------------------------------------------------SKP----
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ------------------GSSSAGPVAYEEEFD--------SSQ-LTR------------
+Drosophila_melanogaster                 GKSDGDFGDSPSSNNNGSSSACSSASTLRGDSP--------ALGKISRLAGKQGVPAT--
+Aedes_aegypti                           -------------------DTETQPTTFEGEPS--------GLSRVTRMRSTG-------
+Caenorhabditis_elegans                  SSLNRRMEDSAIDPSRGTRKSQSRGFDYDPAGERTTAPVQKKKKDEIDMGGAKFFPKQEK
+Arabidopsis_thaliana                    RTYGRRKPGIPRTLSDSLNDSVSQTEYL--------------------------------
+                                                                                                    
+
+Homo_sapiens                            ----------------RL---SSKEPNQKDDGVFKAPAP-PSKVIKTVTIPTQPYQDIVT
+Mus_musculus                            ----------------RL---SSKEPNQKDDGVFKAPAP-PLKVIKTVTIPTQPYQEIVT
+Rattus_norvegicus                       ----------------RL---SSKEPNQKDDGVFKAPAP-PLKVIKTVTIPTQPYQEIVT
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ----------------RL---SSKEAIHKDDGVFKAPAP-PPKVIKTVTIPTQPYQEIVT
+Python_bivittatus                       ----------------R----SSKEAIPKDDGVFKAPAP-PPKVIKTVTLPTQPYQEIVT
+Xenopus_laevis                          ----------------K----PPDAPCTKDDGVFKAPAP-PPKVIKTVTIPTQPYQDIVT
+Danio_rerio                             ----------------AASGGSKESNSHKDDGVFKAPAP-PPKVIKSVTIPTEPYQDMVT
+Petromyzon_marinus                      -----AEVTAAQGNAEQEGTAPSGETEQGERSVFKEPPPPPPARLRRIACPSQDSDEGVS
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ----------------------------------ESEEFVPPKLFRSETLPDKIGESIVT
+Strongylocentrotus_purpuratus_NCBI      -----APFRTIEGG----------------------KQRGASGLTRQTVYPKKVNHSMVT
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   -----------------------------------------VVTYPTADADFEDEADAIT
+Drosophila_melanogaster                 -------------STSSDAFDLDLEPIAGELDLERSAAG-ASAGGTGATTGGGGATGGGG
+Aedes_aegypti                           ----------------------------------------------EAGSDFDDEFDFDT
+Caenorhabditis_elegans                  KHVYTHKWTTEEDD-------EDEKTISSSSNRYSSRPNQP-A---VSARPRQPVYAT-T
+Arabidopsis_thaliana                    ----------------SSSSSPDIEPIDYSLLPFSSQESSSLWHSSSRSNFREDYPQNGG
+                                                                                                    
+
+Homo_sapiens                            ALKCRREDKELYTVVQHVKHFNDVVEFGENQEFTDDIEYLLSGLKSTQ-PLNTRCLSVIS
+Mus_musculus                            ALKCRKEDKE------HVKHFNDVVEFGENQEFTDDIEYLLSGLKSTQ-PLNTRCLSVIS
+Rattus_norvegicus                       ALKCRKEDKELYTVVQHVKHFNDVVEFGENQEFTDDIEYLLSGLKSTQ-PLNTRCLSVIS
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ALKCRKEDKELYTVVQHVKHFNDVVEFGENQEFTDDIEYLLSGLKSNQ-PLNTRCLSVIS
+Python_bivittatus                       ALKCRKEDKELYTVVQHVKHFNDVVEFGENQEFTDDIEYLLSGLKSNQ-PLNTRCLSVIS
+Xenopus_laevis                          ALKCRKEHKELYTVVQHVKHFNDVVEFGENQEFTDDIEYLLSGLKSSQ-PINTRCLSVIS
+Danio_rerio                             ALKCRKEHKELYTVVQHVKHFNDVVEFGENQEFTDDFEYLATGLKTGQ-PLNTRCLSVIS
+Petromyzon_marinus                      SLKCHKEDKELYTVVRQVKHFNEVLEFGETQEYTDDVD-------------------VIS
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 SIKCRKEAKAYFTVVKHVKNYQNCLEEGEAQEFEDEVNYLLEGLQSSQ-PVSVRCLSLTN
+Strongylocentrotus_purpuratus_NCBI      SLKCKRDEKKLYTVVRHVKGASDCQESGESQQYADDIEYLMEGLKGTE-NVGTRCLSTMG
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   SIRCGKKVKGFYTVVKNVKKAHQIQESGEFQEFNDDVEYILDTLRENN-PNATRCLSAIR
+Drosophila_melanogaster                 PVRVDRKTKDYYPVVRNVKTAHQIQEIGEYQEMDDDVEYILDALQPHN-PPATRCLSALQ
+Aedes_aegypti                           KLKCDRDSKPFYTVVRNVKKAHQIQEIGESQEMDDDVEYILSALQPDN-PNATRCLSAMT
+Caenorhabditis_elegans                  STYSKPLASGYGSRVRHIKEANELRESGEYDDFKQDLVYILSSLQSSDASMKVKCLSAIS
+Arabidopsis_thaliana                    VVRRAKRVRNGAEAAAFTSTLLEAQEFGELMEHEDEVNFALDGLRKGH-QLRIRRASLSS
+                                                                                                    
+
+Homo_sapiens                            LATKCAMPSFRMHLRAHGMVAMVFKTLDD------SQHHQNLSLCTAALMYILSRDRLNM
+Mus_musculus                            LATKCAMPSFRMHLRAHGMVAMVFKTLDD------SQHHQNLSLCTAALMYILSRDRLNM
+Rattus_norvegicus                       LATKCAMPSFRMHLRAHGMVAMVFKTLDD------SQHHQNLSLCTAALMYILSRDRLNM
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           LATKCAMPSFRMHLRAHGMVAMVFKTLDD------SQHHQNLSLCTAALMYILSRDRLNM
+Python_bivittatus                       LATKCAMPSFRMHLRAHGMVAMVFKTLDD------SQHHQNLSLCTAALMYILSRDRLNM
+Xenopus_laevis                          LATKCAMPSFRMHLRAHGMVAMVFKTLDD------SQQHQNLALCTAALMYILSRDRLNM
+Danio_rerio                             LATRCAMPSFRMHLRARGKVAQVFKTLGD------APQHSNLALCTASLMYILSRDRLNM
+Petromyzon_marinus                      LAMKCAMPGFRMHLRAHGQVAKVFKLLID------AQENQNLALCTAALMYVLSRDRLNM
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 LAGKCQQPSFRLYLRAHNVPKKIFSYLTD------AIQNKCLSLATASLLFMLSRDR-RM
+Strongylocentrotus_purpuratus_NCBI      FVEKCSMPQFRMHMRAHGTISKVFGKLQD------AAQDPCLGLCTSGLMYMLSRDRLNM
+Latrodectus_hesperus                    --------------MDKLNFFEYFGKIREALKPQNMKGEVNLALCTATLMFVLSQDRLTM
+Camponotus_floridanus                   LASKCMAPAFRMHVRAHGTVAKFFKALHD------ATKDQSLGLCTATVMFVLSQDRLAM
+Drosophila_melanogaster                 LAAKCMMPAFRMHVRAHGVVTKFFKALSD------ANKDLSLGLCTSAIMYILSQEGLNM
+Aedes_aegypti                           LATKCMTPAFRMHVRAHGVVTRFFKALRD------SHTDQSLGLCTATIMFVLSQDTLNM
+Caenorhabditis_elegans                  LAKKCVSPDFRQFIKSENMTKSIVKALMD------SPEDDLFALAASTVLYLLTRDFNSI
+Arabidopsis_thaliana                    LLSICASQHQRRSLRAQGISQSIIDAILV-----LSLDDIPSNLAAATLFFALTADGQDE
+                                                                                                    
+
+Homo_sapiens                            DL--DRASLDLMIRLLELEQDAS-----------------------SAKLLNEKDMNKIK
+Mus_musculus                            DL--DRASLDLMIRLLELEQDAS-----------------------SAKLLNEKDMNKIK
+Rattus_norvegicus                       DL--DRASLDLMIRLLELEQDAS-----------------------SAKLLNEKDMNKIK
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           DL--DRASLDLMIRLLELEQDAS-----------------------SAKLLNEKDMNKIK
+Python_bivittatus                       DL--DRASLDLMIRLLELEQDSS------------------------SKLFNEKDMNKIK
+Xenopus_laevis                          DL--DRASLDLMIRLLEMEQDPS------------------------ARQMNEKEMNKIK
+Danio_rerio                             DL--DRASLDLMIRLLELEQDKS-----------------------IADQLTTKEMNKVK
+Petromyzon_marinus                      DL--DRGCLELLIRLLEMEGGGAGGTAEEDAGGRKGAVVGAGGAA-AARAADIREGDRLR
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 EI--DKPTLQLLLSLLDPLDRESNNAGQETPAETN-----------KEKSATKYRFFKSK
+Strongylocentrotus_purpuratus_NCBI      DL--DRDSLWLLVRLLSKDSAHRIH---------------------QLEPTQQAEYKKVQ
+Latrodectus_hesperus                    DI--EASTLSLMLQLLETDPELRNPDKEI-------------DLI-LKDPALCAMQDKHR
+Camponotus_floridanus                   DL--DRDCLELMLSLLESDASHKDALDDC-------------G-------LSHTELLKNK
+Drosophila_melanogaster                 DL--DRDSLELMINLLEADGVGGSTE---------------------TGHPDRAGYDRNK
+Aedes_aegypti                           DL--DRDSLELMLNLLDTDHRSGSD-----------------------GGLSKGQLEKNQ
+Caenorhabditis_elegans                  KI--DFPSLRLVSQLLRIEKFEQ----------------------------RPEDKDKVV
+Arabidopsis_thaliana                    HFMESPKCIKFLIKLLKPVIVTSTEGKPRNIGFKLLSLLKDVDAARDPVKMDDPSSSDIL
+                                                                                                    
+
+Homo_sapiens                            EKIRRLCETVHNKH-----------------LDLENIT-----------TGHLAMETLL-
+Mus_musculus                            EKIRRLCETVHNKH-----------------LDLENIT-----------TGHLAMETLL-
+Rattus_norvegicus                       EKIRRLCETVHNKH-----------------LDLENIT-----------TGHLAMETLL-
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           EKIRRLCETVHNKH-----------------LDLENIT-----------TGHLAMETLL-
+Python_bivittatus                       EKIRRLCETVHNKH-----------------LDLENIT-----------TGHLAMETLL-
+Xenopus_laevis                          EKIRKLCETVHNKH-----------------LDLENIT-----------AGHLAMETLL-
+Danio_rerio                             EKIRKLCETVHNKH-----------------LDLENITAI-------GTTGHLAMETLL-
+Petromyzon_marinus                      ERIRKLCEKVHNRH-----------------LDLENMT-----------TGHLAMETLL-
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 DKSSQLEEEARNMRSVEQKILTMVKGCSDNLINENVVS-----------VKRLASEALI-
+Strongylocentrotus_purpuratus_NCBI      EKLWAVFSELPKAS-----------------NSLGDIETSD------LSNGHLAMESLL-
+Latrodectus_hesperus                    EKVYQLCEEMQQKG-------------HAKHLKLDNIN-----------TGILAMETLL-
+Camponotus_floridanus                   EKVRQLCADIQAQG-------------HAKHLNLDNIT-----------VGQLAMETLL-
+Drosophila_melanogaster                 QKVRELCEEIKAQG-------------KGTHLNVDSLT-----------VGTLAMETLL-
+Aedes_aegypti                           QKVRELCEEIKNSG-------------KAKHMDLDNIT-----------TGSLAMESLL-
+Caenorhabditis_elegans                  NMVWEVFNSYIEKQEVGGQKVSFD-------MRKESLT-----------PSSLIIEALV-
+Arabidopsis_thaliana                    SRVQELLVNC-----------------KEMRLNDSYITETTRPELSTKWVALLAMERACV
+                                                                                                    
+
+Homo_sapiens                            -------SLTSKR-AGDWFKEELRLLGGLDHIVDKVKECVDHLSRDE--------D--EE
+Mus_musculus                            -------SLTSKR-AGDWFKEELRLLGGLDHIVDKVKECVDHLSRDDE-------D--EE
+Rattus_norvegicus                       -------SLTSKR-AGDWFKEELRLLGGLDHIVDKVKECVDHLSRDE--------D--EE
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           -------SLTSKR-AGDWFKEELRLLGGLDHIVDKVKECVDHLSSDE--------N--EE
+Python_bivittatus                       -------SLTSKR-AGDWFKEELRLLGGLDHIVDKVKECVDHLSSDE--------N--EE
+Xenopus_laevis                          -------SLTSKR-AGDWFKEELRLLGGLDHIVDKVKECVKHLDRDE--------S--EQ
+Danio_rerio                             -------SLTSKR-AGDWFKEELRLLGGLDHIVDKVKECVENLSRED--------D--KE
+Petromyzon_marinus                      -------SLTSRR-AGDWFKEELRLLGGLDHIVDKVADCAEKLRSADR------GA--EE
+Branchiostoma_lanceolatum_NCBI          -------MKFMKR-SVESFVA-QRFISGCINLQDFSL-----------------------
+Ciona_intestinalis_NCBI                 -------RFTARQ-TPEWYREEVRLKGGLDHIISLVKQHVDHVTELSGSAPVSIDA--SF
+Strongylocentrotus_purpuratus_NCBI      -------SLTSKR-AGEWFKEELRLAGGLEHIAQTVISAALSLSPVIV------RM--EG
+Latrodectus_hesperus                    -------SLTSRK-AGEWFKEEMRTLHGLDRITDTVTSSIQLLIPEEN--DIISRP--TD
+Camponotus_floridanus                   -------SLTSKR-AGEWFKEELRELGGLEHIVKTIRECHRHINSQN---LLRSGW--TD
+Drosophila_melanogaster                 -------SLTSKR-AGEWFKEDLRKLGGLEHIIKTISDFCRPVIAC----DTEIDW--QP
+Aedes_aegypti                           -------SLTSKR-AGEWFKDELRNLGGLEHLIKTVSDCCRQISDY------VIEW--TD
+Caenorhabditis_elegans                  -------FICSRSVNDDNLKSELLNLGILQFVVAKIETNVNLIADNA-------------
+Arabidopsis_thaliana                    SKISFDDTSGSVKKTGGNFKEKLRELGGLDAVLEVVMDCHAVMERWVEYDALSVQEKKDN
+                                                                                                    
+
+Homo_sapiens                            KLVASLWGAERCLRVLESVTVHNPENQSYLIAYKDSQLIVSSAKALQHCEELIQQ-Y-NR
+Mus_musculus                            KLVASLWGAERCLRVLESVTVHNPENQSYLIAYKDSQLIISSAKALQHCEDLIQQ-Y-NR
+Rattus_norvegicus                       KLVASLWGAERCLRVLESVTVHNPENQSYLIAYKDSQLIISSAKALQHCEDLIQQ-Y-NR
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           KLVASLWGAERCLRVLESVTVHNPENQSYLIAYKDSQLIVSSAKALQHCEELIQR-Y-NR
+Python_bivittatus                       KLVASLWGAERCLRVLESVTVHNPENQSYLIAYKDSQLIVSSAKALQHCEELIQR-Y-NR
+Xenopus_laevis                          KLVASLWGAERCLRVLESVTVHNPENQSYLIAYKDSQLIVSSAKALRHCEELIQR-Y-NR
+Danio_rerio                             NLVASLWGAERCLRVLESVTVHNPENQGYLIAYKDSQLIVSSAKALRHCEEMIQR-Y-SR
+Petromyzon_marinus                      KLVDSLRGAERCLRVLESVTVHNPENQGYLIAYQDSQLIVSTARVLGLCEVLLLR-K-ER
+Branchiostoma_lanceolatum_NCBI          TPLSTIELTGAGIRTHDSVSTSPPDDFHEHRQSGVPTF----------------------
+Ciona_intestinalis_NCBI                 PQDRPLCMLERLLKVLENTVMHSHRNAMYLVTHLRALLLKKIAQLLQLVQRLLAI-H-TF
+Strongylocentrotus_purpuratus_NCBI      ENLVLFKTMNRCLRVLENVTFMNNENQQYLLELKGCGLVKAVGKALRMCENQLEL-C-GE
+Latrodectus_hesperus                    VHLDKIRKIDRCLRVLENVTHMNIENQEYLVNYKNSSLVIASVNLMKICKSHLLEQK-PV
+Camponotus_floridanus                   PLLDKLRKVDRCLRVLENVTHMNEENQVYLLKYEEGVLVSTLASLYHLCGQEIPI-Y-P-
+Drosophila_melanogaster                 TLLDNMQTVARCLRVLENVTQHNETNQRYMLTSGQGKAVETLCQLYRLCSRQIML-H-PS
+Aedes_aegypti                           DLLSKLQKIERCLRVLENVTILNEENQSYILNYNNGSMITTLVKLLKLIDGEVVL-Y-PT
+Caenorhabditis_elegans                  DDTYSILILNRCFRILESSSVFHKKNQAFLISHRSNILISSLAKFLQVILDRVHQ-----
+Arabidopsis_thaliana                    LHKQSLMLLLKCLKIMENATFLSTDNQNHLLGFKKCLGSHDSRMSFTELTISVIKMLSGL
+                                                                                                    
+
+Homo_sapiens                            AED-SICLADSKPLPHQNVTNHVGKAVEDCMRAIIGVLLNLTNDN---------------
+Mus_musculus                            AEN-SICVADSNPLPYQNVTNHVGKAVEDCMRAIIGVLLNLTNDN---------------
+Rattus_norvegicus                       AEN-SICIADSKPLPYQNVTNHVGKAVEDCMRAIIGVLLNLTNDN---------------
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           AED-SICLPDNKPLPHQNVTNHVGKAVEDCMRAIIGVLLNLTNDN---------------
+Python_bivittatus                       AED-TICLPDSKPLPHQNVTNHVGKAVEDCMRAIIGVLLNLTNDN---------------
+Xenopus_laevis                          AED-TICIPYSKSLPHHNLSSNVGKAVEDCMRSIIGVLLNLTHDN---------------
+Danio_rerio                             EMNRGLCTTLP-----FCSNSNVGKAVEDCMRAIIGVLLNLTHDNA-------------A
+Petromyzon_marinus                      AETRNEEG---TVNNAGAEWSPLLKALEGCLRASFGVLLNLTHDN---------------
+Branchiostoma_lanceolatum_NCBI          LQGRGACW----------RSGPGAQVLHEDVRALLGRRLASAEQSARGGRQCAGHAGHGR
+Ciona_intestinalis_NCBI                 DVE---------------KSKTFNSTLYNVMLQAIKLVVNMSNDN---------------
+Strongylocentrotus_purpuratus_NCBI      PE---------VHVIKKLDSYGLHAILHQGLLATLRLLLNISHDN---------------
+Latrodectus_hesperus                    DVDTPV------NDEVTRKPNKDESPVLSCLLNILKILSNLTYK---K------------
+Camponotus_floridanus                   -------------TTDPSDKSSIGAVVRECLFAIIKVLINLTHRFNRG------------
+Drosophila_melanogaster                 -------------DGGGSNKEHPGVAMRELLVPVLKVLINLTHTFNEAQ-----------
+Aedes_aegypti                           -------------NER-TPKDDRGVVLREMIIPVLKLFITLTHPFNET------------
+Caenorhabditis_elegans                  ------------------LAEEEVKKYISCLALMCRLLINISHDN---------------
+Arabidopsis_thaliana                    HLRGGFSSPNTNNVNSHYSNGGNHDSVLEANRKVTNEVVTISSDTYST------------
+                                                                                                    
+
+Homo_sapiens                            ---------EWGSTKTGEQDGLIGTALNCVLQVPKYLPQEQRFDIRVLGLGLLINLVEYS
+Mus_musculus                            ---------EWGSTKTGEQEGLIGTAMNCVLQVPKYLPQEQRFDIRVLGLGLLINLVEYS
+Rattus_norvegicus                       ---------EWGSTKTGEQEGLIGTAMNCVLQVPKYLPQEQRFDIRVLGLGLLINLVEYS
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ---------EWGSTKTGEQDGLIGTAMNCVLHVPKFLPQEQRFDIRVLGLGLLINLVEYS
+Python_bivittatus                       ---------EWGSTKTGEQDGLIGTALNCVLQVPKFLPQEQRFDIRVLGLGLLINLVEYS
+Xenopus_laevis                          ---------EWGSTKTGEQDNLISTALNCVLQVPKFLPQEQRFDIRVLGLGLLINLVEYS
+Danio_rerio                             IERIFCLSVEWGSTKTGEQDDLITTALNCVLKVPQYLPQEQRFDIRVLGLGLLINLVEYS
+Petromyzon_marinus                      ---------EWGSTKAGEQDRLVGSVLGCVLHVPSLLPAEQRFDIRVLGLALLVNLVELS
+Branchiostoma_lanceolatum_NCBI          AELSAGAAQEWGSTKVGEQPGLLKTALLCVLLAPQYLPTEQRFDMHVLGLGLLINLLEHS
+Ciona_intestinalis_NCBI                 ---------EWVSTRVGDQEGMLESIVSAVLSMPRMVNETRRYELVLLSLSLLVNLVESS
+Strongylocentrotus_purpuratus_NCBI      ---------EWGSMKVGEQEGLMATTLQCVLQMPQYICKDQRFDVLVLSLGLLINLVEHS
+Latrodectus_hesperus                    ---------GLNDSQFPPEEGLMDHILMLILQVPRAVPIEKRFDLLVLSIGLMINLVEYC
+Camponotus_floridanus                   ---------SFGSKSVGAQVGVLDCTLFLLLRVPESLPEEKRFDMMMLALILLINLVEQC
+Drosophila_melanogaster                 --------PSLGAELLGQRGDVVETSFRLLLLSANYIPDQCVFELSILVLTLLINLCMHT
+Aedes_aegypti                           ---------AYGASVIGSQPHVIATSLHLLLRLGDYVPQKFIFEMNILVLLFLINLAIYT
+Caenorhabditis_elegans                  ---------ELCCSKLGQIEGFLPNAITTFTYLAPKFGKENSYDINVMMTSLLTNLVERC
+Arabidopsis_thaliana                    -------------------VGSISTRNGSVSQRSQSII-----------------HLDFS
+                                                                                                    
+
+Homo_sapiens                            ARNRHCLVNMETSCS--FDSSICSGEGDDSLR----IGGQVHAVQALVQLFLERERAAQL
+Mus_musculus                            ARNRHCLVNMQTSCS--FDSSFSSGEGDHSLR----LAGQVHAVQALVQINVTTVREYLP
+Rattus_norvegicus                       ARNRHCLVNMETSCS--FDSSFSSGEGDHNLR----LAGQVHAVQALVQLFLERERAAQL
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ARNRHCLVNMETSCS--FDSFCTGE-GDDSLK----ITGQIDAVQALVQLFLERERAAQL
+Python_bivittatus                       ARNRHCLVNMETSCS--FDSFCLGE-ADDSLS----TSGQIAAVQALVQLFLERERAAQL
+Xenopus_laevis                          ARNRHCLVNMETTQS--FDSFSAEG--EVSVG----EPMQVDAVQALVLIIQQEWDTPER
+Danio_rerio                             ARNRHCLVELQMEGGEVWDSMCVSDKDELQ------------------------------
+Petromyzon_marinus                      ARNRQCLVAMETEGVSADSSCIADT------G----PGCCVPALEALVQLYLQREHAAQL
+Branchiostoma_lanceolatum_NCBI          AKNRRLLTETRAPFA--YDSVGTSPER---------RAVETTAVEALIKVRTFKSGP---
+Ciona_intestinalis_NCBI                 AKNRLSLMKMTITDS--GDNIQTNSR---------------SVVEALVQLFIDREVAARS
+Strongylocentrotus_purpuratus_NCBI      PANTRKLISMKTQRS--FDSKNSQSSQESSSSEGGTEPEVVT------------------
+Latrodectus_hesperus                    PENCAKFIEMYGLGS--FDTVNDGYEM--PAS--EAFIEDDLRLKKKVNLIKYEA-----
+Camponotus_floridanus                   DDNKQLLIESKTPLS--SDDIFDSQES--GVG-------------SLIDLFYKQEELARA
+Drosophila_melanogaster                 VPNRAALMQAAAPAE--YVADN------------PPAQGSVSALQALLEYFYKCEELARL
+Aedes_aegypti                           QANRQHLMTARAPDD--FGSTTAESGR--ITRGAKTSGHQEMAIQALVDYFYRQDELARY
+Caenorhabditis_elegans                  NANRKVLIAQTVKMV-----------------IPGHDVEEVPALEAITRLFVYHESQ---
+Arabidopsis_thaliana                    ------PTSMSGSQSSVSGNEPTTSKTRVGSTISGSFAGRLASLGSDIARTTLRT--TQA
+                                                                                                    
+
+Homo_sapiens                            AE----------------------------------------------------------
+Mus_musculus                            EGDF--------------------------------------------------------
+Rattus_norvegicus                       AE----------------------------------------------------------
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           AE----------------------------------------------------------
+Python_bivittatus                       AE----------------------------------------------------------
+Xenopus_laevis                          RFQTNRKFQRLYP-------FPKEL----TEKWSMPPSVDPPVSRLSKNTALPVPDASSF
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      AETQTDDII---------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          -----------EP-------KPLDS----SPNLNLNSGLDPHH-----------------
+Ciona_intestinalis_NCBI                 IEVL--------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   EEQKTDAIL---------------------------------------------------
+Drosophila_melanogaster                 VEKNTDAFL---------------------------------------------------
+Aedes_aegypti                           AEKNTDAIL---------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    GEPICKKFGEFAPPEESEDPFAFDLEDYKPSKWAVVSVNQKKSR--------AQKKKGCY
+                                                                                                    
+
+Homo_sapiens                            ----------------S----------------------------------------KTD
+Mus_musculus                            ----------------S----------------------------------------IMT
+Rattus_norvegicus                       ----------------S----------------------------------------KTD
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ----------------S----------------------------------------QTD
+Python_bivittatus                       ----------------S----------------------------------------QTD
+Xenopus_laevis                          RDSMDKKLESLLRSVFSASGTSLRPVLAMAWVSRAVQSWSDSLLNAIDSGTPRHELSQYA
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ------------------------------------------------------------
+Drosophila_melanogaster                 ------------------------------------------------------------
+Aedes_aegypti                           ------------------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    KQSKDESLYQLFSSQEE---------------------------------SSNH----RL
+                                                                                                    
+
+Homo_sapiens                            ELI---------------------------------------------------------
+Mus_musculus                            EML---------------------------------------------------------
+Rattus_norvegicus                       ELI---------------------------------------------------------
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           KLI---------------------------------------------------------
+Python_bivittatus                       ELI---------------------------------------------------------
+Xenopus_laevis                          SQIKEANDYICEASLDALQVISRSSALSVAARRSLWMKLWSADLSSKKSLTSIPFKGKLL
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ------------------------------------------------------------
+Drosophila_melanogaster                 ------------------------------------------------------------
+Aedes_aegypti                           ------------------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    NSQEESSNRDCSTSLQPSHCTND-------IDEECLCLLFDCLLTAVKV----------L
+                                                                                                    
+
+Homo_sapiens                            ----------------------------KDAPT--TQHDKSGEWQ---------------
+Mus_musculus                            ----------------------------KKFLSFMNLTVMPIFQA---------------
+Rattus_norvegicus                       ----------------------------KDAPT--TQHDKSGEWQ---------------
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ----------------------------KEAPT---------------------------
+Python_bivittatus                       ----------------------------KEAPT---------------------------
+Xenopus_laevis                          FGPDLDKII-----SQATGGKSTLLPQPKARPSFRRGKFFRGSQAKHTRSSPPRQSLLPQ
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      -----------------------------------------KGAMKTAASSQPGGAAAPA
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ------------------------------------------------------------
+Drosophila_melanogaster                 ------------------------------------------------------------
+Aedes_aegypti                           ------------------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    MNLTNDNVVGCRQVGGCRGLESMAELIARHFPSFTRSQLFSEMEKTGSSHQKKDKYLTD-
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------------------------------
+Rattus_norvegicus                       ------------------------------------------------------------
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ------------------------------------------------------------
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          NSDKKTAFLGAISALSKAQVIIPVPVTELFKGYYSNFFVVPKKDGSVRPILDLKELNKFL
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      AEGATTSSASL-------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ------------------------------------------------------------
+Drosophila_melanogaster                 ------------------------------------------------------------
+Aedes_aegypti                           ------------------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------------------------------
+Rattus_norvegicus                       ------------------------------------------------------------
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ------------------------------------------------------------
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          RHRRFKMESLRSVIAAMSPGQFLISLDIKDAYLHVPIFPPHQKYLRFAFQNCHYQFTSLP
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ------------------------------------------------------------
+Drosophila_melanogaster                 ------------------------------------------------------------
+Aedes_aegypti                           ------------------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ---------------------------ET-------------------------------
+Mus_musculus                            ---------------------------LTPALH---------------------------
+Rattus_norvegicus                       ---------------------------ET-------------------------------
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ------------------------------------------------------------
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          FGLMSAPRVFTKIMAAATAVIRNARVSITPYLDDLLIKAPSSTEAQRSLQISMDKLQELG
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ------------------------------------------------------------
+Drosophila_melanogaster                 ------------------------------------------------------------
+Aedes_aegypti                           ------------------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    --------------------------------------------------------QELD
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------PLNE-------NKKQQKEEE---E
+Rattus_norvegicus                       ------------------------------------------------------------
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ------------------------------------------------------------
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          WVLNLEKSSLMPSQSMVFLGMQFNTQTQRIYLPQEKLFLERERAAQLAESQTDELI---K
+Danio_rerio                             -----------------------TERSHSAIAALVKLFLQREHAAMLAEAETDDFI---N
+Petromyzon_marinus                      ------------------PSSTTTATTQQEQQQQLELLQQQQQQT---------QQ---Q
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ----------------------------GEDAGKKKAIKDKDREVTDGASDTDTIPGSQS
+Strongylocentrotus_purpuratus_NCBI      -----------------------------SLEAVVQLFLQRQQQALKAESQSEEEM----
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   --------------------------------------------------------DGKK
+Drosophila_melanogaster                 --------------------------------------------------------ESNE
+Aedes_aegypti                           --------------------------------------------------------DAKS
+Caenorhabditis_elegans                  -------------------------------AQIVDADLDRELAFDEGGCGDEEEE---E
+Arabidopsis_thaliana                    FLVAI--------------------------LGLLVNLVERDGVNRS-----------RL
+                                                                                                    
+
+Homo_sapiens                            -----------------SGEIQWVSTEKTDGTEEKH---------KKEEEDEELDLNK--
+Mus_musculus                            EEEKKQEAAAAAAAAAAAAAEEEEEEEEEEEEEEEE---------EEEEEEEEVEEAE--
+Rattus_norvegicus                       -----------------SGEIQWVSTEKTDGAEEKQ---------KKEDEDEELDLNKGT
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ----AQHDKSGEWQE-TSGEIQWVSTEKSDSTEEKD---------KKEEDDEELDLNKGP
+Python_bivittatus                       ----TQHDQSGEWQE-TSGEIQWVSTEKPENAEEKD---------KKEEDEEELDLNK--
+Xenopus_laevis                          EVPTSQHDKSGEWQE-SGGEIQWVSAEKSPNSEEPE---------KKEEEDEELDLNK--
+Danio_rerio                             DAPKPQLDQSGEWKE-TNEEIQWVASENNSTEEK-K---------KKEEDDEELDLNK--
+Petromyzon_marinus                      KQQHRGSDPDGEWHE-SESGLEWVEASPEPGRTGRPGDIRSAKQAAAAAEEEEMDTL---
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 SIDQRTTDEEGGRLVETEDGMEWIPSETTDDGSLSLSQRSASSVKRNPEAALSAEDKTVI
+Strongylocentrotus_purpuratus_NCBI      -----MGEEPEEWSVAHSDPLDWITIERDSGKGQNG------------PQPTEEEIKSSV
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   DSEQTE---------------------------------TVSTTTKSQEEFIE----ETV
+Drosophila_melanogaster                 K-------------------------------------------GKKKQEEVE----ETV
+Aedes_aegypti                           ----------------------------------------------KKNEDIE----ETV
+Caenorhabditis_elegans                  EGGDESSDEDGVRKDGRL-------------------------DRNKMDRMDQVDVVHAL
+Arabidopsis_thaliana                    ASASVPITKPEELQESEQEMIPLLCSIFLTNQG------------SAETKEETTTFTLDD
+                                                                                                    
+
+Homo_sapiens                            --ALQHAGKHMEDCIVASYTALLLGCLCQESPINVTTVREYLP---EGDFSIMTEMLKKF
+Mus_musculus                            --EAEADAEAEASQLKGPATTLLAHVYCHESLVWYEASGFCYTISTGSSLGLLSDIL-AL
+Rattus_norvegicus                       LISLQHAGKHMEDCIVASYTALLLGCLCQESPINVTTVREYLP---EGDFSIMTEMLKKF
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           LSKELWFIKTLAASIDVDS----------------------LT---GFSLFILSKEVGDF
+Python_bivittatus                       --ALQHAGKHMEDCIVASYTALLLGCLCQESPINVTTVRTYLP---EGDFSIMTEMLKKF
+Xenopus_laevis                          --ALQHAGKHMEDCIVASYTALLLGCLCQESPINVTTVRDNLP---DGDFSIMTEMLKKF
+Danio_rerio                             --ALQHAGKHMEDSIVASYTALLLGCLCQGSPMNVTTVRENLP---KGDFSVMTEMLKKF
+Petromyzon_marinus                      KKALAQAGKHMEDCIVASYTALVLGCLCHESPTTVQTIRECLP---KGDFSSMTEMLQKF
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 KKMVDKASVHMEHSIVAAYAALVLGCLIRGNRANSSVIRSHLG--EDGSFNPMIRILKKF
+Strongylocentrotus_purpuratus_NCBI      RKALHSAGKHMEDSIVASYAALLLGCLLRENNLNVVSVRDCLP---DGDFTCMVDMLKKF
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   TKLLQKAGRHMEHTLIGAYVVLLLGYLIMDNKEYESLVRSRLP---DKNFGTMVSVLQKF
+Drosophila_melanogaster                 NNLVQRAGHHMEHTLKGSYAAILVGNLIADNELYESVVRRQLR---GNSFKEIIGVLEKY
+Aedes_aegypti                           TKLLQKAGYHMEHTLMASYVALLIGWLVKGCEEYENTVRSYLK---DNNFVMMVSSLEKY
+Caenorhabditis_elegans                  QQVMNKASAHMEGSVIASYHALLVGFVLQQNEDHLDEVRKHLP---GKNFQNMISQLKRL
+Arabidopsis_thaliana                    EEAVLEGEKEAEKMIVEAYSALLLAFLSTESRSIRNSIKDYLP---KRNLAILVPVLERF
+                                                                                                    
+
+Homo_sapiens                            LSFMNLTCAVGTTGQKSIS----RVIEYLEHC----------------------------
+Mus_musculus                            PCIMEIL-----------------------------------------------------
+Rattus_norvegicus                       LSFMNLTPEAAGAATWTCRRPVRATVQAVSKRTLQP-------TRAALTLTPSAVNKIKQ
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           IDFTARNLQAKPVFSKESEVTAERHSEMVDD-------------YMQLENFGDPSERSE-
+Python_bivittatus                       LSFMNLTCAVGTTGQKSISR----VIEYLEHC----------------------------
+Xenopus_laevis                          LGFMNLTVICTVASMLM----HRGFIVSTGIFPPNQGD-----NWIWIKCTEKTVNA---
+Danio_rerio                             LNFMNLTCDVGTTGQKS----ISRVIDYLEHC----------------------------
+Petromyzon_marinus                      LCFMNLTSTVGTTGQKS----IARVIECLERC----------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 LSFMTLTGGMSGKEERT----LNQIIEDLDDEENRKAT-----VS---------------
+Strongylocentrotus_purpuratus_NCBI      LSFIELTNAAGNTGSRS----ISKVIEVLECF----------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   FNFMNITVSNEVSSC-G-IAATEKVIKFLKMSDARIEEE---KNELPLPALEDTNTMLD-
+Drosophila_melanogaster                 HTFMNLTSSLEAAFVAH-MKSTKRIIDNFKKRDYIYEHSDEHDNPLPLNLETTAQVLAV-
+Aedes_aegypti                           YNFLNLTANSDALSLQH-VRQTKNIIDNLKRLDSADRQQQPEASTSS------QQS----
+Caenorhabditis_elegans                  YDFTKATMAKRVESNSG-FRAIERVIEYLERLE---------------------------
+Arabidopsis_thaliana                    VAFHMTLNMIPPETHKA----VMGVIESCKSP----------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------------------------------
+Rattus_norvegicus                       LLKDKHEHVGLKVGVRTRGCNGLSYSLEYTKTKG----------DADEEVI-------QD
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           -----------------NELNVKSIPVISSKIEG----------EGGKKLQAVSGRVQIV
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          --------------------------------KI----------SEQKKCEHLMHDMANI
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   -------------------LTSS-------------------------------------
+Drosophila_melanogaster                 -------------------GADASHAATSSTTVGSGSAPSSTSATGTTRAPRVYKTYS--
+Aedes_aegypti                           ------------------------------------LTTASSSASTTTTTPHRYGSRS--
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------------------------------
+Rattus_norvegicus                       GVRVFIE-KKAQLTLLGTEMDYVED---------------KLSSEFVFNNP-----NIKG
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           ILRSAFV-RN-DRCV---HFEFYSMEQMSSGEQEVFSLALSVIKESITVRP-----MAKG
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          GLTSFTKNSGNGFCVSRLDLGYITHTKQPMGL--------QLVTPCRIAHPAILYRKCNN
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ------------------------------------------------------------
+Drosophila_melanogaster                 ----SHSPPAIQFHSARIKTRMSTRR-------------------QAITLYRNLLRESEK
+Aedes_aegypti                           ----STRAHY--------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            ------------------------------------------------------------
+Mus_musculus                            ------------------------------------------------------------
+Rattus_norvegicus                       TCGCGESFNMQQKKKKKKKKKKKKKKKKKKKKKKKK------KKKKKKKKKKRYSKQTL-
+Bos_taurus                              ------------------------------------------------------------
+Gallus_gallus                           LPGE--LFVL--------------------------------------------------
+Python_bivittatus                       ------------------------------------------------------------
+Xenopus_laevis                          IIGYSQNFCPLQWRKKSRRLAANARERKRMLTLNLAFDRLRSVIPTTQNKKKLSKSETLQ
+Danio_rerio                             ------------------------------------------------------------
+Petromyzon_marinus                      ------------------------------------------------------------
+Branchiostoma_lanceolatum_NCBI          ------------------------------------------------------------
+Ciona_intestinalis_NCBI                 ------------------------------------------------------------
+Strongylocentrotus_purpuratus_NCBI      ------------------------------------------------------------
+Latrodectus_hesperus                    ------------------------------------------------------------
+Camponotus_floridanus                   ------------------------------------------------------------
+Drosophila_melanogaster                 LPSY--NFRMYAARKIRDTFRANRSTR--------DFAEIDRQMAEGQQNLELIRRQ-VI
+Aedes_aegypti                           ------------------------------------------------------------
+Caenorhabditis_elegans                  ------------------------------------------------------------
+Arabidopsis_thaliana                    ------------------------------------------------------------
+                                                                                                    
+
+Homo_sapiens                            -------------------------
+Mus_musculus                            -------------------------
+Rattus_norvegicus                       -------------------------
+Bos_taurus                              -------------------------
+Gallus_gallus                           -------------------------
+Python_bivittatus                       -------------------------
+Xenopus_laevis                          MAKIYILMLSTELQKGASSLK----
+Danio_rerio                             -------------------------
+Petromyzon_marinus                      -------------------------
+Branchiostoma_lanceolatum_NCBI          -------------------------
+Ciona_intestinalis_NCBI                 -------------------------
+Strongylocentrotus_purpuratus_NCBI      -------------------------
+Latrodectus_hesperus                    -------------------------
+Camponotus_floridanus                   -------------------------
+Drosophila_melanogaster                 IGHLYSADK--LVIENKKTLKPSDD
+Aedes_aegypti                           -------------------------
+Caenorhabditis_elegans                  -------------------------
+Arabidopsis_thaliana                    -------------------------
+                                                                 

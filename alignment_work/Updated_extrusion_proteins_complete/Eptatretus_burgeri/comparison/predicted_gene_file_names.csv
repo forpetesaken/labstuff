@@ -1,0 +1,14 @@
+species,human_gene,reciprocal_hit_gene,fasta_filename
+Eptatretus_burgeri,CTCF,MTF1,top_hit_CTCF_Eptatretus_burgeri.fa
+Eptatretus_burgeri,ESCO1,NA,top_hit_ESCO1_Eptatretus_burgeri.fa
+Eptatretus_burgeri,ESCO2,NA,top_hit_ESCO2_Eptatretus_burgeri.fa
+Eptatretus_burgeri,HDAC8,HDAC2,top_hit_HDAC8_Eptatretus_burgeri.fa
+Eptatretus_burgeri,NIPBL,TMC5,top_hit_NIPBL_Eptatretus_burgeri.fa
+Eptatretus_burgeri,PDS5A,NA,top_hit_PDS5A_Eptatretus_burgeri.fa
+Eptatretus_burgeri,PDS5B,NA,top_hit_PDS5B_Eptatretus_burgeri.fa
+Eptatretus_burgeri,RAD21,RAD21,top_hit_RAD21_Eptatretus_burgeri.fa
+Eptatretus_burgeri,SMC1,SMC1A,top_hit_SMC1_Eptatretus_burgeri.fa
+Eptatretus_burgeri,SMC3,NA,top_hit_SMC3_Eptatretus_burgeri.fa
+Eptatretus_burgeri,STAG1,NA,top_hit_STAG1_Eptatretus_burgeri.fa
+Eptatretus_burgeri,STAG2,NA,top_hit_STAG2_Eptatretus_burgeri.fa
+Eptatretus_burgeri,WAPL,NA,top_hit_WAPL_Eptatretus_burgeri.fa

@@ -1,0 +1,14 @@
+species,human_gene,reciprocal_hit_gene,fasta_filename
+Mus_musculus,CTCF,CTCF,top_hit_CTCF_Mus_musculus.fa
+Mus_musculus,ESCO1,ESCO1,top_hit_ESCO1_Mus_musculus.fa
+Mus_musculus,ESCO2,ESCO2,top_hit_ESCO2_Mus_musculus.fa
+Mus_musculus,HDAC8,HDAC8,top_hit_HDAC8_Mus_musculus.fa
+Mus_musculus,NIPBL,NIPBL,top_hit_NIPBL_Mus_musculus.fa
+Mus_musculus,PDS5A,PDS5B,top_hit_PDS5A_Mus_musculus.fa
+Mus_musculus,PDS5B,PDS5B,top_hit_PDS5B_Mus_musculus.fa
+Mus_musculus,RAD21,RAD21,top_hit_RAD21_Mus_musculus.fa
+Mus_musculus,SMC1,SMC1A,top_hit_SMC1_Mus_musculus.fa
+Mus_musculus,SMC3,SMC3,top_hit_SMC3_Mus_musculus.fa
+Mus_musculus,STAG1,STAG2,top_hit_STAG1_Mus_musculus.fa
+Mus_musculus,STAG2,STAG2,top_hit_STAG2_Mus_musculus.fa
+Mus_musculus,WAPL,WAPL,top_hit_WAPL_Mus_musculus.fa

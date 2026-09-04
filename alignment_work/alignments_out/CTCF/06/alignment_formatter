@@ -1,0 +1,430 @@
+#!/usr/bin/env python3
+"""
+Automated Alignment Formatter with Conditional Formatting
+Processes .aln/.fas files and conservation scores to create formatted Excel files
+"""
+
+import openpyxl
+from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
+from openpyxl.formatting.rule import Rule, FormulaRule
+from openpyxl.styles.differential import DifferentialStyle
+from openpyxl.utils import get_column_letter
+import csv
+import sys
+import os
+
+# Amino acid color scheme (extracted from your existing file)
+AA_COLORS = {
+    'A': 'FFE0E0E0',  # Light gray (theme-based converted to RGB approximation)
+    'C': 'FFE0E0E0',  # Light gray (theme-based)
+    'D': 'FFFFC7CE',  # Light pink (theme-based)
+    'E': 'FFFFC7CE',  # Light pink (theme-based)
+    'F': 'FFFFEB9C',  # Light yellow (theme-based)
+    'G': 'FFF9E6FE',  # Light purple
+    'H': 'FFF8F6DA',  # Light yellow-beige
+    'I': 'FFFCC8C8',  # Light pink-orange
+    'K': 'FFD9E1F2',  # Light blue (theme-based)
+    'L': 'FFF7E6D9',  # Light tan
+    'M': 'FFF3FBD5',  # Light yellow-green
+    'N': 'FFCEF6E1',  # Light mint
+    'P': 'FFD5DAFB',  # Light lavender
+    'Q': 'FFDBF5EC',  # Light cyan
+    'R': 'FFFCC8E1',  # Light pink
+    'S': 'FFBABCFE',  # Light blue-purple
+    'T': 'FFFFFFC9',  # Very light yellow
+    'V': 'FFFCECC4',  # Light beige
+    'W': 'FF99CCFF',  # Light blue
+    'Y': 'FFFCE4D6',  # Light peach (theme-based)
+    '-': 'FFFFFFFF',  # White for gaps
+}
+
+
+def parse_fasta_alignment(fasta_file):
+    """
+    Parse a FASTA format alignment file
+    Returns: list of tuples (sequence_name, sequence)
+    """
+    sequences = []
+    current_name = None
+    current_seq = []
+    
+    with open(fasta_file, 'r') as f:
+        for line in f:
+            line = line.rstrip('\n\r')
+            if line.startswith('>'):
+                # Save previous sequence
+                if current_name is not None:
+                    sequences.append((current_name, ''.join(current_seq)))
+                # Start new sequence
+                current_name = line[1:]  # Remove '>'
+                current_seq = []
+            else:
+                current_seq.append(line)
+        
+        # Save last sequence
+        if current_name is not None:
+            sequences.append((current_name, ''.join(current_seq)))
+    
+    return sequences
+
+
+def parse_conservation_csv(csv_file):
+    """
+    Parse conservation scores CSV
+    Returns: dict with metric names as keys and lists of scores as values
+    """
+    conservation_data = {}
+    
+    with open(csv_file, 'r') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if row:  # Skip empty rows
+                metric = row[0]
+                values = row[1:]
+                conservation_data[metric] = values
+    
+    return conservation_data
+
+
+def get_human_positions(human_sequence):
+    """
+    Generate position numbers based on human sequence (excluding gaps)
+    Returns: list of position numbers (None for gap positions)
+    """
+    positions = []
+    current_pos = 1
+    
+    for char in human_sequence:
+        if char == '-':
+            positions.append(None)
+        else:
+            positions.append(current_pos)
+            current_pos += 1
+    
+    return positions
+
+
+def create_formatted_alignment(aln_file, conservation_csv, output_file):
+    """
+    Main function to create formatted Excel alignment
+    """
+    # Parse input files
+    print(f"Reading alignment file: {aln_file}")
+    sequences = parse_fasta_alignment(aln_file)
+    
+    print(f"Reading conservation scores: {conservation_csv}")
+    conservation = parse_conservation_csv(conservation_csv)
+    
+    # Create workbook
+    print("Creating Excel workbook...")
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.title = "Alignment"
+    
+    # Find human sequence (assumes it's the first one or contains "Human" in name)
+    human_seq = None
+    for name, seq in sequences:
+        if 'Human' in name or 'Homo_sapiens' in name:
+            human_seq = seq
+            break
+    
+    if human_seq is None:
+        print("Warning: Could not find human sequence, using first sequence")
+        human_seq = sequences[0][1]
+    
+    # Generate position numbers
+    positions = get_human_positions(human_seq)
+    max_col = len(human_seq) + 1  # +1 for sequence names column
+    
+    # Row 1: Position numbers
+    ws['A1'] = None
+    for col_idx, pos in enumerate(positions, start=2):  # Start at column B (2)
+        if pos is not None:
+            ws.cell(row=1, column=col_idx, value=pos)
+    
+    current_row = 2
+    first_sequence_row = None
+    last_sequence_row = None
+    
+    # Add sequences
+    for seq_name, seq in sequences:
+        # Check for section headers
+        if seq_name in ['VERTEBRATES', 'INVERTEBRATES']:
+            ws.cell(row=current_row, column=1, value=seq_name)
+            ws.cell(row=current_row, column=1).font = Font(bold=True)
+            current_row += 1
+            continue
+        
+        # Add sequence name
+        ws.cell(row=current_row, column=1, value=seq_name)
+        
+        # Add sequence characters
+        for col_idx, char in enumerate(seq, start=2):  # Start at column B (2)
+            ws.cell(row=current_row, column=col_idx, value=char if char != '-' else '-')
+
+        if first_sequence_row is None:
+            first_sequence_row = current_row
+        last_sequence_row = current_row
+        
+        current_row += 1
+
+    # Add domain/ZF labeling row directly under the alignment block
+    print("Adding domain labels...")
+    domain_row = current_row
+    ws.cell(row=domain_row, column=1, value="Domains/ZFs")
+
+    # Define domain ranges (human position -> label)
+    domain_ranges = [
+        (226, 228, "YXF"),
+        (266, 288, "ZF1"),
+        (294, 316, "ZF2"),
+        (322, 345, "ZF3"),
+        (351, 373, "ZF4"),
+        (379, 401, "ZF5"),
+        (407, 430, "ZF6"),
+        (437, 460, "ZF7"),
+        (467, 489, "ZF8"),
+        (495, 517, "ZF9"),
+        (523, 546, "ZF10"),
+    ]
+
+    # Single human positions to bold
+    single_bold = [244, 250, 253, 256, 258, 259, 260]
+
+    # Create human-position to worksheet-column mapping
+    pos_to_col = {}
+    for col_idx, pos in enumerate(positions, start=2):
+        if pos is not None:
+            pos_to_col[pos] = col_idx
+
+    # Apply merged labels and bold column fonts for requested ranges/positions
+    for start_pos, end_pos, label in domain_ranges:
+        cols_in_range = [pos_to_col[p] for p in range(start_pos, end_pos + 1) if p in pos_to_col]
+        if not cols_in_range:
+            continue
+
+        start_col = min(cols_in_range)
+        end_col = max(cols_in_range)
+        ws.merge_cells(start_row=domain_row, start_column=start_col, end_row=domain_row, end_column=end_col)
+        label_cell = ws.cell(row=domain_row, column=start_col, value=label)
+        label_cell.font = Font(bold=True)
+        label_cell.alignment = Alignment(horizontal='center', vertical='center')
+
+        for pos in range(start_pos, end_pos + 1):
+            if pos not in pos_to_col:
+                continue
+            col = pos_to_col[pos]
+            ws.cell(row=1, column=col).font = Font(bold=True)
+            # Bold all sequence letters in this column (including top and bottom sequences)
+            if first_sequence_row is not None and last_sequence_row is not None:
+                for row_idx in range(first_sequence_row, last_sequence_row + 1):
+                    if ws.cell(row=row_idx, column=1).value in ['VERTEBRATES', 'INVERTEBRATES']:
+                        continue
+                    ws.cell(row=row_idx, column=col).font = Font(bold=True)
+
+    for pos in single_bold:
+        if pos not in pos_to_col:
+            continue
+        col = pos_to_col[pos]
+        ws.cell(row=1, column=col).font = Font(bold=True)
+        if first_sequence_row is not None and last_sequence_row is not None:
+            for row_idx in range(first_sequence_row, last_sequence_row + 1):
+                if ws.cell(row=row_idx, column=1).value in ['VERTEBRATES', 'INVERTEBRATES']:
+                    continue
+                ws.cell(row=row_idx, column=col).font = Font(bold=True)
+
+    current_row += 1
+    
+    # Add conservation scores at the bottom
+    metric_rows = {}
+    if conservation:
+        print("Adding conservation scores...")
+        for metric, values in conservation.items():
+            if metric == 'metric':  # Skip header row
+                continue
+            
+            ws.cell(row=current_row, column=1, value=metric)
+            metric_rows[metric] = current_row
+            
+            # Add values
+            for col_idx, value in enumerate(values, start=2):  # Start at column B to align with sequences
+                try:
+                    # Try to convert to float
+                    numeric_val = float(value) if value else None
+                    ws.cell(row=current_row, column=col_idx, value=numeric_val)
+                except (ValueError, TypeError):
+                    ws.cell(row=current_row, column=col_idx, value=value)
+            
+            current_row += 1
+
+    # Add marker rows for high conservation thresholds
+    if 'pct_conserved_vertebrates' in metric_rows:
+        marker_row_v = current_row
+        ws.cell(row=marker_row_v, column=1, value='vertebrates_gt90_marker')
+        src_row_v = metric_rows['pct_conserved_vertebrates']
+        for col_idx in range(2, max_col + 1):
+            val = ws.cell(row=src_row_v, column=col_idx).value
+            if val is None:
+                continue
+            try:
+                if float(val) > 90:
+                    ws.cell(row=marker_row_v, column=col_idx, value='*')
+            except (ValueError, TypeError):
+                continue
+        current_row += 1
+
+    if 'pct_conserved_invertebrates' in metric_rows:
+        marker_row_i = current_row
+        ws.cell(row=marker_row_i, column=1, value='invertebrates_gt90_marker')
+        src_row_i = metric_rows['pct_conserved_invertebrates']
+        for col_idx in range(2, max_col + 1):
+            val = ws.cell(row=src_row_i, column=col_idx).value
+            if val is None:
+                continue
+            try:
+                if float(val) > 90:
+                    ws.cell(row=marker_row_i, column=col_idx, value='*')
+            except (ValueError, TypeError):
+                continue
+        current_row += 1
+    
+    # Apply conditional formatting for amino acids
+    print("Applying conditional formatting...")
+
+    # Determine exact sequence range to ensure top and bottom sequences are included.
+    seq_start_row = first_sequence_row
+    seq_end_row = last_sequence_row
+    max_col = len(human_seq) + 1  # +1 for sequence names column
+
+    if seq_start_row is None or seq_end_row is None:
+        raise ValueError("No sequence rows were written to the worksheet")
+
+    # Apply formatting to ALL sequence rows (including first and last sequence rows).
+    for aa, color in AA_COLORS.items():
+        range_str = f"B{seq_start_row}:{get_column_letter(max_col)}{seq_end_row}"
+        fill = PatternFill(start_color=color, end_color=color, fill_type='solid')
+        # Use FormulaRule for exact one-letter matching per cell.
+        rule = FormulaRule(formula=[f'B{seq_start_row}="{aa}"'], fill=fill)
+        ws.conditional_formatting.add(range_str, rule)
+    
+    # Apply color scale to conservation scores (if present)
+    if 'pct_conserved_all' in conservation:
+        # Find the row for pct_conserved_all
+        metric_start_row = domain_row + 1
+        for row_idx in range(metric_start_row, current_row):
+            cell_value = ws.cell(row=row_idx, column=1).value
+            if cell_value and 'pct_conserved' in str(cell_value):
+                # Apply color scale from column C to end
+                from openpyxl.formatting.rule import ColorScaleRule
+                
+                range_str = f"B{row_idx}:{get_column_letter(max_col)}{row_idx}"
+                color_scale = ColorScaleRule(
+                    start_type='min', start_color='FFFFFFFF',  # White
+                    mid_type='percentile', mid_value=50, mid_color='FFFFEB84',  # Yellow
+                    end_type='max', end_color='FF63BE7B'  # Green
+                )
+                ws.conditional_formatting.add(range_str, color_scale)
+    
+    # Format cells
+    print("Formatting cells...")
+    for row in ws.iter_rows(min_row=1, max_row=current_row, min_col=1, max_col=max_col):
+        for cell in row:
+            cell.alignment = Alignment(horizontal='center', vertical='center')
+            if cell.column == 1:  # First column (names)
+                cell.alignment = Alignment(horizontal='left', vertical='center')
+
+    # Box YXF/ZF ranges from top to bottom of content
+    thin = Side(style='thin', color='FF000000')
+    top_row = 1
+    bottom_row = max(1, current_row - 1)
+    for start_pos, end_pos, _label in domain_ranges:
+        cols_in_range = [pos_to_col[p] for p in range(start_pos, end_pos + 1) if p in pos_to_col]
+        if not cols_in_range:
+            continue
+
+        left_col = min(cols_in_range)
+        right_col = max(cols_in_range)
+
+        # top and bottom horizontal borders
+        for col in range(left_col, right_col + 1):
+            top_cell = ws.cell(row=top_row, column=col)
+            top_cell.border = Border(
+                left=top_cell.border.left,
+                right=top_cell.border.right,
+                top=thin,
+                bottom=top_cell.border.bottom,
+            )
+
+            bottom_cell = ws.cell(row=bottom_row, column=col)
+            bottom_cell.border = Border(
+                left=bottom_cell.border.left,
+                right=bottom_cell.border.right,
+                top=bottom_cell.border.top,
+                bottom=thin,
+            )
+
+        # left and right vertical borders
+        for row_idx in range(top_row, bottom_row + 1):
+            left_cell = ws.cell(row=row_idx, column=left_col)
+            left_cell.border = Border(
+                left=thin,
+                right=left_cell.border.right,
+                top=left_cell.border.top,
+                bottom=left_cell.border.bottom,
+            )
+
+            right_cell = ws.cell(row=row_idx, column=right_col)
+            right_cell.border = Border(
+                left=right_cell.border.left,
+                right=thin,
+                top=right_cell.border.top,
+                bottom=right_cell.border.bottom,
+            )
+    
+    # Adjust column widths
+    ws.column_dimensions['A'].width = 50  # Sequence names
+    for col_idx in range(2, max_col + 1):
+        ws.column_dimensions[get_column_letter(col_idx)].width = 3
+
+    # Freeze first column
+    ws.freeze_panes = 'B1'
+    
+    # Save workbook
+    print(f"Saving to: {output_file}")
+    wb.save(output_file)
+    print("Done!")
+
+
+def main():
+    """Main entry point"""
+    if len(sys.argv) < 3:
+        print("Usage: python alignment_formatter.py <alignment.aln> <conservation.csv> [output.xlsx]")
+        print("\nExample:")
+        print("  python alignment_formatter.py ctcf_alignment.fas conservation_scores.csv output.xlsx")
+        sys.exit(1)
+    
+    aln_file = sys.argv[1]
+    csv_file = sys.argv[2]
+    
+    # Generate output filename if not provided
+    if len(sys.argv) >= 4:
+        output_file = sys.argv[3]
+    else:
+        base_name = os.path.splitext(os.path.basename(aln_file))[0]
+        output_file = f"{base_name}_formatted.xlsx"
+    
+    # Check input files exist
+    if not os.path.exists(aln_file):
+        print(f"Error: Alignment file not found: {aln_file}")
+        sys.exit(1)
+    
+    if not os.path.exists(csv_file):
+        print(f"Error: Conservation CSV not found: {csv_file}")
+        sys.exit(1)
+    
+    # Run the formatting
+    create_formatted_alignment(aln_file, csv_file, output_file)
+
+
+if __name__ == '__main__':
+    main()

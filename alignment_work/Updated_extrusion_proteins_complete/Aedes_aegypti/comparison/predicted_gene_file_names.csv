@@ -1,0 +1,14 @@
+species,human_gene,reciprocal_hit_gene,fasta_filename
+Aedes_aegypti,CTCF,CTCF,top_hit_CTCF_Aedes_aegypti.fa
+Aedes_aegypti,ESCO1,ESCO2,top_hit_ESCO1_Aedes_aegypti.fa
+Aedes_aegypti,ESCO2,ESCO2,top_hit_ESCO2_Aedes_aegypti.fa
+Aedes_aegypti,HDAC8,HDAC2,top_hit_HDAC8_Aedes_aegypti.fa
+Aedes_aegypti,NIPBL,NIPBL,top_hit_NIPBL_Aedes_aegypti.fa
+Aedes_aegypti,PDS5A,PDS5B,top_hit_PDS5A_Aedes_aegypti.fa
+Aedes_aegypti,PDS5B,PDS5B,top_hit_PDS5B_Aedes_aegypti.fa
+Aedes_aegypti,RAD21,RAD21,top_hit_RAD21_Aedes_aegypti.fa
+Aedes_aegypti,SMC1,SMC1A,top_hit_SMC1_Aedes_aegypti.fa
+Aedes_aegypti,SMC3,SMC3,top_hit_SMC3_Aedes_aegypti.fa
+Aedes_aegypti,STAG1,STAG1,top_hit_STAG1_Aedes_aegypti.fa
+Aedes_aegypti,STAG2,STAG1,top_hit_STAG2_Aedes_aegypti.fa
+Aedes_aegypti,WAPL,WAPL,top_hit_WAPL_Aedes_aegypti.fa

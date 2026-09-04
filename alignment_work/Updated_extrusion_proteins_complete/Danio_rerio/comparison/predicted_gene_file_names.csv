@@ -1,0 +1,14 @@
+species,human_gene,reciprocal_hit_gene,fasta_filename
+Danio_rerio,CTCF,CTCF,top_hit_CTCF_Danio_rerio.fa
+Danio_rerio,ESCO1,ESCO1,top_hit_ESCO1_Danio_rerio.fa
+Danio_rerio,ESCO2,ESCO2,top_hit_ESCO2_Danio_rerio.fa
+Danio_rerio,HDAC8,HDAC2,top_hit_HDAC8_Danio_rerio.fa
+Danio_rerio,NIPBL,NIPBL,top_hit_NIPBL_Danio_rerio.fa
+Danio_rerio,PDS5A,PDS5B,top_hit_PDS5A_Danio_rerio.fa
+Danio_rerio,PDS5B,PDS5B,top_hit_PDS5B_Danio_rerio.fa
+Danio_rerio,RAD21,RAD21,top_hit_RAD21_Danio_rerio.fa
+Danio_rerio,SMC1,SMC1A,top_hit_SMC1_Danio_rerio.fa
+Danio_rerio,SMC3,SMC3,top_hit_SMC3_Danio_rerio.fa
+Danio_rerio,STAG1,STAG1,top_hit_STAG1_Danio_rerio.fa
+Danio_rerio,STAG2,STAG2,top_hit_STAG2_Danio_rerio.fa
+Danio_rerio,WAPL,WAPL,top_hit_WAPL_Danio_rerio.fa

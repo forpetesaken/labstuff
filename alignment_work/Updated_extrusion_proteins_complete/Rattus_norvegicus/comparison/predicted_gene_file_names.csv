@@ -1,0 +1,14 @@
+species,human_gene,reciprocal_hit_gene,fasta_filename
+Rattus_norvegicus,CTCF,CTCF,top_hit_CTCF_Rattus_norvegicus.fa
+Rattus_norvegicus,ESCO1,ESCO1,top_hit_ESCO1_Rattus_norvegicus.fa
+Rattus_norvegicus,ESCO2,ESCO2,top_hit_ESCO2_Rattus_norvegicus.fa
+Rattus_norvegicus,HDAC8,PHKA1,top_hit_HDAC8_Rattus_norvegicus.fa
+Rattus_norvegicus,NIPBL,NIPBL,top_hit_NIPBL_Rattus_norvegicus.fa
+Rattus_norvegicus,PDS5A,PDS5A,top_hit_PDS5A_Rattus_norvegicus.fa
+Rattus_norvegicus,PDS5B,PDS5B,top_hit_PDS5B_Rattus_norvegicus.fa
+Rattus_norvegicus,RAD21,RAD21,top_hit_RAD21_Rattus_norvegicus.fa
+Rattus_norvegicus,SMC1,SMC1A,top_hit_SMC1_Rattus_norvegicus.fa
+Rattus_norvegicus,SMC3,SMC3,top_hit_SMC3_Rattus_norvegicus.fa
+Rattus_norvegicus,STAG1,STAG1,top_hit_STAG1_Rattus_norvegicus.fa
+Rattus_norvegicus,STAG2,STAG2,top_hit_STAG2_Rattus_norvegicus.fa
+Rattus_norvegicus,WAPL,WAPL,top_hit_WAPL_Rattus_norvegicus.fa

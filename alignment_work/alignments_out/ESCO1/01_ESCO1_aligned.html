@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment Viewer: ESCO1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        
+        .info {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .controls {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .scheme-selector {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        label {
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        select {
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .alignment-viewer {
+            overflow-x: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #fafafa;
+        }
+        
+        .alignment-table {
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+        
+        .seq-name {
+            background-color: #f0f0f0;
+            padding: 4px 8px;
+            font-weight: bold;
+            border-right: 2px solid #ccc;
+            text-align: right;
+            min-width: 150px;
+            position: sticky;
+            left: 0;
+            z-index: 10;
+        }
+        
+        .pos-ruler {
+            background-color: #f0f0f0;
+            font-weight: bold;
+            padding: 4px 2px;
+            text-align: center;
+            border-right: 2px solid #ccc;
+            min-width: 150px;
+            position: sticky;
+            left: 0;
+            z-index: 10;
+        }
+        
+        .pos-label {
+            padding: 2px 1px;
+            font-size: 10px;
+            text-align: center;
+            min-width: 9px;
+            display: inline-block;
+        }
+        
+        .residue {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            border: 1px solid #ddd;
+            cursor: help;
+            font-weight: bold;
+            font-size: 11px;
+        }
+        
+        .residue:hover {
+            opacity: 0.8;
+            border-color: #333;
+            box-shadow: 0 0 4px rgba(0,0,0,0.3);
+        }
+        
+        tr:hover {
+            background-color: #f0f8ff;
+        }
+        
+        td {
+            padding: 2px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .legend {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        
+        .legend h3 {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+        
+        .legend-item {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .legend-color {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #999;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        
+        .tooltip {
+            position: absolute;
+            background-color: rgba(0,0,0,0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            pointer-events: none;
+            z-index: 1000;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Alignment Viewer</h1>
+        <div class="info">
+            <strong>Protein:</strong> ESCO1<br>
+            <strong>Sequences:</strong> 22 | 
+            <strong>Length:</strong> 1963 residues
+        </div>
+        
+        <div class="controls">
+            <div class="scheme-selector">
+                <label for="scheme">Coloring Scheme:</label>
+                <select id="scheme" onchange="changeScheme(this.value)">
+                    <option value="clustal">Clustal (Conservation)</option>
+                    <option value="hydrophobicity">Hydrophobicity</option>
+                    <option value="chemical">Chemical Group</option>
+                    <option value="identity">Identity (by conservation)</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="alignment-viewer" id="viewer">
+            <table class="alignment-table" id="alignment">
+                <tbody id="alignment-tbody">
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="legend" id="legend">
+            <h3>Legend</h3>
+            <div id="legend-content"></div>
+        </div>
+    </div>
+    
+    <script>
+        const alignmentData = [{"id": "Homo_sapiens", "seq": "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MMSI-------QEKSKENSSKVTKKSDDK-NSETEIQ------------------------DSQKNLA----------------KKSGPKETIKSQAKSSSESKINQPELET------------------RMSTRSSKAASNDKATKSINKNTVTVRGYSQEST--KKKLSQKKLVHENPKAN-------------EQLNRRSQRLQQLTEVSR--RS--------------------------------------------------LRSREIQGQV---QAVKQSLPPTKKEQCSSTQSKSN---------------------KTS------------QKHVKRKVLEVKSDSKEDEN---LVINEVINSPKGKKRK---V-------EHQT-------------------ACACS------SQCTQG----------------------S--------------EKCPQ---------KTTRRD---ETKP-VPVTSEVKRSKMATS-----VV-------------------PKKNEMKKSVHT-------QVNTNT-----------------------------T-----L-PKSPQPSVP-------------EQS-DNELEQAGKSKRGSILQ-----LCEEIAGEIESDNVEVKKESSQMESVKEEKPT-E--------------------------------------------------------------IKLEETS---VERQILHQKETNQD---------VQC-NRFFPSRKTKPVKCILNGINSSAK--------------------------KNSNWTKIKLSKFNSVQHNKLDS----------------------------------------QVSPKLGLLRTS-------FSPPAL-----EMHHPVTQSTFLG--TKLHD---RNITC-QQEK-MKEINS-EE-----VKINDITVEIN-----------KTTERAPENCHLANEIK---P-SDPPLDNQMKHSFDSA------SNKNFSQCLESKLENSPVENVTAAS-----TLLSQA-KIDTGENKFPGSAP----Q--QHSILSNQTSKSSD----------------------NRE----TPRNHS----L--PKCNSHLEIT-I----------------------------PKDLKLKEAEKTDEKQLIIDAGQKRFGAVSCN-VCGMLYTASNPEDETQHLLFHNQFISAVKYVGWKKERILAE----YPDGRIIMVLPEDPKYA-------LKKVDEIREMVDNDLGFQQAPL-MCYSRTKTLLFI-SNDKKVVGCLIAEHIQWGYR-------------------------------------------------------------------------------------------------------------------VIEEKLPVIRSEEEKVRFERQKAWCCSTLPEPAICGISRIWVFSMMRRKKIASRMIECLR-------------------------------------------------------SNFIYGSYLSKEEIAFSDPTPDGKLFATQYCGTG---------QFLVYNFINGQNST-"}, {"id": "Mus_musculus", "seq": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------MATADRLRSDPQVNLAVSGQF-DNTGKRDAVGIYWKWQHK---------RKSILIEYFTKRRRLNRSHKP---------TNLASKERN-----------LLAIRHVTN-SSTSSSCRLQKKKLFRNFVKADSDNTKYLASVPTWTQSSKTPQKERHYSGIMSI-------QEKSKENSSIVTKESEDE-NLEEEVE------------------------SSQNSPT----------------KKSGSKEAVKTPVRFSNKSKTNESEFGM------------------RMSTRSASCSADKTATNSFNKNTVTLKGQSQESS-KTKKLCQEKLSLGILKGN-------------EQLHRRSQRLQQLTECTT--RS--------------------------------------------------LRSREIHGQI---QTVKQNQQSARREQCNSTQSKCNKV-------------------KVN------------QKHVKRKVLEIKSDCKEDRH---SVTNEVINSPKGKKRK---V-------QHQT-------------------TSTCS------SQCNQG----------------------S--------------EKCLQ---------KTSRKE---EIKP-VPVTADIRKLKAATS-----VV-------------------SKKNELRKSAHT-------QVSTST-----------------------------K-----R-PQIPLPLVP-------------EHSDDQELEQAGKSKRGSILQ-----LCEEIAGEIESDTVEVKKESSCVESVKEEKPA-E--------------------------------------------------------------VKLQGTD---AERQILHHKEANQD---------VRS-NRFFPSRKTKPVKCVLNGINSSTK--------------------------KNSNWTKIKLSKFNSVQQHKLDS----------------------------------------QVSPKLNLLQTG-------LSTSVL-----EMPHPVSQSTFLE--MKAHG----NVTC-QRDK-MKGIKS-EE-----VKINNIAIEIN-----------KATKRDPGNCNLDNHIK---PSPDSSLDNQMKLSCESA------PDQNFSICSASEVETNPLENTAAAS-----TLLSQA-KI-DEDRTFPGSAP----NQ-QHSVLSDEASINRK----------------------NRD----VPPNHS----Q--LKHDSHLEIT-I----------------------------PKSLKLKDSEKVDEKQLVIDAGHKRFGAVSCN-ICGMLYTASNPEDETQHLLFHNQFISAVKYVGWKKERILAE----YPDGRIIMVLPEDPKYA-------LKKVDEIREMVDNDLGFQQAPL-MCYSRTKTLLFI-SNDKKVVGCLIAEHIQWGYR-------------------------------------------------------------------------------------------------------------------VIEEKLPVIRSEEEKVRFERQKAWCCSTLPEPAICGISRIWVFSMMRRKKIASRMIECLR-------------------------------------------------------SNFIYGSYLSKEEIAFSDPTPDGKLFATQYCGTG---------QFLVYNFINGQNTT-"}, {"id": "Rattus_norvegicus", "seq": "--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MTNKWQHK---------RKSILIEYFTKRRRVNRSHKP---------ANLANKERN-----------LLAIRHVTD-SSTSSSCRLQKKKLFRNFVKADSDNTKYLASASTWTQSS-TLQKERHYSGIMSI-------QEKSKENSSKVIKESEGE-NLEQEIE------------------------GSQNSLA----------------KKSGSKEAGKSAVRFSNKSKVNQSEIGT------------------RMSTRSASCSADKNATNSINKNMVSVKGQSQESL-KKKKLCQEKLSFGTFKGS-------------EQLNRRSQRLQQLTESLT--RS--------------------------------------------------LRSREIQGQI---QTVKQNLQPARREQCNSTQSKCNKV---------------------N------------QKHVKRKVLEIKSDCKEDRH---SVTNEVINSPKGKKRK---V-------QHQT-------------------TSTCS------SQCIQG----------------------S--------------EKCLQ---------KTIRKE---ETKP-VPVTAEIRKLKTATS-----VV-------------------SKRNELRKSAHT-------QVSAST-----------------------------K-----F-PQIPLPLVP-------------EHSVDHELEQPGKSKRGSILQ-----LCEEIAGEIESDTVEVKKE-SCVESVKEEKPA-E--------------------------------------------------------------VKLEETD---AERQTLHQKETNQD---------VQC-NRFFPSRKTKPVKCVLNGINSSTK--------------------------KNSNWTKIKLSKFNSVHQHKLDS----------------------------------------QVSPKLSLLQTF-------LSPPVL-----EMPHPVSQSTFLE--MKPHG----TVTC-QQDK-MKGIKS-ED-----VKINNIAIEIN-----------KATKRAPGNCNLDNHIK---PSSDSSLDNQMKHSCESA------PDQNFSICSASEVETNPLENTAAVS-----TLLSQA-RI-DGDRKFPGSAP----NQ-QHSILSNEASINRK----------------------NRD----TPPNHS----Q--LKCNSNLEIT-I----------------------------PKSLKLKDSEKVDEKQLVIDAGHKRFGAVSCN-ICGMLYTASNPEDETQHLLFHNQFISAVKYVGWKKERILAE----YPDGRIIMVLPEDPKYA-------LKKVDEIREMVDNDLGFQQAPL-MCYSRTKTLLFI-SNDKKVVGCLIAEHIQWGFIAMNRHHDQD--TGCV-------FAFGDNKMGQLGLRNQTDAIPSPAQMMYNGQPITNMACSTE---FSMLMDCKENLCFFWCPEYGHLGHNS-DGKFITHMQMTEHDFLNVVGYRVIEEKLPVIRSEEEKVRFERQKAWCCSTLPEPAICGISRIWVFSMMRRKKIASRMIECLR-------------------------------------------------------SNFIYGSYLSKEEIAFSDPTPDGKLFATQYCGTG---------QFLVYNFINGQNTT-"}, {"id": "Bos_taurus", "seq": "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MMSI-------QEKSKENSSSVIKKNEDK-NLETQVQ------------------------GSQKNLA----------------KKSDPKEAIKSLVKSSNESKVNQPELGT------------------CMSTRSAS--TDKRASKSTNKNMVTVKGHSQQESTKQKKISQKKTVHETPKSS-------------EQLNRRSQRLQQLTEVST--RS--------------------------------------------------LRSREIQGQA---QAVKQSLPPTKKEHCNNTQSKSNKA-------------------KTN------------QKHVKRKVLEIKSDSKEEEN---SVTNEAINSPKGKKRK---V-------EHQT-------------------AYTSG------SQCIKG----------------------S--------------EKCLE---------NTRKEE--------TKSSSEIKRSKVATS-----VV-------------------SKKNEMKKSVHT-------QVNNSA-----------------------------K-----S-QKSPQPSVP-------------EQTGDNGLEQAGTSKRGSILQ-----LCEEIAGEIESDTVEVKKESSQMESVKEEKPT-E--------------------------------------------------------------IKLEETE---TERQILHQKEANQD---------VQC-NRFFPSRKTKPVKCILNGINNSTK--------------------------KNSNWTKIKLSKFNSVQQNKLDS----------------------------------------QFSPKSGLLRTS-------FSLPAL-----ETHQQVTQSTFLG--SKPYGD--KNKAC-QQEE-MKEVNS-ED-----VTPNDITVEMN-----------KIPKKAPENCHLGNQIK---PPPDQPLDKQKKDAFEST------PDKNCSLCLESKLENNPVENATTVS-----TLLSQA-KIDTGENKFPGSIP----K--QHSVLCNQTSKTSD----------------------NRE----IPPNHS----W--PKCNSHLEIT-I----------------------------PKDLKLKEAEKADEKQLIIDAGQKRFGAVSCN-VCGMLYTASNPEDETQHLLFHNQFISAVKYVGWKKERILAE----YPDGRIIMVLPEDPKYA-------LKKVDEIREMVDNDLGFQQAPL-MCYSRTKTLLFI-SNDKKVVGCLIAEHIQWGYR-------------------------------------------------------------------------------------------------------------------VIEEKLPVIRSEEEKVRFERQKAWCCSTLPEPAICGISRIWVFSMMRRKKIASRMIECLR-------------------------------------------------------SNFIYGSYLSKEEIAFSDPTPDGKLFATQYCGTG---------QFLVYNFINGQNST-"}, {"id": "Gallus_gallus", "seq": "----MDWQVLTRELSLYLESQVRVGLFGSGVGLSLVLGFGVAYACYYLSSIAKKPQLVSSNERFCRFLEEYCPVVTETYYPTIWCWEGRVQTLLRPFITSRPQVQYRKCVVFNNRGIAGEELLVDKKAYGGIFPCDSLQTPRTYCAANTEDLEAVIHHIHNLHPSAPFMAAGVSMGGML--LLNYLGKTGRDTPLMAAAIFSAGWNVFESVESLEKPLNWLLFNYYLTTCLQSSISRHRQMLEKLFDMDLVMKARTVREFDKQFTSVMFGYRTIDDYYEDASPCRKLKSVGIPVL---------CLNSVDDVFSPGHEMAAQKRKSALVEPSAKRPRLDKNSRPSSAKKEKEVSDAKHVSNKSN------------------------SNQC---------------------AVQEKSVLRTSVKSNSVNTNESELGT------------------RMTTRSSGF-------NSGSKTVPDKKAQQQSKSTKSKEVCQKKPAQEIPKSKCV-------TAPSESGARRSQRLQQLTHVEEPARS--------------------------------------------------LRSREVKEEK--ALDVKQSSQAKRPAQNVPAKALK-----------------------PA------------GEKAEQKNTKTKSNNAKEDK---ETRVEVTSSPKEKKCK---A-------DKKND------------------NSKSL------QHSVQD----------------------S--------------SLCPD---------DGLEEVKKDQKDP-V--SPVLSSTKKVKADSPKPNS-------------------KTVTKEKQQVHQ-------NIKGSI-----------------------------K-----P-NKVSQPSVS-------------ETKVADQPESDVKSKRVSILE-----LCEEIAGEIESDTVEVKKDSPNAECSKTEEEK-H--------------------------------------------------------------AEVQ--L---QQSEMLTQKEPAQS---------AQC-KRFFPSKKGMPVKCTLNGRSNSSN--------------------------KNSKWTKIKLLKANNMKQTNLNS----------------------------------------ANAPKLSLLKNF-------PEVSEASQIATEAQHSKVEGQLPV--TRLSEN--ESATC-VQDK-SDP-SS-ER-----AGSKEVALEMK-----------QPTKRGVE---------------NGLLHNLTKHFSEPR------PDENFKLRLESSPESSPVKHLTAPK-----PSKQLKREPGECDPQVVGLAP----KQ-LTHTSSTNQTSEPE----------------------NRV----PSTNPA----L--TSKCSNLLPS-E----------------------------EHIQKLKEAGKDGEKQLIIDAGQKRFGAISCN-ICGMLYTASNPEDETQHLLFHNQFISAVKYVGWKKERILAE----YPDGRIIMVLPDDPKYA-------LKKVEEIREMVDNDLGFQQAPL-MCYSRTKTLLFI-SNDKKVIGCLIAEHIQWGYR-------------------------------------------------------------------------------------------------------------------VIEEKVPEISSENEMVIFERQKAWCCSTSPEPAICGISRIWVFSMMRRKKIASRMIECLR-------------------------------------------------------SNFIYGSYLSKEEIAFSDPTPDGKLFATQYCGTG---------QFLVYNFLNGQHQA-"}, {"id": "Python_bivittatus", "seq": "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPEMAAQKRKSVLVEPSAKRQKLDKNNKSVSTGKERKQQDAKYVSNKKA---------------VLKKEVPQISATTNRGKRKCNIVTNKTSNENKKQNKSSVDTKT-CSTEARCKRHAALCGKTVHK------------NLRSKSRLIKENARKSKITKYGKYLNSSSGNLDVQNSKSPSVKKSASQNTETRWPKT-------S----------------------SEKPCDSDHRKISKRSVGTDSI-------------KAIRIRQRLPV-KQ---------AKEVS--QKETVQDLPKSQRTISHEHQTRRSPRLQQSSEVSAISLRSRKVKETCASV-------TKQCSQMKKPVQQLKH----------EKSKHVSQKPEKSVKD---N-------EYQNK--G--------REISDHKKMGYF---PKKKHEVDS----------------------KISDSTTSQDKPRELRNNFE---------SE--QESKKELADIISCPIN---------------------SP------------CSIVSKEKSKHK-------NGKISV-----------------------------K----------ADRVLP-------------V-EAACQQEDVVKSKKISILE-----LCEEIAGEIESDTVEVKRVSPNADYGREEEKNPV--------------------------------------------------------------LE----L---PQAIVLNDVKSNQN---------SQC-KRFFPSRKGMSVKCTMNGRHSTVN--------------------------KNSKWTKIKLAKVNHVSPSI-------------------------------------------SSTPKLDVLKCS-------DPE-EQQAGAIEIHLPEVQRKLIS--QNN-----GSIIC-KQKL-NTAD------FE-GIQTKDRILHAE-----------QSTVQGIENGLSEAKHC------------------------------------------------PDPT-----PDEDTYREPKWPDNQIPWSQRASVPK--------------------------------------------------I----PLTTKCSGFLSS--E----------------------------EHIQKLKVAAKDDDKQLIIDVGQKRFGAISCN-ICGMLYTASNPEDETQHLLFHNQFISAVKYVGWKKERILSE----YPDGKIIMVLPDDPKYA-------LRKVDEIREMVDNDLGFQQAPL-TC-SRTKTLLFI-SNDKKVIGCLIAEHIQWGYR-------------------------------------------------------------------------------------------------------------------VIEEKIPDISSENDKLTFERQKAWCCSTTPEPAICGISRIWVFSMMRRKKIASRMLECLR-------------------------------------------------------Y-VKYSSYLLINRK--------------------------------------------"}, {"id": "Xenopus_laevis", "seq": "MLGIINLQGFTRDLSLYLENQVPVGLFGSGVGLSLVLGFGAAYACYYLSVIAK--------------------------------------------------------------------------------------TPRTYCAANTEDLEAVIHHVHTMYSEAPLMAAGVSMGGML--LVNYLGKMGRQTPLKGAAVFSAGWEVFESAITLEKPINWMLFNYYLTTCLQASIVRHRHVLEKQFDIDHILRAKSIREFDTRFTSVMFGYPTNDHYYKDACPCHRVKSVEIPML---------CLNAMDDVFSPGHVMAQKRKLSQ-AESSAKHQKLDKDHKHPSVATKNANGKSKTSTANHASNKKINALKPHGKANTPTKKAIKLSPQKILQKTRNELKSAKTSKEGPTSSRTTQGPLYSVQASKASKRGKADVGK------------------KASTRANVQ--KSKNISNVGKNLVKNTSSARLKVSASGK-----------------------NEESKTGTKRSSRLLELKHGKAQSKEPPKNSKKDIHSSCTKTEPL-------------KG---RSRLVR-KTAQNKGSNSEHRGNA--DRKSIQQIPSSKKSAVIGKKQAQIRTVTHAQPKE-----------SSSKK-------HSKQLQATKKLSQAKTANGR------QSKRARPLSPVNRKNK---G-------TQGHQ--G--------PGIKTAIKRSDL------RTGVKG----------------------PNDEKKLKAIQNDGMMEIPL---------HPNTDVTENEVDTCSHSSPSLKDSGASFSKKPLEKSQRPKQKRSSIV-----ASAKKKSPSAKPPHK-------KL--TV-----------------------------K-----R-QKTGHSGTA-------------KNTSAPTLPDVPTAKRISILD-----LCNEIAGEIESDTVEVKKDMPSSQDIQKEEHPIV--------------------------------------------------------------ENKESAQ---PEAVNVCHTGEKEE---------TQS-KRFFSSKTVVRLKCKLDRKNSPAP--------------------------KNSKWNKIKLKKANNLSGMNVPK--------------------------------------IHAVLPNLDVIKAR-------SKLTQT-------GHSVTGTS-----DKPLDK--KLP---------AGINS-KSTLP-DLKKSKSAAIIQ-----------KTSQEKA---------------ENGLLDKHINHDLELT------FDEGFKLHLDSSPESSPLKKPPMKP-----QQL----EPEHKKPDVIASKACASKQL-FNSSLRDQMAPSDE----------------------GRN----TVTSHV----SSAKSTCVLSEVNIQ----------------------------KEVKKLKEAEKDSNKQSIIDAGQKRFGAISCN-VCGMLYTASNPEDEAQHLLFHNQFISAVKYVGWKKERIVSE----YPDGRIIMVLPDDPKYA-------LKKVDEIREMVDNDLGFQQVPL-RLHSRTKTLLFI-SSDKKVAGCLIAEHIQWGYR-------------------------------------------------------------------------------------------------------------------VIDDLIPEGTSEKEKALSERVKAWCCSTSPEPAICGVSRIWVFSMMRRKKIASRMLECLR-------------------------------------------------------NNFIYGSFLNKDEIAFSDPTPDGKLFATRYCGTS---------QFLVYNFISGHS---"}, {"id": "Danio_rerio", "seq": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPGQKRKMSSSEPEVKKTKLDRNLVESDKSQKPKRGRPPKSKVLE--------------------------AQ--------------------------------------PSRQKHQIDSREENGKPIRRSSRL-------KTPLKKGARARRRKD-G------------------------------------------EKPKVSEEKSSQKMPVLKKGNKKYVSRV----------------------KREKPIISETIKTVAAMFPVQIEHNYGRLFDMQAEEITLP------KPDKI-HVAN--------------K----SEMQALHETQASKAEEQKELHAEPVEKITVSVDAKVDVMSK-----------SPPPLEALFK---VIQESSLTKHSFS--G--------KDISDMDELEVVNTCSLQ-DSVQS------TDVAKVFLQD----------SDAFLDDDVEIENCVVEIETYEDLDGDQGEVSKKQTSECVTCKEV-----NSSPSLP---------------------QESATDSSQELPKK-------QAMNPQ-----------------------------A-----R-TKARLAALA---------------EERAAAAKKPPPRHFNLLA-----LCEEIADDIASDAPGASDKTTNEQQQEDHESEDVSECTEVS----------ESKDASESKEVNESKDLSESKDASESKDVSENKEVSETETCEPEEVVSENTAPPGTPNEETADPRPEDG---------TPK-KRFFLSQMSVPLKTQEKKKLSRFQRLRQV-----------------ELQRDKLTWTRVKKLKSDQVNQAGSQK----------------------------DS-----E--ASSVSPSPATTPAQ-------VPTTES--------------VPKVGSVEPKR------------------VL-P-AQ---APPMPNGITSP----------KPKPVVEYKPYTPR-RKY---SPDDFELDGFEEDTAKPA------APKNVGK-----------------------------------AEQSPSSAKVQPNPA-VERKLCVPTTADSK----------------------SKS----SPQQETAQQTQLENSNSSSVEPE-----------------------------QKKEDKNSPKPESPAAQSSNEAGQKAFGAVTCN-VCGMLYSPTSAEDESQHLLFHNQFISAVRYVGWKKERILGE----YPDGKIILVLPDDPKYA-------LKKVEEIREMVDNDLGFQQVES-KVPSQTKTFLFI-SNDKKVAGCLIAEHIQEGYRVIEESVLEG--------------------------------------------------------------------------------------------------------------------SEGEKVMYERQRAWCCSTVPEPALCGISRIWVFSMMRRRGIASRMIECLR-------------------------------------------------------NNFIYGSHLSKDEIAFSDPTPDGKLFATHYCGTS---------QFLVYNFVSGKRST-"}, {"id": "Petromyzon_marinus", "seq": "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MNQLSDLRK-------------------------------R--F---------------------------AEL--GEEAEEELKEA----------K-RKKCEAENCEASNGKT---SNGEHVVDEVPADETDEE--AEKSAANNVALVAE-----EPWKKIWKKT-----ESD----AAKQKPRIYVGAAFFSPKLI-RPGKMRSNVARDAELAPSEDAVSLSSCKKHACKAEDDRE----CSESP------VTKAVYPIFDTAGR---------------------------SAPPGGRPRKQTDDDEQLIIDAGQTRLGVQTCD-TCGMMYSAASPEDEAQHLQFHKRFISTIRFVGWKKERVIGE----FPDGKIILVLPGDPKYA-------LKKVEEVRELVDADLGFHVAGL-RNPSRTKTLLFV-SNDKKVVGCLIAEHITKGYRVLPDKQIKP--DQDAAASPQTACAGDDTKPG--------------AAPLLDGEPADINGATRSPQPTTATTKVETSPEQSSRPPQEGDGRGEGDGAAVAVA-----------AV-PVVAAAAQGLGEPLEALLERQQAWCCSSVAEPAICGVSRIWVFSLMRRRGIATRMVDCLR-------------------------------------------------------RNFSYGVYLSKNELAFSDPTPDGKLFAMRYCQTP---------RFLVYNFIN------"}, {"id": "Branchiostoma_lanceolatum_NCBI", "seq": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MRGVMSETHTTTAAVVTCIMSCGPRALEPE------------------------MGAALCT----FRDSVMMIIDTIEMKVTLLPPLKVTLKIDVVPLFEDLKLAFRYLLG--VVTRIETLLFI-SNDKRVVGCVIAEQISKAYRVLPNDSQPS-------------------------------------------------------------------------------------------------------------------------PSPSPLRAWCCDTRPVAAVCGISRVWTFRLWRKKKVASRLVDTLR-------------------------------------------------------SHFAFGCVLSKDDVAFSDPTPDGRKFAENYCGTA---------AFLCYK---------"}, {"id": "Ciona_intestinalis_NCBI", "seq": "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MTNCKPEVATKTFYGKNVKYLSPVQRGGVSAPDMGTPIVDTDTKLADQ------------------------------------GTKIYKE----------NTPPKQKSAKKTPK---P---PTNKPSVSPTISWAPNSLKKQFTRKPKYSSVVIK--------------------------GKPLQPTTPIPQSPLTLPKPRETPSPPTLEGTPPSKYARIEGQTREPS-----------QG----SPRVKGQKVKEDSKKLFPIFTRARR---------SSPLFAAKVNDSPGNHGNSLLRKMTSSPKESPKVQLIIDAGQKKFGATQCK-VCGMVYAVDHPHDQHQHKLHHQRFNVILRFPSWKNERTVAS----YVDGRIVKILPTDPKFA-------QKKVEDILELIDSELGFSQNIS----TTRVSYLYV-SDQQQVTGCLIAEQIKRGFPLLE--------------------------------------------------------------------------------------------------------------------------------TMTSSGMMSCSLQSTPVTCGVSRIWCHAPHRKRGVATRLMDALR-------------------------------------------------------CSFVLGERLNMNQVAFSDPTISGKSFATKYFKTP---------HFLTYNCST------"}, {"id": "Strongylocentrotus_purpuratus_NCBI", "seq": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LLFL-----LLVL-----GSDGEASTPQAQGYQSKVLQ----------------------------------------------------------------------KTMIGMAKSTQKNTRVSSSKTKDLSPSKVLAIVANWNNTESP-A------------------------------------------KSPAKGSRRKRPRDEQLSASIPRSRRQRKHFRRDYLSQSSEEDEL-------------PTFKAKSFYHGQQP-TKYLSPFERKEER--DRLIDAGVDPAV----LN--------------KSFEELQRERIGNPSLSEKERPAAKNSSLLQKKNIVANSK----------------------------------------------------------------TISSTSNTPSTAEKTQALKPSGPKRQDSSKPAATAESKVQLSSGQM---SGVKGEIKVTLSERSPGGNVHVEGKKMLA----ANK-----APPKEA--------------------------QVDRRSSPRK------------L-----------------------------VQVHPSP-KVTKNLGVTR-------------RTSPRKLASKGNAAKGIQMY-----MRNLKQGQKKGKKASNVKKTKN-------------------------------------------------------QTKVAPTLTKAEIPAKASASKSQRNQTPTTNKEKVDSSANNEK----AARGLDFG-KGMVNGHDVAPLVKNPDGRNEKSHTEDNLMDFLVFADDDFR-----DENRDTEDFVQNLLMEIDDDMEETENLLKRSPRK----------------RKMKTDKE-------CVVSSPSPGKTPKR-------QTP-NR--------------RRMS--STPIS------------------S--KKSQP-RLDGWLSKIDTL----------P-TSTRSPRKKSALQ---------RSEVKGQVADTLTPD------------STNV-----SPPKVSPNK-----------------------------------------------------------------------------------------PTKLYSVFTPPRSPHLNTTPKSRKKQSNAGKLKS-PNVQERSPLIKSLKSKTDNLEQTTLDLGQKRYGAVTCA-TCGTVYTAAHPEDETDHARFHKKYLSSIKFPGWKQEEVLES----FHDGRIIVITHEAPHYA-------EKKVDEIRELVDRELGFMEASHTVSKDLCKTYLFI-TLDKKVGGCLIAEQITQGYRVIVDEQKAE--------------------------------------------------------------------------------------------------------------------------GNDSQKAWCCETESEPALCGISRIWVPMATRRKQIASRMVDCLR-------------------------------------------------------KNFMFGTVLSPDDVAFSDPTPDGKSFATKYTGTP---------RFLVYKYH-------"}, {"id": "Latrodectus_hesperus", "seq": "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MVLNLNLGLVVKGLEPLKTLGLCL-ISPYVQKMTI---EYQTNASPVVLDENSVTEDDCEDKKNIWQLGNWYASSETVPAVCGINRIWVAKEYRRRKVASRMIDCLR-------------------------------------------------------SNFIFGHVVSLKELAFTDPTPDGRDFAAFYTGTD---------NFLVYK---------"}, {"id": "Camponotus_floridanus", "seq": "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MNSDQGDLLNTPRRAQKCLFAPSNGNSCK-KNASQDSNCGRDAISGED--------SDLGPMSPLALTDRSPSLSDSSSGREFISPFVTPEKSFSD----------SSVFWD-------------------RLISKRSKDHMSPFSSLKKT----TRAA-------RYSPRCKL-----------TSNSKSLPSSPRK-------LIEPSTPQRSKIMSVTMDEIVPETPQRSFATEIQNQSITETP-RKSRTPECRQITPLNSI-------SRTAPLPKLHRRKSFSGLE-----MNENLSPEQKENTLKRRAH-----DQLTVKPA--------------------------------------------------------------KLLKTDDISVPRARAALFQERKSESN----NLKNISLSTKSFYSSNAKTERPFVF----------------GNFSDVKRRRSLPAQNMNRRSLLKKQKFGKINAGVYHGIKKLKKPKAKPEVLKKEEHVAQNATSNKSPSTNEVQMNAIVEKAPSPEIDESKRF-------FKTKRL-------NRSNHAVTVMN--QKHIL-----------------------------------ATNV----------RKQQVKNTDICLDTTDLT---V-DEPEIEA--------T--LEQDKVNNLLKILG-----DDWADDDYDTMETLTNNTTNMISPLKPTKMSVENAIMSPATE-LS-NMTLT-------MNIKDVTSVTNFGNLSLDNTDSNK----DVKTD-----ENDKGYFPLFNKGYSASNN--------IFEETNNVNATKSTKKNMKWQLSTKGGGAEDQYQLDAGQKSFGATQCS-ECNIVYQLGNPEDENAHLNYHNS-VRTLKFQGWKNERIIME-DP-FTSSRIILVEPRDSKQY-------WKKVSEILAVVDRDLGLADMSM-SDYQGKKVLLYI--REKNVLGILVAERIQTAFRM----------------------------------------------------------------------------------------------------------------------------------IPELIELDCCTAECSPAKCGINVVWTAMSHRKQGIATKLVDTLR-------------------------------------------------------SKFFYGYVLSLDDIAFSIPTPSGKIFAEKYTKTR---------NFKVYN---------"}, {"id": "Drosophila_melanogaster", "seq": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MATPRLSE-RKRQLFGSPRSRLRQINDDEDDADV-----------------DSLGVLPLKTHVAANRKGRSLFAAVPGKSSS-------SANSSPETNKENKKTRGGVMTATAEQLPQ--LFTATMRLNSNS--------------------------------------SSNSRNSSPRQTRVQRKRADSS--MSSPTSSSEGTPSSRARNSIRRSPRTFSAQKDPDA---------------FSSPESFQTRLSKV------------------------------AAMLMKGQDSRSMLEKSKKKHNHSLKTT---------------AQVHTTKPKKTSPAEESQSDDEKPSSSKNSRKNTE------V---RETRSSQIISPKTRNRRRPFTSADINCKTLKAAAHLHENMRSYDEEKTA--AVKLENSRSRS------------KSPVEVFKSN----------DDAVKR-----------------NTGNTNNKTAKSSE-------------V-ATAKRPESPGSSMKIDVEVPESDEEASNHK-PQKRQHPETSTPVAPSADADSGSPQSKMRKVTLSSSIPTMAFYSHSGEAVTKSRRRPSISKNSLKQPTKISPTSRPLLGINKGVHHKIRKRHGFANRLPATD-----MDN-ILNSLSNERLKNLIT------TKREERAKVEEVHQILRNAKDPIKMAKPLSVIEADDANNNNNLPATAWQETSADFSDLSDVEDIDPI----IEVEPII-PIIR----HEPVQKSP----TAEPADLSKRKFFKSGRRS-STCMEVRITDNIR-----------ASVSQGKIELVQTIRRKPRQVRVKSATIFSAEQATVDAILKNLDDTV---------------------------------------------------------VDEIVEANPVV------------------QAT-PIDAEETTME--TESLPDIIEYAPEANDVEIDPFAE-----------FRQRLPYQ-------TDDPNVVEQQQILLEFLISNNICTEKNFEIFIA---NPDDYKDEANQIVDNLYMVV--------------------------------NSEEAAQLAQMETVENTA-------VA--------IAPKQDAPAVEEVQPKLFPIFTQRLQPVVQ------------------KSLRRRPDTSMRLLTAAGGSNQYQIDAGQKAFGARQCQ-QCGLVYTVHEPEEELLHREYHNS-IHVLRFKGWIDEDIVSVYPEWASDGRIIRINERAPTAR-------LDRLRDLIGVVDKELGYSSYIV-----PKIFVAFIAVRKQQIVGFCLVQPLSQAHRFIQVD-----------------------------------------------------------------------------------------------------------------------------------GTDYFSEESYPASCGVSRIWVSPLQRRSGIASKLLRVVQ-------------------------------------------------------CHTVLGQEIARECIAFSTPTDDGRALARQFTGLD---------NFLTYDQ--------"}, {"id": "Aedes_aegypti", "seq": "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MQNHLGPIETHRKGYRKIHVALTFSDGGMDELPKFM-RSFWATY---------------------------------------------------------DLQIDLASEQLEVDFLI--SKLVGSQSEPDAEPTQLQQSTPLK--SGSEPEPQQIPPPTVQVEVIDAFHSEVSNDEPIPVQSNIIYVDRLS---PLLNGATGGTS-----EDSSCNSTRDGNCIQL--------DYQESPTMQIRTMTSSL-------------------------------SITRASNVSIQLDDQSQMESHKLFPIFY--------KDHQRMVAAQSQSEEVCYGLFDTIRRK-----------------------------PKRLRTFRGVGSNQYQIDAGQKEYGAQQCP-DCGLLYTVHEPEEELIHENYHNS-LHILRFPGWSNEPVVANVPEWDVSGRVLAIGMTANQHK-------LQKVQEVLAVMDRELGYVEPCQ----LVLGSVVYLAIAKGTILGVCVAQPLQHANRLLTIEG-------------------------------------------------------------------------------------------------------------------------------LEGPFDCCTMETYPVKCGISRIWVSPSFRGHGIAQTLLAVMR-------------------------------------------------------SHFVFGYQLSYDEIAFSAPTEAGKRLAETVTGRK---------DFLIYA---------"}, {"id": "Caenorhabditis_elegans", "seq": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MKDPGLPKNSLKKS-----KLDDYFKKVERNTEENLQ----EQSTSADVQKSLRCP------------KRKVLDDDATDDN----IIAK------------------------KEKRAVRKRSSGHSMKKLAKSQMVLDCGQSVIGSTKCK-DCRMMYSVDSAEDVAEHEKFHNAWRFR---------------------------------------------FEISRTFVPNFLNFHNRDH----GNFKVYYLA-TFADGPFKKLFNEHMKKINEELGYCDEKND------------------------------------------------------------------------------------------------------------------LWSPEKRIFLVLSEVTDNNDINDWIVGVDRIWVDSHCRMKGVANSLLDAATT------------------------------------------------------QDRQMEFRSRRLRIAFCDPTDDGIKLARRFIETRYQKEDQYNGEILIY----------"}, {"id": "Schizosaccharomyces_pombe", "seq": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MELGKSKFSWKDL-------QYCDKAGTQNSPLRVVA---------------------HIDQDAFYA-------------------------------------Q---VESVRLGLDHSVPLAVQQWQGL----IAVNYAARAANISRHETVTEAKKKCPELCTAHVKTWKAGESEAK------------------YHENPNPNYYK-TC-------------------------------------LDPYRHESVKILNIIKKHAPVVKKASI----------DECFIELTSDVKRIVLEEYPYLKIPSEDSNVALPQAP----------------------VLLWPAEFGMVIEE------EVVDRTKEDYERD-------WDDVFLFYAAKIVKEIRDDIYLQLKYTCSAGVSFNPMLSKLV-SSRNKPNKQ-------------TILTKNAIQDYLVSLKITDIRMLGGKFGEEIINLLGTDSIKDVWNMSMDF----------------------------------------------------------------------LIDKLGQTNGPLVW--NLCHGIDNTEITTQVQIKSMLSAKNFSQQKV--------------KSEEDAINWFQVFASDLRSRFLELEGMRRPKTICLTVVSRFLRKSRS---------------------------SQIPMNVDISTQFIV-EATSKLLRQLQQE-------FDVYPI---------SNLSISFQN--IIEVDRNSRGIEG-FLKKSNDEIYMSTSVSP-SIEGRAKLLNENMRENNSFELSSEKDIKSPKRLKRGKGKGIFDMLQQTAVSKPTENSADETYTCEECEQ---KITLSERNEHEDYHIALSIS-------------RKERYNNLVPPSHDKPKQV------------------------------KPKTYGRKTGSKHYAPLSDET---NNKRAFLDAFLGNGGNLTP---------------------NWKKQTPKAISNSSDNMTQLHLDLANS---TVTCS-ECSMEYNSTSEEDILLHSRFHSRVLGGVTV-SFQCSPIYRVNYG-LSSDCIYSINSESSLID-------QRKAEEALSFVNNELSSEPIET-IGVDKYTTFLFI--SDKKCVGLLLAERISSAYIVDELELNNN-------------------------------------------------------------------------------------------------------------------------NSTSSAVYIKNENLRKGFVLGISRIWVSASRRKQGIASLLLDNAL-------------------------------------------------------KKFIYGYVISPAEVAFSQPSESGKQFIISWHRSRNNGS----SKSLRYAVYES-----"}, {"id": "Arabidopsis_thaliana", "seq": "--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MQAKINSFFKPSSSS---------------SIAASVTTDTDDGLAVWENNRNAIVNTYQRRSAITERSEVLKGCIEKTLKKG-----------------------------SSSVPKNHKKKRNYTQFHLELGQSDFLLRHCA-ECGAKYAPGDELDEKNHQSFHKDYMYGLPFKGWQNEKAFTS-PL-FIKNRIVMVSENDSPAH-------RNKVQEVVKMMEVELGEDWILH----QHCKVYLFI--SSQRISGCLVAEPIKEAFKLIASPDDERQLQKESSSSPSTSIQFGNIVLQR-----------------------------------------------------------------------------------------EVSKRCRTSDDRLDNGVIVCEEEAKPAVCGIRAIWVSPSNRRKGIATWLLDTTRE------------------------------------------------------SFCNNGCMLEKSQLAFSQPSSIGRSFGSKYFGTC---------SFLLYKAQLIDTHFS"}, {"id": "Branchiostoma_lanceolatum", "seq": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MA----------------------------------------------------------------------GFESGKRRHRG------------------SIAFTAWLPSLVLGN------------------------------------------KTLVLQLGRLINRAARLIT----GHLLKDHVPVEILLAETGLEPLTKRVETISLATVFKAVRGKAPVYMTKL-FRWKSPPMLRARTRTGAKLIRDYDPHLL-HCPS--------------ARVASYQAHRITPPLLDKCVGFFYVQRSPRGSRRTPTVQKR------------------------------------------------------------KLEMVDSRSSSMTSAEKSEEVSQHSARSFY-NK----------SAANQK---QPYIGPLERKYLREIEEKRAQRSRETSTERPSSDSK-----VSPTAAPTPVPAGPRKYIITVPVKNKTAKARQTTPLKKSPRK-------SSSPSL-----------------------------APVRRSP-RKAKTPQLKKSSPSVEK---VTTGVTESVPRTPPLSVNETVYT-----LTPSLFSDIDSQDTDDTRSLAG-------------------------------------------------------SDVTDS-----S-------IIIGPSQPAKTT--TVETQKDGQK--------AQGA-TRMMGSPQRAKAPQQPSPKSSPSQRQTKQVTLHAFLKK--------------------------------------SPQG----------------KTHGKETQVDSAR--LAEVVPELGSEEPG-------SSEQDE--------------LLMA--FEELA------------------NA-PESNV-GENAWNDTEMNN----------T-PSVCESEDLFPGYSGG-----NNAENDGTQKST----------------AGNE-----EDWRVGDEVS--------------------------------------------------PSKSSSDSGCGSEVMEDLRGRD----QSGEPEA---KRQKKCWPIFSGSPKPRSR--------LFNKSSPRS-SPLSTGKLKLPRRPKEPQGMEQLIIDAGQKKIGAIVCE-TCGMLYTVGHADDEAAHQKYHHKFLNSVKFEGWKKEHVLAT----FHDGRIIMVLPDDPKYA-------IKKAEEVRELVDNELGFIKGYS-TTRSNCKTLLFI-SNDKRVVGCVIAEQISKAYRVLPNDSQPS-------------------------------------------------------------------------------------------------------------------------PSPSPLRAWCCDTRPVAAVCGISRVWTFRLWRKKKVASRLVDTLRNESRILLGCDRRNELKHEQTGFQVGERSGTKSWEGPECMTGVGNWIMVVLDVKIGAHFAFGCVLSKDDVAFSDPTPDGRKFAENYCGTA---------AFLCYK---------"}, {"id": "Ciona_intestinalis", "seq": "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MTNCKPEVATKTFYGKNVKYLSPVQRGGVSAPDMGTPIVDTDTKLADQ------------------------------------GTKIYKE----------NTPPKQQSAKKTPK---P---PTNKPPVSPTISWAPNSLKKQFTRKPKYSSVVIK--------------------------GKPLQPTTPIPQSPLTLPKPRETPFPPTLEGTPPSKYARIERQTREPS-----------QG----SPRVKGQKGDEDSKKLFPIFTRARR---------SSPLFAAKVNDSPGNHGNSLLRKMTSSPKESPKVQLIIDAGQKKFGATQCK-VCGMVYAVDHPHDQHQHKLHHQRFNVILRFPSWKNERTVAS----YVDGRIVKILPTDPKFA-------QKKVEDILELIDSELGFSQNIS----TTRVSYLYV-SDQQQVTGCLIAEQIKRGFPLLE--------------------------------------------------------------------------------------------------------------------------------TMTSSGMMSCSLQSTPVTCGVSRIWCHAPHRKRGVATRLMDALR-------------------------------------------------------CSFVLGERLNMNQVAFSDPTISGKSFATKYFKTP---------HFLTYNCST------"}, {"id": "Strongylocentrotus_purpuratus", "seq": "-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LLFL-----LLVL-----GSDGEASTPQAQGYQSKVLQ----------------------------------------------------------------------KTMIGMAKSTQKNTRVSSSKTKDLSPSKVLAIVANWNNTESP-A------------------------------------------KSPAKGSRRKRPRDEQLSASIPRSRRQRKHFRRDYLSQSSEEDEL-------------PTFKAKSFYHGQQP-TKYLSPFERKEER--DRLIDAGVDPAV----LN--------------KSFEELQRERIGNPSLSEKERPAAKNSSLLQKKNIVANSK----------------------------------------------------------------TISSTSNTPSTAEKTQALKPSGPKRQDSSKPAATAESKVQLSSGQM---SGVKGEIKVTLSERSPGGNVHVEGKKMLA----ANK-----APPKEA--------------------------QVDRRSSPRK------------L-----------------------------VQVHPSP-KVTKNLGVTR-------------RTSPRKLASKGNAAKGIQMY-----MRNLKQGQKKGKKASNVKKTKN-------------------------------------------------------QTKVAPTLTKAEIPAKASASKSQRNQTPTTNKEKVDSSANNEK----AARGLDFG-KGMVNGHDVAPLVKNPDGRNEKSHTEDNLMDFLVFADDDFR-----DENRDTEDFVQNLLMEIDDDMEETENLLKRSPRK----------------RKMKTDKE-------CVVSSPSPGKTPKR-------QTP-NR--------------RRMS--STPIS------------------S--KKSQP-RLDGWLSKIDTL----------P-TSTRSPRKKSALQ---------RSEVKGQVADTLTPD------------STNV-----SPPKVSPNK-----------------------------------------------------------------------------------------PTKLYSVFTPPRSPHLNTTPKSRKKQSNAGKLKS-PNVQERSPLIKSLKSKTDNLEQTTLDLGQKRYGAVTCA-TCGTVYTAAHPEDETDHARFHKKYLSSIKFPGWKQEEVLES----FHDGRIIVITHEAPHYA-------EKKVDEIRELVDRELGFMEASHTVSKDLCKTYLFI-TLDKKVGGCLIAEQITQGYRVIVDEQKAE--------------------------------------------------------------------------------------------------------------------------GNDSQKAWCCETESEPALCGISRIWVPMATRRKQIASRMVDCLR-------------------------------------------------------KNFMFGTVLSPDDVAFSDPTPDGKSFATKYTGTP---------RFLVYKYH-------"}];
+        const alnLen = 1963;
+        const colorSchemes = {"clustal": {"A": "#80a0f0", "V": "#80a0f0", "I": "#80a0f0", "L": "#80a0f0", "M": "#80a0f0", "F": "#80a0f0", "W": "#80a0f0", "P": "#80a0f0", "K": "#f08080", "R": "#f08080", "H": "#f08080", "D": "#a0f060", "E": "#a0f060", "N": "#a0f060", "Q": "#a0f060", "S": "#a0f060", "T": "#a0f060", "C": "#f0a0f0", "G": "#ffa500", "Y": "#ffb6c1", "-": "#ffffff"}, "hydrophobicity": {"I": "#ff0000", "L": "#ff0000", "F": "#ff0000", "V": "#ff0000", "M": "#ff0000", "C": "#ff6600", "A": "#ff6600", "G": "#ff6600", "T": "#ff6600", "W": "#ff6600", "Y": "#ffcc00", "P": "#ffff00", "H": "#ffff00", "N": "#ffff00", "Q": "#ffff00", "S": "#ffff00", "D": "#99ccff", "E": "#99ccff", "K": "#0099ff", "R": "#0099ff", "-": "#ffffff"}, "chemical": {"A": "#ffcccc", "G": "#ffcccc", "V": "#ffcccc", "L": "#ffcccc", "I": "#ffcccc", "M": "#ffcccc", "F": "#ffcccc", "W": "#ffcccc", "P": "#ffcccc", "S": "#ccffcc", "T": "#ccffcc", "C": "#ccffcc", "N": "#ccffcc", "Q": "#ccffcc", "Y": "#ccffcc", "K": "#ccccff", "R": "#ccccff", "H": "#ccccff", "D": "#ffccff", "E": "#ffccff", "-": "#ffffff"}};
+        let currentScheme = 'clustal';
+        
+        function getConservation(pos) {
+            const column = alignmentData.map(s => s.seq[pos].toUpperCase()).filter(c => c !== '-');
+            if (!column.length) return 0;
+            const max = Math.max(...Object.values(
+                column.reduce((acc, c) => { acc[c] = (acc[c] || 0) + 1; return acc; }, {})
+            ));
+            return max / column.length;
+        }
+        
+        function getColor(aa, scheme, conservation = 1.0) {
+            aa = aa.toUpperCase();
+            if (scheme === 'identity') {
+                if (aa === '-') return '#ffffff';
+                if (conservation >= 0.8) return '#ff0000';
+                if (conservation >= 0.6) return '#ff8800';
+                if (conservation >= 0.4) return '#ffff00';
+                return '#cccccc';
+            }
+            return colorSchemes[scheme][aa] || '#cccccc';
+        }
+        
+        function renderAlignment() {
+            const tbody = document.getElementById('alignment-tbody');
+            tbody.innerHTML = '';
+            
+            // Position ruler
+            let rulerRow = '<tr><td class="pos-ruler">';
+            for (let i = 0; i < alnLen; i++) {
+                if (i % 10 === 0) {
+                    rulerRow += '<div class="pos-label">' + (i+1) + '</div>';
+                } else {
+                    rulerRow += '<div class="pos-label">·</div>';
+                }
+            }
+            rulerRow += '</td></tr>';
+            tbody.innerHTML += rulerRow;
+            
+            // Sequences
+            alignmentData.forEach(seqObj => {
+                let row = '<tr><td class="seq-name">' + seqObj.id + '</td><td>';
+                for (let i = 0; i < alnLen; i++) {
+                    const aa = seqObj.seq[i];
+                    const conservation = getConservation(i);
+                    const color = getColor(aa, currentScheme, conservation);
+                    row += '<div class="residue" style="background-color: ' + color + '" title="Pos ' + (i+1) + ': ' + aa + ' (cons: ' + (conservation*100).toFixed(0) + '%)">' + aa + '</div>';
+                }
+                row += '</td></tr>';
+                tbody.innerHTML += row;
+            });
+        }
+        
+        function changeScheme(scheme) {
+            currentScheme = scheme;
+            renderAlignment();
+        }
+        
+        // Initial render
+        renderAlignment();
+    </script>
+</body>
+</html>

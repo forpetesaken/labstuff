@@ -1,0 +1,14 @@
+species,human_gene,reciprocal_hit_gene,fasta_filename
+Gallus_gallus,CTCF,CTCF,top_hit_CTCF_Gallus_gallus.fa
+Gallus_gallus,ESCO1,ESCO1,top_hit_ESCO1_Gallus_gallus.fa
+Gallus_gallus,ESCO2,ESCO2,top_hit_ESCO2_Gallus_gallus.fa
+Gallus_gallus,HDAC8,HDAC8,top_hit_HDAC8_Gallus_gallus.fa
+Gallus_gallus,NIPBL,NIPBL,top_hit_NIPBL_Gallus_gallus.fa
+Gallus_gallus,PDS5A,PDS5A,top_hit_PDS5A_Gallus_gallus.fa
+Gallus_gallus,PDS5B,PDS5B,top_hit_PDS5B_Gallus_gallus.fa
+Gallus_gallus,RAD21,RAD21,top_hit_RAD21_Gallus_gallus.fa
+Gallus_gallus,SMC1,SMC1B,top_hit_SMC1_Gallus_gallus.fa
+Gallus_gallus,SMC3,SMC3,top_hit_SMC3_Gallus_gallus.fa
+Gallus_gallus,STAG1,STAG1,top_hit_STAG1_Gallus_gallus.fa
+Gallus_gallus,STAG2,STAG2,top_hit_STAG2_Gallus_gallus.fa
+Gallus_gallus,WAPL,WAPL,top_hit_WAPL_Gallus_gallus.fa
