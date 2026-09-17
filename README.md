@@ -4,7 +4,7 @@ Research and analysis workspace for genome architecture, motif calling, alignmen
 
 ## Project layout
 
-- `src/`: maintained analysis code. Existing legacy scripts remain at the repository root until migrated safely.
+- `src/`: maintained root-level analysis code.
 - `configs/`: experiment parameters and run configuration files.
 - `data/raw/`: source data; never modify in place.
 - `data/interim/`: temporary transformed inputs.
@@ -15,7 +15,9 @@ Research and analysis workspace for genome architecture, motif calling, alignmen
 - `docs/`: methods, notes, and figure documentation.
 - `scripts/`: one-off utilities and run helpers.
 
-The existing `alignment_work/` and `motif_calling/` trees are preserved as legacy project areas during migration. New work should use the lifecycle directories above.
+The existing `alignment_work/` and `motif_calling/` trees are preserved as legacy project areas. They contain coupled inputs, generated results, and path-sensitive workflows, so they should be migrated one pipeline at a time rather than bulk-moved.
+
+The root-level scripts have been moved into `src/`; one-off utilities are in `scripts/`, the CTCF workflow guide is in `docs/`, the large loop-anchor BED is in `data/raw/`, and the generated BEDPE report is in `outputs/latest/`.
 
 ## Run lifecycle
 
