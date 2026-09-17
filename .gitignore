@@ -6,3 +6,20 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 *.log
+
+# Reproducible run outputs are kept locally and archived outside Git.
+outputs/latest/*
+outputs/archive/*
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Common generated bioinformatics artifacts.
+*.bam
+*.bai
+*.bigWig
+*.bw
+*.bedGraph
+*.narrowPeak
+*.o
+*.pyc

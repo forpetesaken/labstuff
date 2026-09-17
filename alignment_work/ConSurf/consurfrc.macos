@@ -1,0 +1,27 @@
+[consurf]
+consurf_utildir=/Users/natlinde/consurf_workspace
+quiet=0
+
+[databases]
+PDB_DIVIDED=
+SWISSPROT_DB=
+UNIPROT_DB=
+RCSB_WGET=curl -L -O
+
+[params]
+BLAST_MAX_HOMOLOGUES_TO_DISPLAY=500
+MAXIMUM_MODIFIED_PERCENT=0.15
+FRAGMENT_REDUNDANCY_RATE=95
+FRAGMENT_OVERLAP=0.10
+FRAGMENT_MINIMUM_LENGTH=0.60
+MINIMUM_FRAGMENTS_FOR_MSA=4
+LOW_NUM_FRAGMENTS_FOR_MSA=10
+BAYES_INTERVAL=3
+
+[programs]
+MUSCLE=
+CLUSTALW=
+RATE4SITE=/Users/natlinde/consurf_workspace/3rd party software/rate4site.3.2.source_fast/sourceMar09/rate4site
+RATE4SITE_SLOW=/Users/natlinde/consurf_workspace/3rd party software/rate4site.3.2.source_slow/sourceMar09/rate4site
+CD_HIT=
+BLASTPGP=
