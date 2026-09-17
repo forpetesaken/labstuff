@@ -24,7 +24,7 @@ Never edit an archived run. Create a new run instead.
 
 ## Current migration state
 
-Root-level analysis scripts now live under `src/`. One-off utilities are under `scripts/`, the CTCF workflow guide is under `docs/`, the large loop-anchor BED is under `data/raw/`, and the generated BEDPE report is under `outputs/latest/`.
+Root-level analysis scripts now live under `src/`. Alignment scripts live under `src/alignment_work/`; alignment inputs/intermediates are under `data/interim/alignment_work/`; historical/generated alignments are under `outputs/archive/alignment_work/`; and the CTCF workflow guide is under `docs/`. The self-contained ConSurf runtime remains under `alignment_work/ConSurf/` because its scripts use path-sensitive legacy conventions.
 
 ## Migration policy
 

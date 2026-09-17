@@ -286,13 +286,13 @@ def collect_species_paired_sequences(msa_a: Path, msa_b: Path) -> Tuple[List[str
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run paper-structured local PPI screen")
-    parser.add_argument("--input-root", type=Path, default=Path("Code/alignment_work/ConSurf/output"))
+    parser.add_argument("--input-root", type=Path, default=Path("alignment_work/ConSurf/output"))
     parser.add_argument(
         "--proteins",
         nargs="+",
         default=["NIPBL", "RAD21", "SMC1", "SMC3", "PDS5A", "PDS5B", "WAPL"],
     )
-    parser.add_argument("--out-dir", type=Path, default=Path("protein-protein-interactions/paper_style_run"))
+    parser.add_argument("--out-dir", type=Path, default=Path("outputs/latest/alignment_work/paper_style_run"))
     parser.add_argument("--dca-keep-fraction", type=float, default=0.4)
     parser.add_argument("--max-cols-per-protein", type=int, default=80)
     parser.add_argument("--max-gap-frac", type=float, default=0.6)

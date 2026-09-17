@@ -257,7 +257,7 @@ def main() -> None:
     parser.add_argument(
         "--input-root",
         type=Path,
-        default=Path("Code/alignment_work/ConSurf/output"),
+        default=Path("alignment_work/ConSurf/output"),
         help="Root folder containing single-protein MSAs",
     )
     parser.add_argument(
@@ -269,7 +269,7 @@ def main() -> None:
     parser.add_argument(
         "--out-dir",
         type=Path,
-        default=Path("protein-protein-interactions/ppi_screen_run"),
+        default=Path("outputs/latest/alignment_work/ppi_screen_run"),
         help="Output folder for paired MSAs and score tables",
     )
     args = parser.parse_args()

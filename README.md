@@ -15,7 +15,7 @@ Research and analysis workspace for genome architecture, motif calling, alignmen
 - `docs/`: methods, notes, and figure documentation.
 - `scripts/`: one-off utilities and run helpers.
 
-The existing `alignment_work/` and `motif_calling/` trees are preserved as legacy project areas. They contain coupled inputs, generated results, and path-sensitive workflows, so they should be migrated one pipeline at a time rather than bulk-moved.
+The existing `motif_calling/` tree is preserved as a legacy project area. Alignment work has been reorganized: maintained scripts are in `src/alignment_work/`, intermediate inputs are in `data/interim/alignment_work/`, and historical/generated alignment results are under `outputs/`. The self-contained, path-sensitive ConSurf runtime remains under `alignment_work/ConSurf/`.
 
 The root-level scripts have been moved into `src/`; one-off utilities are in `scripts/`, the CTCF workflow guide is in `docs/`, the large loop-anchor BED is in `data/raw/`, and the generated BEDPE report is in `outputs/latest/`.
 
