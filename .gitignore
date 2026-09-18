@@ -13,6 +13,9 @@ outputs/archive/*
 !outputs/archive/aiden_lab_alignments/
 !outputs/archive/aiden_lab_alignments/**
 data/raw/*
+!data/raw/extrusion_proteins/
+!data/raw/extrusion_proteins/by_protein/
+!data/raw/extrusion_proteins/by_protein/**
 data/interim/*
 data/processed/*
 
