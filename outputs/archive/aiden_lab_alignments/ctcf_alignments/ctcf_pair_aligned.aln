@@ -1,0 +1,264 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+CTCF_HUMAN                          --------------------------------------------------
+CTCF_CHICK                          --------------------------------------------------
+CTCF_DM                             --------------------------------------------------
+CTCF_MM                             --------------------------------------------------
+CTCF_TW                             --------------------------------------------------
+CTCF_ZF                             --------------------------------------------------
+CTCF_JL                             MASEEVAEATPSGEEELDGFTRLKEGGPPTQGTGLVDDDPTSNIPKKPEE
+CTCF_PM                             MASEEVVEATPSGEEELDGFTRLKEGGPLTQGTRLVDDDPTSSIPKKPEE
+CTCF_AMPHIOXUS                      --------------------------------------------------
+
+CTCF_HUMAN                          --------------------------------------------------
+CTCF_CHICK                          --------------------------------------------------
+CTCF_DM                             --------------------------------------------------
+CTCF_MM                             --------------------------------------------------
+CTCF_TW                             --------------------------------------------------
+CTCF_ZF                             --------------------------------------------------
+CTCF_JL                             SEDGDLDQVPLVSEVALAVKDGTESAGGTVVSEPADTNANATIMDSAEVI
+CTCF_PM                             SEDGGLDQVPLVSEVALAVKDGTESAGGTVVSEPAHTNANATIMDSAEVI
+CTCF_AMPHIOXUS                      --------------------------------------------------
+
+CTCF_HUMAN                          --------------------------------------------------
+CTCF_CHICK                          --------------------------------------------------
+CTCF_DM                             --------------------------------------------------
+CTCF_MM                             --------------------------------------------------
+CTCF_TW                             --------------------------------------------------
+CTCF_ZF                             --------------------------------------------------
+CTCF_JL                             SIEMSHMAPDMMVHVMIDGASEQIVNMAADVTAPVEATSVDSVADVTVAD
+CTCF_PM                             SIEMSHMAPDMMVHVMIDGASDQIVNMAADVTAPVEATSVDSVADVTVAD
+CTCF_AMPHIOXUS                      --------------------------------------------------
+
+CTCF_HUMAN                          --------------------------------------------------
+CTCF_CHICK                          --------------------------------------------------
+CTCF_DM                             --------------------------------------------------
+CTCF_MM                             --------------------------------------------------
+CTCF_TW                             --------------------------------------------------
+CTCF_ZF                             --------------------------------------------------
+CTCF_JL                             VTVEDVEMKDETLPFHAATDGAEVIEFMDTAAVMDVVEVTEGTEAKESDD
+CTCF_PM                             VTVEDVEMKDETLPDHAATDGAEVIDFMDTAAVMDVVEVTEGTEAKESDD
+CTCF_AMPHIOXUS                      --------------------------------------------------
+
+CTCF_HUMAN                          --------------------------------------------------
+CTCF_CHICK                          --------------------------------------------------
+CTCF_DM                             --------------------------------------------------
+CTCF_MM                             --------------------------------------------------
+CTCF_TW                             --------------------------------------------------
+CTCF_ZF                             --------------------------------------------------
+CTCF_JL                             AFADAGSLRVLSVETMDTATSGIGEVTNVLETNFATAVADDSIASSAAQP
+CTCF_PM                             AFANAGSLRVLSVETMDTATSGIGEVTNVSETNFATAVADDSIASSAAQP
+CTCF_AMPHIOXUS                      --------------MATVEDGGSGDMTEAPVK----PAAEAPVKSPAPQP
+
+CTCF_HUMAN                          ------------MEGDAVEAIVEESETFIKGKERKTYQRRREGGQEE-D-
+CTCF_CHICK                          ------------MEGEAVEAIVEESETFIKGKERKTYQRRREGGQED-E-
+CTCF_DM                             --------------------------------------MPRRTKKDEDPE
+CTCF_MM                             ------------MEGEAVEAIVEESETFIKGKERKTYQRRREGGQEE-D-
+CTCF_TW                             ------------MEGEAVEAVMEESETFIKGKERKTYQRRREGGQDE-D-
+CTCF_ZF                             ------------MEGGPTEAVVEDAGDAFKAKECKTYQRRREDEEVG-AE
+CTCF_JL                             KENDDSV-QEIPAEGGFTAY-VGTAADADVATNEQGFTERDTGDETN-SA
+CTCF_PM                             KGND-SV-QVISAEGGFTAY-VGTTADTDAATNEQGFAERDTGDETN-PA
+CTCF_AMPHIOXUS                      VESGEEPNTTTAVEDGSAEQVQEEAEQVEA----PGEQVQTSGEKQDDLG
+
+CTCF_HUMAN                          --------------------------------------------------
+CTCF_CHICK                          --------------------------------------------------
+CTCF_DM                             DLQTFLNNFHKEIEGNSDEKVVNTILEAIS--------------------
+CTCF_MM                             --------------------------------------------------
+CTCF_TW                             --------------------------------------------------
+CTCF_ZF                             LLQA----------------------------------------------
+CTCF_JL                             EVDAVVESVDVNELKAETVDTTDVIAVIVGTEMTNVADGSNTSNADTEVA
+CTCF_PM                             EVGAVVESVDVNELKAETADTTDVIAVIVGTEMTNLADGSNTSNADTEVA
+CTCF_AMPHIOXUS                      QLQSYLETFHQEI-------------------------------------
+
+CTCF_HUMAN                          ---------ACHLPQNQTDGGEVVQD---VNSSVQM----VMMEQLDPTL
+CTCF_CHICK                          ---------ACHIAPNQADGGEVVQD---VNSGVQM----VMMEHLDPTL
+CTCF_DM                             -------AEAIDLDENGAEAGGSKPM------------------------
+CTCF_MM                             ---------ACHLPQNQTDGGEVVQD---VNSSVQM----VMMEQLDPTL
+CTCF_TW                             ---------ACHISQTQADGSEVVQE---VNSSVQM----VMMERLDPTL
+CTCF_ZF                             AVIEQAQAEVEPVVEAQQQLVESVVS---VNSSVDM----MMMETLDPAL
+CTCF_JL                             ATTSSGNGLIESLEAGGVAGGATVVS---VSGPEDV----AVVTTISVAS
+CTCF_PM                             ATTSSGNDLIESLEAGGVAGGATVVS---VSGPEDV----AVVTTISVAS
+CTCF_AMPHIOXUS                      ------SADAKPLAEGGADGQQGKDEAPDAAPAVEEAAAAVESTGEETAA
+
+CTCF_HUMAN                          -LQ------MKTEVMEGTVAPEA-------------EAAVDDTQIITLQ-
+CTCF_CHICK                          -LQ------MKTEVMEGAVPQET-------------EATVDDTQIITLQ-
+CTCF_DM                             ------------EEAEADLDHAEE--------AEEEEEDDEDKYFIDDEG
+CTCF_MM                             -LQ------MKTEVMEGTVAPEA-------------EAAVDDTQIITLQ-
+CTCF_TW                             -LQ------MKTEVMEGAVPQEA-------------DATVDDTQIITLQ-
+CTCF_ZF                             -LQ------MKTEVMEAAVGAPVAVA--GAAH-EATVTTVDDTQIITLQ-
+CTCF_JL                             PLDVSTSVASVTDVTSAALRALQAVASQHVGG-GASASISEDTHIITLH-
+CTCF_PM                             PLDVSTSAASVTDVTSAALRALQAVASQHVGG-GASASISEDTHIITLH-
+CTCF_AMPHIOXUS                      PEEMETTQ----GVEEA-DKAPAEEPAEHEAPDAAETAAVEEAAPAEQV-
+
+CTCF_HUMAN                          VVNMEEQPI-----NIGELQLVQVPVPVTVPV------------------
+CTCF_CHICK                          VVNMEEQPI-----NLGELQLVQVPVPVTVPV------------------
+CTCF_DM                             NCYIKTTPK-----KQKELQKKLKQAA---AKPGKATRSVVSTATNK-SI
+CTCF_MM                             VVNMEEQPI-----NIGELQLVQVPVPVTVPV------------------
+CTCF_TW                             VVNMEEQPI-----NLGELQLVQVPVPVTVPV------------------
+CTCF_ZF                             VVNMEEQQL-----GLGELQLVQVPVS-AVPV------------------
+CTCF_JL                             PVSLEETGEG-GGTSIGEITLVQVQAGGDAPHASGIVTQVVPMENQGLLT
+CTCF_PM                             PVSLEETGEG-GGTSIGEITLVQVQAGGDAPQASGIVTQVVPMENQGLLT
+CTCF_AMPHIOXUS                      YVSAETTEQAAAQETQGQQQQVRIVTT----QGDTEVHEVVSEEVAAQLQ
+
+CTCF_HUMAN                          --------------------------------------------------
+CTCF_CHICK                          --------------------------------------------------
+CTCF_DM                             NLRPAKSTPKATTSKPPPE-----------P-------------------
+CTCF_MM                             --------------------------------------------------
+CTCF_TW                             --------------------------------------------------
+CTCF_ZF                             --------------------------------------------------
+CTCF_JL                             EMVPVDQQGLVTEVVPVERGMLTEVVRIGEDGTVTVTDGEELTADGLMAE
+CTCF_PM                             EMVPVDQQGLVTEVVPVERGMLTEVVRIGEDGTVTVTDGEALTADGLMAE
+CTCF_AMPHIOXUS                      QMA----------------------AEQGGSGSVSII-------------
+
+CTCF_HUMAN                          ----ATTSVEELQGAYENEVSKEGLAESEPMICHTLPLP----EGF-QVV
+CTCF_CHICK                          ----ATTSVEELQGAYENEVSKGGLQEGEPMICHTLPLP----EGF-QVV
+CTCF_DM                             ----KAISVRPARAAAAKAKQSAMPPP--PALVVKVPAP----RGRPRKN
+CTCF_MM                             ----ATTSVEELQGAYENEVSKEGLAESEPMICHTLPLP----EGF-QVV
+CTCF_TW                             ----ATTSVEELQGAYENEVSKEGLPEGEPMICHTLPLP----EGF-QVV
+CTCF_ZF                             ----TAATVEELQGTLVDA--TAMPKDGEPVICHTLPLP----EGF-QVV
+CTCF_JL                             VVPTGEEGINEGIIAQIVPVQEGVESGGEGGISHTLPLP----EGV-QVV
+CTCF_PM                             VVPTGEEGINEGIIAQIVPVQEGVESGGEGGISHTLPLP----EGV-QVV
+CTCF_AMPHIOXUS                      ----VQSGSDEGQVTATQAVG-SLQPGQITVMYELVPVDIAQGEGQQQAA
+
+CTCF_HUMAN                          KVGANGEVETLEQGELPPQ------------------EDPSWQKDPDYQP
+CTCF_CHICK                          KVGANGEVETLEQGELQPQ------------------EDPNWQKDPDYQP
+CTCF_DM                             PVIPKPEPMDLER-------------ELEELVDEPDI-SSMVTELSDYTV
+CTCF_MM                             KVGANGEVETLEQGELPPQ------------------EDSSWQKDPDYQP
+CTCF_TW                             KVGANGEAETLERGELQPQ------------------EDPNWQKEPDYQP
+CTCF_ZF                             KVGANGEVETVEQDELQPQDDQPPHQEEEEEMAEPQNEDPAWSKDPDYTP
+CTCF_JL                             KVGPNGELEVE-RAPMGSQDGSVDGDGIGLLITAPDPEERSKEKDPDYQL
+CTCF_PM                             KVGPNGELEVE-RAPMGSQDGSVDGDGIGLLITAPDPEERSKEKDPDYQL
+CTCF_AMPHIOXUS                      QAVENGEEEAAEA---EDQEG---------------EEPDGSAADPDWQE
+
+CTCF_HUMAN                          PAKK-TKKTKKSKLRYTEEG-KDVDVSVYDFEEEQQEGLLSEVNAE----
+CTCF_CHICK                          PAKK-TKKNKKSKLRYTEEG-KDVDVSVYDFEEEQQEGLLSEVNAE----
+CTCF_DM                             DEAA---------VEAATATLTPNEAEVYEFEDNATTEDENADKKDVDFV
+CTCF_MM                             PAKK-TKKTKKSKLRYTEEG-KDVDVSVYDFEEEQQEGLLSEVNAE----
+CTCF_TW                             PAKK-TKKTKKSKLRYTEEG-KDVDVSVYDFEEEQQEGLLSEVNAE----
+CTCF_ZF                             PVKK-VKKTKKSKLRYNTEGDKDMDVSVYDFEEEQQEGLLSEVNAE----
+CTCF_JL                             PVKKPVRKGRKNKLRYKQEA-ADADISVYDFEEQEEERLVSSQDVGV---
+CTCF_PM                             PVKKPVRKGRKNKLRYKQEA-ADADISVYDFEEQEEGRLVSSQDVGV---
+CTCF_AMPHIOXUS                      GEEG------------GAESTKEGDISVYDFDELDKPDGKRAKG------
+
+CTCF_HUMAN                          --KVVGNMKPPKPTKIKKKGVKKTFQCELCSYTCPRRSNLDRHMKSHTDE
+CTCF_CHICK                          --KVVGNMKPPKPTKIKKKGVKKTFQCELCSYTCPRRSNLDRHMKSHTDE
+CTCF_DM                             LSNKEVKLKTASSTSQNSNASGHKYSCPHCPYTASKKFLITRHSRSHDVE
+CTCF_MM                             --KVVGNMKPPKPTKIKKKGVKKTFQCELCSYTCPRRSNLDRHMKSHTDE
+CTCF_TW                             --KVVGNMKPPKPTKIKKKGVKKTFQCELCSYTCPRRSNLDRHMKSHTDE
+CTCF_ZF                             --KVVGNMKPPKPTKIKKKGVKKTFQCELCSYTCPRRSNLDRHMKSHTDE
+CTCF_JL                             --EKAIAPKPPKPTRIKKKGAKKTFQCELCSYTCPRRSNLDRHMKSHTDE
+CTCF_PM                             --EKAIAPKPPKPTRIKKKGAKKTFQCELCSYTCPRRSNLDRHMKSHTDE
+CTCF_AMPHIOXUS                      --GDAMTPKVKGRSPKKMRVGGKTYQCYKCDYTCQRMAFLERHMKVHTDE
+
+CTCF_HUMAN                          RPHKCHLCGRAFRTVTLLRNHLNTHTGTRPHKCPDCDMAFVTSGELVRHR
+CTCF_CHICK                          RPHKCHLCGRAFRTVTLLRNHLNTHTGTRPHKCPDCDMAFVTSGELVRHR
+CTCF_DM                             PSFKCSICERSFRSNVGLQNHINTHMGNKPHKCKLCESAFTTSGELVRHT
+CTCF_MM                             RPHKCHLCGRAFRTVTLLRNHLNTHTGTRPHKCPDCDMAFVTSGELVRHR
+CTCF_TW                             RPHKCHLCGRAFRTVTLLRNHLNTHTGTRPHKCPDCDMAFVTSGELVRHR
+CTCF_ZF                             RPHKCHLCGRAFRTVTLLRNHLNTHTGTRPHKCTDCDMAFVTSGELVRHR
+CTCF_JL                             RPHCCHLCERAFRTVTLLRNHVNTHTGTKPHKCMECDMAFVTSGELVRHR
+CTCF_PM                             RPHCCHLCDRAFRTVTLLRNHVNTHTGTKPHKCMECDMAFVTSGELVRHR
+CTCF_AMPHIOXUS                      RPFKCGTCEREFRTMQSLQNHINSHNGVKPHKCDQCPMSFVTSGELMRHR
+
+CTCF_HUMAN                          RYKHTHEKPFKCSMCDYASVEVSKLKRHIRSHTGERPFQCSLCSYASRDT
+CTCF_CHICK                          RYKHTHEKPFKCSMCDYASVEVSKLKRHIRSHTGERPFQCSLCSYASRDT
+CTCF_DM                             RYKHTKEKPHKCTECTYASVELTKLRRHMTCHTGERPYQCPHCTYASQDM
+CTCF_MM                             RYKHTHEKPFKCSMCDYASVEVSKLKRHIRSHTGERPFQCSLCSYASRDT
+CTCF_TW                             RYKHTHEKPFKCSMCDYASVEVSKLKRHIRSHTGERPFQCSLCSYASRDT
+CTCF_ZF                             RYKHTHEKPFKCSMCDYASVEVSKLKRHIRSHTGERPFQCSLCSYASRDT
+CTCF_JL                             RYRHTHEKPFKCSMCDYASVEVSKLKRHIRSHTGERPFQCGLCSYASRDT
+CTCF_PM                             RYRHTHEKPFKCSMCDYASVEVSKLKRHIRSHTGERPFQCGLCSYASRDT
+CTCF_AMPHIOXUS                      RYKHTHEKPHKCTMCDYASVEISKLKRHMRSHTGERPFQCGMCSYASPDS
+
+CTCF_HUMAN                          YKLKRHMRTHSGEKPYECYICHARFTQSGTMKMHILQKHTENVAKFHCPH
+CTCF_CHICK                          YKLKRHMRTHSGEKPYECYICHARFTQSGTMKMHILQKHTENVAKFHCPH
+CTCF_DM                             FKLKRHMVIHTGEKKYQCDICKSRFTQSNSLKAHKLIHSVVDKPVFQCNY
+CTCF_MM                             YKLKRHMRTHSGEKPYECYICHARFTQSGTMKMHILQKHTENVAKFHCPH
+CTCF_TW                             YKLKRHMRTHSGEKPYECYICHARFTQSGTMKMHILQKHTENVAKFHCPH
+CTCF_ZF                             YKLKRHMRTHSGEKPYECYICHARFTQSGTMKMHILQKHTENVAKFHCPH
+CTCF_JL                             YKLKRHMRTHSGEKPYECHVCHARFTQSGTMKMHVLQKHTDNVPKYHCPH
+CTCF_PM                             YKLKRHMRTHSGEKPYECHVCHARFTQSGTMKMHVLQKHTDNVPKYHCPH
+CTCF_AMPHIOXUS                      YKLKRHMRTHTGEKPYECSVCLATFTQSGSLKMHM-QRHLGTAPSYICDI
+
+CTCF_HUMAN                          CDTVIARKSDLGVHLRKQHSYIEQGKKCRYCDAVFHERYALIQHQKSHKN
+CTCF_CHICK                          CDTVIARKSDLGVHLRKQHSYIEQGKKCRYCDAVFHERYALIQHQKSHKN
+CTCF_DM                             CPTTCGRKADLRVHIKHMHTS-DVPMTCRRCGQQLPDRYQYKLHVKSHEG
+CTCF_MM                             CDTVIARKSDLGVHLRKQHSYIEQGKKCRYCDAVFHERYALIQHQKSHKN
+CTCF_TW                             CDTVIARKSDLGVHLRKQHSYIEQGKKCRYCDAVFHERYALIQHQKSHKN
+CTCF_ZF                             CDTVIARKSDLGVHLRKQHSYIEQGRKCRYCDAVFHERYALIQHQKSHKN
+CTCF_JL                             CDAVIARKSDLGVHLRKQHAVLERELRCRYCRAIFHERYALMQHQRTHRN
+CTCF_PM                             CDAVIARKSDLGVHLRKQHAVLERELRCRYCRAIFHERYALMQHQRTHRN
+CTCF_AMPHIOXUS                      CGTALTRKSDLKSHVRKLHTG-DKMLTCKYCDSAFPDKYNLTKHLKTHQG
+
+CTCF_HUMAN                          EKRFKCDQCDYACRQERHMIMHKRTHTGEKPYACSHCDKTFRQKQLLDMH
+CTCF_CHICK                          EKRFKCDQCDYACRQERHMVMHKRTHTGEKPYACSHCDKTFRQKQLLDMH
+CTCF_DM                             EKCYSCKLCSYASVTQRHLASHMLIHLDEKPFHCDQCPQAFRQRQLLRRH
+CTCF_MM                             EKRFKCDQCDYACRQERHMIMHKRTHTGEKPYACSHCDKTFRQKQLLDMH
+CTCF_TW                             EKRFKCDQCDYACRQERHMIMHKRTHTGEKPYACSHCDKTFRQKQLLDMH
+CTCF_ZF                             EKRFKCDQCDYACRQERHMVMHKRTHTGEKPYACSQCEKTFRQKQLLDMH
+CTCF_JL                             EKRFKCDQCEYACKQERHMIMHKRVHTGEKPFECTLCDKTFRQKQLLDFH
+CTCF_PM                             EKRFKCDQCEYACKQERHMIMHKRVHTGEKPFECTLCDKTFRQKQLLDFH
+CTCF_AMPHIOXUS                      EKRFRCEDCNYCCTQERHLINHQRCHTGEKPFVCVQCDHTFRQEQLLKQH
+
+CTCF_HUMAN                          FKRYHDPNFVPAA-----FVCSKCGKTFTRRNTMARHADNCAGPDGVEGE
+CTCF_CHICK                          FKRYHDPNFVPAA-----FVCSKCGKTFTRRNTMARHADNCSGLDGGEGE
+CTCF_DM                             MNLVHNEEYQPPEPREKLHKCPSCPREFTHKGNLMRHMETHDDSANAREK
+CTCF_MM                             FKRYHDPNFVPAA-----FVCSKCGKTFTRRNTMARHADNCAGPDGVEGE
+CTCF_TW                             FKRYHDPNFVPAA-----FVCSKCGKTFTRRNTMARHADNCTGLDGIDGE
+CTCF_ZF                             FRRYHDPNFVPTS-----FVCTKCGKTFTRRNTMARHAENCTGMDSADGE
+CTCF_JL                             FKRYHDPSFVPTT-----YECSKCHRNFTRRSTMMKHFDMCDGELESGEQ
+CTCF_PM                             FKRYHDPSFVPTT-----YECSKCHRNFTRRSTMMKHFDMCDGELESGEQ
+CTCF_AMPHIOXUS                      IKVHHTPGYTPPR-----YACTNCDKSFTRKGNLRKHVEQAHDPSAVLP-
+
+CTCF_HUMAN                          NGGETKKSKRGRKRKMRSKKEDSS-----D-SENAEPDLDDNEDEEEPAV
+CTCF_CHICK                          NGGETKKGKRGRKRKMRSKKEDSS-----DSEENAEPDLDDNEDEEETAV
+CTCF_DM                             ----RRRLKLGRNVRLQK--DGTVITLIKDQYVDMDRDQEENEEDDNPES
+CTCF_MM                             NGGETKKSKRGRKRKMRSKKEDSS-----DSEENAEPDLDDNEEEEEPAV
+CTCF_TW                             NGGETKRGKRGRKRKMRSKKEESS-----DSEENAEPDLDDNEDEEETAV
+CTCF_ZF                             NGTPPKRGRGGRKRKMRSRKDDDDDD---DSDEHGEPDLDDIDEEDEDDL
+CTCF_JL                             NGKARRGRRRGRKRKMQSRKHGSSSE---SDEMPTDEDEEEEEL------
+CTCF_PM                             NGKARRGRRRGRKRKMQSRKHGSSSE---SDEMPTDEDEEEEEL------
+CTCF_AMPHIOXUS                      ----AMMGRGSRGSRLHDRLDDDDDS-----MSEGEHEFEQAMDEIEAQQ
+
+CTCF_HUMAN                          EIE-----PEP----------------EPQPVTPAPPPAKKRRGRPPGRT
+CTCF_CHICK                          EIE-----AEP----------------EVSAEAPAPPPSKKRRGRPPGKA
+CTCF_DM                             YDLAEIEPENSEAEDADDDVETIVSDPIRQRIKPAPIIINKQARLAASEK
+CTCF_MM                             EIE-----PEPEPQPQP--------PPPPQPVAPAPPPAKKRRGRPPGRT
+CTCF_TW                             EIE-----AEP----------------EVQPVTPAPPPAKKRRGRPPGKA
+CTCF_ZF                             LDE-----DQMGLLDQA--------PPSVPIPAPAEPPIKRKRGRPPKNA
+CTCF_JL                             -NE-----ES-----VE--------VADEEVEEPEPPPMKRRRGRPPKAK
+CTCF_PM                             -NE-----ES-----VE--------VADEEVEEPEPPPMKRRRGRPPKAK
+CTCF_AMPHIOXUS                      MDGQGGEAPEMGPQDEDSDADYRPGDDIDETPKRKPKTPRKRKGNTPKST
+
+CTCF_HUMAN                          -NQ-------------------P-KQNQPTA-IIQVEDQNTGAIENIIVE
+CTCF_CHICK                          -AT-------------------QTKQSQPAA-IIQVEDQNTGEIENIIVE
+CTCF_DM                             QPMIINQRLRSQRGTKTFHIKEEPDNS-----DFTVEWQGDDGEVMVVEL
+CTCF_MM                             -NQ-------------------P-KQNQPTA-IIQVEDQNTGAIENIIVE
+CTCF_TW                             -SQ-------------------P-KQAQPTA-IIQVEDQNTGAIENIIVE
+CTCF_ZF                             -PKVSP-------------TKSITKTTTAAA-IIQVEDESTGAIENIIVK
+CTCF_JL                             -PGRPA---KKVAG--SAEIKTEPKTEPTDL-DSTIDSVACGIIEIIPVT
+CTCF_PM                             -PGRPA---KKVAG--SAEIKTEPKTEPTDL-DSTIDSVACGIIEIIPVT
+CTCF_AMPHIOXUS                      -PQKRK---R---------QKKKVKTEDEEAEEEQEEQEGEKSGEVPPVT
+
+CTCF_HUMAN                          VKKEPD-AEPAE---------------------------------GEEEE
+CTCF_CHICK                          VKKEPD-AETVE---------------------------------E-EEE
+CTCF_DM                             VNGDEEVLVKHEPSANSKISAKNCFGFEDDDDYE----EYGDGEN-----
+CTCF_MM                             VKKEPD-AEPAE---------------------------------GEEEE
+CTCF_TW                             VKKEPD-AEAAE---------------------------------GEEEE
+CTCF_ZF                             KEPEGT-DAVVAAQ---------------PIIEE-----VEAVEADVETV
+CTCF_JL                             VGGPDGPDDDEEEEE-EEEAADGEEGGEGEEQEE-EEEEGGAKEHVVVLA
+CTCF_PM                             VGGPDGPDDDEEEEEEEEEAAEGEEGGEEEEQEEEEEEEGGEKEHVVVLA
+CTCF_AMPHIOXUS                      DKGEQQPAQEAETEA----VVEDQPAPAEPEAATEAATETT---------
+
+CTCF_HUMAN                          AQPAATDAPNGDLTPEMILSMMDR-----
+CTCF_CHICK                          AQPAVVEAPNGDLTPEMILSMMDR-----
+CTCF_DM                             ---------EVDGASQEFLQLMDMIEQDS
+CTCF_MM                             AQAATTDAPNGDLTPEMILSMMDR-----
+CTCF_TW                             PQSAVVEAPNGDLTPEMILSMMDR-----
+CTCF_ZF                             QLTVPEAAPNGDLTPEMILSMMDR-----
+CTCF_JL                             VETAADEGPKNDITPEMILSMMDQ-----
+CTCF_PM                             VETAADEGPKNDITPEMILSMMDQ-----
+CTCF_AMPHIOXUS                      ----EQA----------------------
+
+

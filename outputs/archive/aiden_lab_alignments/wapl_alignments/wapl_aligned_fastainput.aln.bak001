@@ -1,0 +1,488 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+sp|Q7Z5K2|Human                     --------------------------------------------------
+sp|Q65Z40|Mouse                     --------------------------------------------------
+tr|F7E4C6|Frog                      --------------------------------------------------
+tr|A0A8N7TDM0|Zebrafish             --------------------------------------------------
+tr|A0A8C4QA90|Inshore_Hagfish       MEATTFVLQHLDQWRSRGTKRSALIGYLEITRCGLGFGVCEGAACLAAGW
+tr|A0AAJ7TDB1|Sea_Lamprey           --------------------------------------------------
+tr|A0A8K0EDP5|Amphioxus             --------------------------------------------------
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     --------------------------------------------------
+tr|A0A8D8CT73|Mosquito              --------------------------------------------------
+
+sp|Q7Z5K2|Human                     --------------------MTSRFGKTYSRKGGN--G---SSKFDEVFS
+sp|Q65Z40|Mouse                     --------------------MTSRFGKTYSRKGGN--G---SSKFDEVFS
+tr|F7E4C6|Frog                      --------------------MTSRFGKTYSRKAGN--S---NSKFDEVFS
+tr|A0A8N7TDM0|Zebrafish             --------------------MTSRFSKTYTRKGGE--A---SSKFDEVFS
+tr|A0A8C4QA90|Inshore_Hagfish       RCEVGRFFFPPRGRVLPPTTMASRFPRTYSRKQGTPGA--FASKFDELLG
+tr|A0AAJ7TDB1|Sea_Lamprey           --------------------MASRYGRTYSRKQQSPGA---PSRFDELLG
+tr|A0A8K0EDP5|Amphioxus             --------------------MPRYGVKTYSRGAAKPKVEEPTNKFDQVFG
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     ---------------------MSRWGKN------------IVVPLDSLCK
+tr|A0A8D8CT73|Mosquito              ---------------------MSKWNKNHG----------LIVPIDSLLK
+
+sp|Q7Z5K2|Human                     NK-RTTLST---------KWGETTFMAKLGQKRPNFK-------------
+sp|Q65Z40|Mouse                     NK-RTTLST---------KWGETTFMAKLGQKRPNFK-------------
+tr|F7E4C6|Frog                      NK-RTTLST---------KWGETTFMAKLGQKRPNHK-------------
+tr|A0A8N7TDM0|Zebrafish             NK-KATLTT---------KWGESTYKAHLGIKRPSFK-------------
+tr|A0A8C4QA90|Inshore_Hagfish       PR-RPIAPGPAI---AASSAGPPAACAPILPVAPAEA------------A
+tr|A0AAJ7TDB1|Sea_Lamprey           SK-TSPEAG---------GWRERALDAFTDDETSTPSAATALAT-----A
+tr|A0A8K0EDP5|Amphioxus             GD-SAKRPLAAKASSKTQKWGNTTFTAVRMTRRHNVENEQ----------
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     EKENTNRPTVARSVGTVGKWGKMGFTSTRTYTLPAIHPMAAAAAAAAAAA
+tr|A0A8D8CT73|Mosquito              EKENTNRPAPLRSAGLVGRWGITSFTSIRNTSYEFES------------T
+
+sp|Q7Z5K2|Human                     ------------------PDIQEIPKKPKVEEE-STGDPFGFDSDDESLP
+sp|Q65Z40|Mouse                     ------------------PDIQEIPKKPKVEEE-DTGDPFGFDSDDESLP
+tr|F7E4C6|Frog                      ------------------QDVKDTPKKPKVDDD-LTEDPFGFDSDEDSIP
+tr|A0A8N7TDM0|Zebrafish             ------------------PDVSELTKRPRFDDDDSSEDPFGFDSDDESKT
+tr|A0A8C4QA90|Inshore_Hagfish       APSKR-----------------------------RRMEPCARGTAERNS-
+tr|A0AAJ7TDB1|Sea_Lamprey           VPAKRRR-LDSGDSDSCEASVAEAACRPKSRRGRGGGQPAATGGAAASAA
+tr|A0A8K0EDP5|Amphioxus             -------------------------QVEHKRRRLNSDDPFSFDSSDDDHS
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     SPSQSPASTQDHDPNDLSVSVPEPPKPKKFFKSRNTAPPEVIAQII----
+tr|A0A8D8CT73|Mosquito              SPKESDELSCSSNLASLSTQLPAAPKPKKFFKSRNNAPPATPDPHRQPDA
+
+sp|Q7Z5K2|Human                     -------------------------------VSSKNLAQVKCSSYSESSE
+sp|Q65Z40|Mouse                     -------------------------------VSSKNLAQGKGSSYSESSE
+tr|F7E4C6|Frog                      -------------------------------VSSKNVPQPKNSIQQPLEH
+tr|A0A8N7TDM0|Zebrafish             -------------------------------VTSRDTAQSEMDSDTAGPK
+tr|A0A8C4QA90|Inshore_Hagfish       -------------------------------SHNDGVAEGRASPDGPATA
+tr|A0AAJ7TDB1|Sea_Lamprey           ------------------------AAAATPTASGRGKAEQKHEAKVPGRG
+tr|A0A8K0EDP5|Amphioxus             ------------------------SRRGLRTSPRKNIPAEEHSYTSLCKP
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     ---QQLPHCGAGASPMRDHFSSAGAGAGGLTPTSGA--QEAGGVKLKPGK
+tr|A0A8D8CT73|Mosquito              LYHQQIVQHQAAQLQARIHQK-AGGSPPYVAPPAGFYAQQSGSSKSPAAK
+
+sp|Q7Z5K2|Human                     AAQL------------------------------------------EEVT
+sp|Q65Z40|Mouse                     AAQL------------------------------------------EEVT
+tr|F7E4C6|Frog                      LASS------------------------------------------DNFT
+tr|A0A8N7TDM0|Zebrafish             NEQL------------------------------------------KTR-
+tr|A0A8C4QA90|Inshore_Hagfish       SATHV---------QS-LASRLAVYEP-----------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           RGAGV---------H----AAKAAAAPCGSKAERGGAGGG-VQAAKPSGE
+tr|A0A8K0EDP5|Amphioxus             APQSM---------GEHSYTARSVHKPVQPKAT--GDHAY-VSMHRPPVQ
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     GASSAERKRKSPKKKA---ATTSASTPSTPGAFYGASDRDG-----DGLS
+tr|A0A8D8CT73|Mosquito              EEVVKEKKKPGRKKKVKPVEVVAAAAPAPPPADSEELPVDPEVAAPPPIA
+
+sp|Q7Z5K2|Human                     SVLEANSKISHVVVED-------------------------TVVSDK--C
+sp|Q65Z40|Mouse                     SVFEANSKCSHVVGED-------------------------SFASDR--C
+tr|F7E4C6|Frog                      SIIEENNKANQPITAE-------------------------TTVSCK--F
+tr|A0A8N7TDM0|Zebrafish             --------MEKPSGGT-------------------------LVTSTS---
+tr|A0A8C4QA90|Inshore_Hagfish       --------------------------------------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           ARLKPQPKAAEPSNGGTQGA------------GDNPGARKNSRFSCM--K
+tr|A0A8K0EDP5|Amphioxus             SVKDDHTYLSSPQKKSTSDH------------AY----------------
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     DPASEQPEQPSSASGKQKQKKPKEEKKL------KPEAPPSRVLGRARKA
+tr|A0A8D8CT73|Mosquito              EEAAAAPAAPTPPKKEKKEKKEKKQKKVKKEPEPTPELPKRNSTRTRNKV
+
+sp|Q7Z5K2|Human                     FPLED-----------------------TLLGKEKSTN--------RIVE
+sp|Q65Z40|Mouse                     LLVED-----------------------TLIGKEKSIS--------RIPE
+tr|F7E4C6|Frog                      ISFDS-----------------------ALHGLREKNT-------NKIED
+tr|A0A8N7TDM0|Zebrafish             -----------------------------SLGSSTNISR------GAVGV
+tr|A0A8C4QA90|Inshore_Hagfish       --CSSDEENEECNGVSQHDLWSLSRRGRRGTQKMKAWNLQ-----KKLDE
+tr|A0AAJ7TDB1|Sea_Lamprey           DIFDSDEENENQNGLL---SWTD-KYPKALSGKGKLWHAG-----KGITV
+tr|A0A8K0EDP5|Amphioxus             ---------------------------------------------SSIQK
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     VNYREVDEDERYPT-----PTKDLIIPKAGRQPAEVAATATLAAASSEAF
+tr|A0A8D8CT73|Mosquito              VNYNEDDDSFDSPI-----PFRNDTPPVGP---------SKLAAEPPAAV
+
+sp|Q7Z5K2|Human                     DDASISSCNK--------------L-------------------------
+sp|Q65Z40|Mouse                     DNANKSSCTK--------------L-------------------------
+tr|F7E4C6|Frog                      GKRKHSSPKK--------------K-------------------------
+tr|A0A8N7TDM0|Zebrafish             NSPAKTSPAS--------------S-------------------------
+tr|A0A8C4QA90|Inshore_Hagfish       DKTKDVFVGF--------------ENAT-KCNSFVSG-----I-------
+tr|A0AAJ7TDB1|Sea_Lamprey           DAKKDESPIE--------------KDRP-VDDVEMTDELALEPDSQTVTE
+tr|A0A8K0EDP5|Amphioxus             PSVRNASDDY--------------SDHSYAHHVTTTSVLAP---------
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     ISSTFGSPGSEPS--LPPPTSAPSASASTSSQLPSASGSASNPPSASRTP
+tr|A0A8D8CT73|Mosquito              PEETVVAPEPEPQQVVPVPQASPGKVKE------PKTVVVPVPLSSPSVL
+
+sp|Q7Z5K2|Human                     ----ITS--------------DKVENFHEEHEKNSHHIHKNADDSTKK--
+sp|Q65Z40|Mouse                     ----LTS--------------DKVENFSEEHEKNSHHFHKNAEDSTKK--
+tr|F7E4C6|Frog                      ----NIT--------------GNVQN----FAEDSYSFPKRSNNGDKK--
+tr|A0A8N7TDM0|Zebrafish             --------------------------------------------------
+tr|A0A8C4QA90|Inshore_Hagfish       GKDRSTA--------------HKRQNSA-----------TKNSSWSCLEE
+tr|A0AAJ7TDB1|Sea_Lamprey           QKPPAIS--------------HERPSKTLDHTKNQFDAARQEKDSSCNHV
+tr|A0A8K0EDP5|Amphioxus             ----QPK--------------AVPPSESADHSYAAHSKPVAPKNMSNEHS
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     EHPPIVLRISKGTSRLVSTDSEEPPSSSPAHQNQLNQLS--------VTE
+tr|A0A8D8CT73|Mosquito              EHPPIVLRISKGTSRLVSTDSEDVHSPPHGTTPNSGSGAAPITPSTATHQ
+
+sp|Q7Z5K2|Human                     ---------------------------------P------------NAET
+sp|Q65Z40|Mouse                     ---------------------------------P------------NAET
+tr|F7E4C6|Frog                      ---------------------------------P------------VEE-
+tr|A0A8N7TDM0|Zebrafish             --------------------------------------------------
+tr|A0A8C4QA90|Inshore_Hagfish       ------------------------RMAAEPGEGFAHTD------------
+tr|A0AAJ7TDB1|Sea_Lamprey           ------------------------SVAVKSTNVPEHNA-TNSTRCKVSKL
+tr|A0A8K0EDP5|Amphioxus             ------------------------YA-------------ASSMKSNVSKT
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     EEPAERSGDETVP-------ASTPKITVKPLRPPTAADSVDGSSAAVGGA
+tr|A0A8D8CT73|Mosquito              STPPQQQQQQSLPPPPPSPPPVVPPLIIKPPVAPEEAPRKDDLKIKISLS
+
+sp|Q7Z5K2|Human                     T-----VASEIKETNDTWNSQFGKRPESPS----------------E--I
+sp|Q65Z40|Mouse                     AVASEYKADETKETNDTWNSQSGKRTESPS----------------E--S
+tr|F7E4C6|Frog                      -----------TFTDTLWDLGNESGSNSPS----------------K--S
+tr|A0A8N7TDM0|Zebrafish             ---------YVTGTVGTWSKSNVTVSKQLS----------------Q--V
+tr|A0A8C4QA90|Inshore_Hagfish       -------TRVDCNDEDLWDRMRAKAEPLVCE-------SKSLDSEVISLL
+tr|A0AAJ7TDB1|Sea_Lamprey           EAEQNLADGEAETNLSSESKGTAKRGKESS----------------NTSQ
+tr|A0A8K0EDP5|Amphioxus             K----LKEGK-VTAELLFDRAVAAVSKSNQAAEISP--KDNFDMPSSISR
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     S------------AGDSFEERKSQSLEPNEDEEEEEEEEDEEEEPPEINY
+tr|A0A8D8CT73|Mosquito              K------------SS--------------------------------LIS
+
+sp|Q7Z5K2|Human                     SPIKGSVRTGLFEWDNDFEDI---------------------RS------
+sp|Q65Z40|Mouse                     CPVKGSVRTGLYEWDNDFEDI---------------------RS------
+tr|F7E4C6|Frog                      EQIKETSTAILYEWEELNQEN---------------------TD------
+tr|A0A8N7TDM0|Zebrafish             SSLKIPSRGISNDWDSFGEDS---------------------PP------
+tr|A0A8C4QA90|Inshore_Hagfish       GETGIKPAECVMQWNSTTEKASGLSKLGIWGIARKEDGDVTEGR------
+tr|A0AAJ7TDB1|Sea_Lamprey           TNLKEPPEKLSKKPHAGELVK---------TVTKGTKGSNDKGS------
+tr|A0A8K0EDP5|Amphioxus             SKVKETPAAKVEDDPF------------IFASPKKN--SVNSG-------
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     CTVKISPDKPPK---ER------LKLIIKTDVIRNAIAKAAAAAESRSEK
+tr|A0A8D8CT73|Mosquito              NGGTGCPGKPKKESKKE------LRHFKKRAIAREQKGSSRAGKRVRRGE
+
+sp|Q7Z5K2|Human                     ------------E----------------------DCILSLDSDPLLEMK
+sp|Q65Z40|Mouse                     ------------E----------------------DCILSLDNESLLEMK
+tr|F7E4C6|Frog                      -----------IS----------------------ELELNSDVNSLLETK
+tr|A0A8N7TDM0|Zebrafish             -----------GAG---------------------EGSSTQTSNSSDELK
+tr|A0A8C4QA90|Inshore_Hagfish       -----------FEN-------------------YYVPRSKKDNFDLSDNL
+tr|A0AAJ7TDB1|Sea_Lamprey           -----------TAG---------------------KRKPKPDNFAQGANA
+tr|A0A8K0EDP5|Amphioxus             ------------KD-------------------AFDFSDSEDGLSSDSEK
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     KS---RSKKHKHKQLLAAGSGAAPASGATPAEINSEFKTPSPHLALSEAN
+tr|A0A8D8CT73|Mosquito              DDGEGEEADGEDEQL-LAGVAEELRVEPIP-------APPRPSFPLPGTD
+
+sp|Q7Z5K2|Human                     D-D--D---FKN------------RLENLNEAIEEDIV--QSVLRPTNCR
+sp|Q65Z40|Mouse                     D-E--DLKNRIG------------GLENLNETFEEDII--QSVLRPSNCR
+tr|F7E4C6|Frog                      D-D--DSPSNKE------------INDNVEEHISGETV--QSGLKLSNCR
+tr|A0A8N7TDM0|Zebrafish             SAE--QCPA---------------EPEPPVEQPVDFEQ--LPLLKPSSDR
+tr|A0A8C4QA90|Inshore_Hagfish       LNR--K------------------RLMVQPTETEGEDG--RISFRSSNCR
+tr|A0AAJ7TDB1|Sea_Lamprey           DTE--KAPAASS------------APPKAAETAVEPDE--DLSFRASSCR
+tr|A0A8K0EDP5|Amphioxus             KEQ--GRPSWSR------------I----------TNS--GGSGVASSGT
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     SQQAQHTPSHLHQLHQLHPQRGSAVISPTTRSDHDFDSQSSVLGSISSKG
+tr|A0A8D8CT73|Mosquito              AYE-------------------LYRTLASPSGGDDFDSQSSILGSASSCA
+
+sp|Q7Z5K2|Human                     TYCRANKTKSSQGASNFD----KLMDGTSQALAKANSESSKDGLNQAKKG
+sp|Q65Z40|Mouse                     TYCRANKARSSQGASNFD----KLMDGTSQSLAKANSESSKDGLNQAKKG
+tr|F7E4C6|Frog                      TYCRSNKAKQSQGSSNFD----KLLDGTSQPATKSSYASEKERSHPVDKS
+tr|A0A8N7TDM0|Zebrafish             VYRRPRGKETESSAAGDT---IPAVSSVSAP---------APVMSSNAGV
+tr|A0A8C4QA90|Inshore_Hagfish       TYERVRRLDASFEGGD---STRTPLCSTVNS-------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           TYSRPGRKSDSPVDGLLGDSKLPPQSQ------------KDLTWNPQVE-
+tr|A0A8K0EDP5|Amphioxus             TWSRTCAKADSSAVGAGS-SNSMTLDERWASITKSRPPVRSYTWNSSQSS
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     NSTPQLLAQAVQEDSCV-------IRSRGSSVITSDLETSQHSS------
+tr|A0A8D8CT73|Mosquito              T--PKHGGIAAAEDCRI-------IHSRGSSDCGSDLELSQNSQNSQNS-
+
+sp|Q7Z5K2|Human                     GVSCGTSFRGTVGRTRDYTVLHPSCLSVC----NVTIQDTMERSMDE---
+sp|Q65Z40|Mouse                     SASCGTSFRGTVGRTRDYTVLHPSCLSVC----NVTIQDTMERSMDE---
+tr|F7E4C6|Frog                      F----STGSRSTVRTRDYTVLHPSCLSVC----NVTIQDSMERGVDE---
+tr|A0A8N7TDM0|Zebrafish             AGSSGVKPPAGRGRVRDYTVLHPSCVSVC----NVTIQDSIERSVDD---
+tr|A0A8C4QA90|Inshore_Hagfish       -KEQLLFLKTSMQACRDPTTLPATSVSPV----GVTLQDVRDLPQVPSGP
+tr|A0AAJ7TDB1|Sea_Lamprey           -----VA-FPKACASRDPITLPNSFFSPT----GVTLQEVGEPPKPSTAT
+tr|A0A8K0EDP5|Amphioxus             DDDESPKWPGL----------------PQ----TRTISGGQPR-------
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     ------------------LVAPPSDIESRLESMMMTIDGAGTGAASAVPE
+tr|A0A8D8CT73|Mosquito              ----------------STAAAPPSEINFESENTQELVEPVREEVA-----
+
+sp|Q7Z5K2|Human                     ------------FTAST--------------------PADLGE-------
+sp|Q65Z40|Mouse                     ------------FTAST--------------------PADLGE-------
+tr|F7E4C6|Frog                      ------------FTATP--------------------TTDLGE-------
+tr|A0A8N7TDM0|Zebrafish             ------------FVMPV--------------------QADIGE-------
+tr|A0A8C4QA90|Inshore_Hagfish       ATI-----------------------------------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           APP---VVAVDSALAVR--------------------KASAGA-------
+tr|A0A8K0EDP5|Amphioxus             VRI---VVGTARKTAPT--------------------AAN----------
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     TPLQEDILAVLRGEVPRLNGNTDPEPTEEEDQQQQPKRATRGRGRKANNN
+tr|A0A8D8CT73|Mosquito              APPKEERVEVLKLSL-----------------------------------
+
+sp|Q7Z5K2|Human                     -----AG-----RLRKKADIAT-SKT------TTRFRPSNTKSKKDVKLE
+sp|Q65Z40|Mouse                     -----AG-----RLRKKADIAT-SKT------TTRFRPSNTKSKKDVKLE
+tr|F7E4C6|Frog                      -----AG-----RLRKKADLAT-TKT------TTRFRPGNPKSKKDAKLE
+tr|A0A8N7TDM0|Zebrafish             -----AG-----TFRRKADTQA--PK------PTRFRPTQSKSKKETKLE
+tr|A0A8C4QA90|Inshore_Hagfish       ---------ASKDGEARNICLESAMAPRPLRTPRSSAASYRNRKREAMLD
+tr|A0AAJ7TDB1|Sea_Lamprey           -----AGSGAGGPASVRGGCAAAGGA------RRPSGRGGSSSKRQAKLE
+tr|A0A8K0EDP5|Amphioxus             -------TSASSTASIPVSCVS-----------SRLGSTSITSKSTVCTT
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     VDVTPPATETRTRGRAKGADAT-TAAISPPTGKRNTRGTRGSRKAEQEVD
+tr|A0A8D8CT73|Mosquito              ------------------------------KGTRATRSTRSSRM-KGTVE
+
+sp|Q7Z5K2|Human                     FF-------------------------GFEDHE-----------------
+sp|Q65Z40|Mouse                     FF-------------------------GFEDHD-----------------
+tr|F7E4C6|Frog                      FF-------------------------GFDDQD-----------------
+tr|A0A8N7TDM0|Zebrafish             FF-------------------------GFEENE-----------------
+tr|A0A8C4QA90|Inshore_Hagfish       FF-------------------------GFDEAD-----------------
+tr|A0AAJ7TDB1|Sea_Lamprey           MF-------------------------GFEDDS-----------------
+tr|A0A8K0EDP5|Amphioxus             QT-------------------------S----------------------
+sp|H2L0H5|Celegans                  -----------------------------MSSD-----------------
+sp|Q9W517|Drome                     MEVDETAMTTVPANEEQLEQATLPPRRGRNAAARANNNNLASVNN--NIN
+tr|A0A8D8CT73|Mosquito              VVVSKPEPVPVPAPEVASPAEPPVKKFGRATRQRNNNNNVVSATPEEKLP
+
+sp|Q7Z5K2|Human                     --------------TGGD---EGGSGSSNYKIKYFGFDDLS----ESEDD
+sp|Q65Z40|Mouse                     -------------ETGGD---EGGSGSSNYKIKYFGFDDLS----ESEDD
+tr|F7E4C6|Frog                      -------------EGGSEEGGSKSLGQSNYRIKYFGFDDLS----ESEEE
+tr|A0A8N7TDM0|Zebrafish             -------------AQ-DADGDATGSGSTSYKIKYFGFDDLS----ESDSE
+tr|A0A8C4QA90|Inshore_Hagfish       ------------GDGESGDSSERPAPCAAYKLKYFGFDEIV----GEETE
+tr|A0AAJ7TDB1|Sea_Lamprey           -------------DGEEGGSSEGAAPCAAYKIKYFGFDEMV----EEEGE
+tr|A0A8K0EDP5|Amphioxus             -------------VASTANRSQTVLKSYASRLSYAPPSDES----SLPS-
+sp|H2L0H5|Celegans                  ------------ANSDDPFSKPIVRKRFQATLAQQGIEDDQ----LPSVR
+sp|Q9W517|Drome                     KIAANLSAKAEASRLAEGGVAGGAARSYGRKRKNQQVTQVLQQEPVPEEQ
+tr|A0A8D8CT73|Mosquito              EVVPPVEPTREPS--PPPVVQKTVTRQYNRRKKNVVP-----PDYQPEVA
+
+sp|Q7Z5K2|Human                     EDDDCQVERKTSKKRTKTAPSPS---------L--------------QP-
+sp|Q65Z40|Mouse                     DDDDCQVERKKDKKRTKTAPSPS---------Q--------------QP-
+tr|F7E4C6|Frog                      DDDCWHQKEKKVKNKTKSAVVPS---------A--------------TN-
+tr|A0A8N7TDM0|Zebrafish             DDDDSAARERKKNKKAEAEALST---------G--------------TG-
+tr|A0A8C4QA90|Inshore_Hagfish       TSVDSGSEVPSTHSDTFAAAGRR--------DAGGGYSPDSSRASPTQPV
+tr|A0AAJ7TDB1|Sea_Lamprey           DIPAVEVKARGGAGDWWCSSTDA--------TG--------------EAS
+tr|A0A8K0EDP5|Amphioxus             ----SSQ----GSTSSKSSQP-----------------STSGFASLSQPS
+sp|H2L0H5|Celegans                  SSDSPDVPDTPDVPVNQLSSP-----------------------PLSLPE
+sp|Q9W517|Drome                     ETPDAEEEQPTPAKIPHTDH--------------REHSPDH-DPDPDPDE
+tr|A0A8D8CT73|Mosquito              ARPHAAVEEPPPFTLAAESAPALASIQTTPEDLTVGSRTAA-EPTPPPA-
+
+sp|Q7Z5K2|Human                     PPESN--DNSQDSQSGTNNAENL-DFT------------ED----LPG--
+sp|Q65Z40|Mouse                     PPESS--DNSQDSQSSTNNAENL-DFT------------ED----LPG--
+tr|F7E4C6|Frog                      SPSSGVTENLKDNQSSNI----S-EFS------------ED----QHA--
+tr|A0A8N7TDM0|Zebrafish             SPQFSDSQESQQSQSSLSTDSQ---ES------------LD----ETG--
+tr|A0A8C4QA90|Inshore_Hagfish       CDFWSDSQDFSSNMSSSQETE--VLEI------------RDE---QIT--
+tr|A0AAJ7TDB1|Sea_Lamprey           STVATSQDSLQSSQESTTSRDTDILES------------GSEEGAWSA--
+tr|A0A8K0EDP5|Amphioxus             T--SKGSQSLPPSQSSARDEDPF------------------------G--
+sp|H2L0H5|Celegans                  TLSEGNAETLQNLSDDSEPEMLSQSSTSSLNRRMEDSAIDPSRGTRKS--
+sp|Q9W517|Drome                     LSNNSNNSSLQHDGSSSSPPPRDFK----FKDKFKRTLTLDTQGAANA--
+tr|A0A8D8CT73|Mosquito              -------SAPLPVQDENKPEPTEYK----IKNKFKRSYFRAEELAKQREA
+
+sp|Q7Z5K2|Human                     -----------------------------VPESVK--KP-INKQG-----
+sp|Q65Z40|Mouse                     -----------------------------VPESVK--KP-ISKQG-----
+tr|F7E4C6|Frog                      -----------------------------VPEVFR--KP-PSKQT-----
+tr|A0A8N7TDM0|Zebrafish             -----------------------------ATGSQK--ER-HRKQS-----
+tr|A0A8C4QA90|Inshore_Hagfish       -----------------------------VQELQV--DQ-HRLPE-----
+tr|A0AAJ7TDB1|Sea_Lamprey           -----------------------------CSRSGS--IA-KHNAE-----
+tr|A0A8K0EDP5|Amphioxus             -----------------------------FEEEEL--PS-RSQPT-----
+sp|H2L0H5|Celegans                  -----------------------------QSRGFDYDPAGERTTA-----
+sp|Q9W517|Drome                     --------------------GAGGA------------AA-AAPPESSGEQ
+tr|A0A8D8CT73|Mosquito              AQSQVLVESAQNVGTTTVPSGASPAAALTVPQISI--PA-SSQETTSDGG
+
+sp|Q7Z5K2|Human                     -----DKSKENTRKIF-SGPKRSP---------TKAVYNARHWNHPDSEE
+sp|Q65Z40|Mouse                     -----DKSKENTRKIF-SGPKRSP---------TKAVYNARHWNHPDSEE
+tr|F7E4C6|Frog                      -----DKSKDGARKIF-SGPKRSP---------TKAVYNARHWNQPESEE
+tr|A0A8N7TDM0|Zebrafish             -----NKSKEIGRKIF-SGPKKSP---------AKAVYNARHWNQPESEE
+tr|A0A8C4QA90|Inshore_Hagfish       -----KRRDDVKKKIF-HSPRKPI---------GKAVYNARHWTQHKMET
+tr|A0AAJ7TDB1|Sea_Lamprey           -----RKNEDGKKLIF-HSPKKPL---------GKAVYNARHWNHPEEEM
+tr|A0A8K0EDP5|Amphioxus             -----ASGEPRKPRKF-YSPKKSP---------AKVRYNPRPWQPSTSES
+sp|H2L0H5|Celegans                  -----PVQKKKKDEIDMGGAKFFP-------KQEKKHVYTHKWTTEEDDE
+sp|Q9W517|Drome                     RGAVKLVISKKKGSIF-KSRALVPSDQAEQATVAKRHLYKHSWDAALEAN
+tr|A0A8D8CT73|Mosquito              PGPVKLVISKKKGSIF-KSRPLVGSAEA---ADKKRHVYKHKWDDDDDQE
+
+sp|Q7Z5K2|Human                     LP--GPPVVKPQSVT-----------------------------------
+sp|Q65Z40|Mouse                     LP--GPPIAKPQRVT-----------------------------------
+tr|F7E4C6|Frog                      LP--AVPAFKTQTA------------------------------------
+tr|A0A8N7TDM0|Zebrafish             VP--SPASHTVAVPK-----------------------------------
+tr|A0A8C4QA90|Inshore_Hagfish       ELELPELLRIASAPAWLDYKERVQESKEATKDADSQ--------------
+tr|A0AAJ7TDB1|Sea_Lamprey           KA--PRLDRASSAPASVGREREREREKEHERGERKVLGELESR-REGDAR
+tr|A0A8K0EDP5|Amphioxus             FDDAG---------------------------------------------
+sp|H2L0H5|Celegans                  DEKTISSSSNRYSSR-----------------------------------
+sp|Q9W517|Drome                     GGGTNSDASNASAS-GVGVA-----------GAKDHLHHLAAGKSDGDFG
+tr|A0A8D8CT73|Mosquito              GKEKAALAEQQK--------------------------------------
+
+sp|Q7Z5K2|Human                     -----------------------------------VRLS-------SKEP
+sp|Q65Z40|Mouse                     -----------------------------------VRLS-------SKEP
+tr|F7E4C6|Frog                      -----------------------------------PAKP-------SDAP
+tr|A0A8N7TDM0|Zebrafish             -----------------------------------PSASSSSTSSSKDTN
+tr|A0A8C4QA90|Inshore_Hagfish       -------------------------------LDKASGMVDEKDASAKQLF
+tr|A0AAJ7TDB1|Sea_Lamprey           --PGKDGERRADAASPEGSTRRGEEKQHPAEVTAAQGNAEQEGTAPSGET
+tr|A0A8K0EDP5|Amphioxus             --------------------------------------------------
+sp|H2L0H5|Celegans                  --------------------------------------------------
+sp|Q9W517|Drome                     DSPSSN-NNGSSSACSSASTLRGDSPALGKI--------SRLAGKQGVPA
+tr|A0A8D8CT73|Mosquito              -------------QEKEVDTFEGEPSGLSRV--------LRGGTTSGAPT
+
+sp|Q7Z5K2|Human                     NQKDDGVFKAP---A-PPSKVIKTV----------TIPTQPYQDIVTALK
+sp|Q65Z40|Mouse                     NQKDDGVFKAP---A-PPLKVIKTV----------TIPTQPYQEIVTALK
+tr|F7E4C6|Frog                      CAKDDGVFKAP---A-PPPKVIKTV----------TIPTQPYQDIVTALK
+tr|A0A8N7TDM0|Zebrafish             SHKDDGVFKAP---P-PPPKVIKSV----------TIPTELNQDIVTALK
+tr|A0A8C4QA90|Inshore_Hagfish       NAGLQEVFKAP---S-LPPRLVKKI----------AFPSNPDDEMVTSLK
+tr|A0AAJ7TDB1|Sea_Lamprey           EQGERSVFKEP---PPPPPARLRRI----------ACPSQDSDEGVSSLK
+tr|A0A8K0EDP5|Amphioxus             VYDHDDDADEP---ATAPLLLTRRT----------SVAQRSHHAPVTALR
+sp|H2L0H5|Celegans                  ----------P-----NQPAVS-------------ARP-RQPVYATTSTY
+sp|Q9W517|Drome                     TSTSSDAFDLDLEPIAGELDLERSAAGASAGGTGATTGGGGATGGGGPVR
+tr|A0A8D8CT73|Mosquito              AFDEDD---------------------------------DDEFDFDAKLK
+
+sp|Q7Z5K2|Human                     CRREDKELYTVVQHVKHFNDVVEFGENQEFTDDIEYLLSGLKSTQ-PLNT
+sp|Q65Z40|Mouse                     CRKEDKELYTVVQHVKHFNDVVEFGENQEFTDDIEYLLSGLKSTQ-PLNT
+tr|F7E4C6|Frog                      CRKEHKELYTVVQHVKHFNDVVEFGENQEFTDDIEYLLSGLKSSQ-PINT
+tr|A0A8N7TDM0|Zebrafish             CRKEHKELYTVVQHVKHFNDVVEFGENQEFTDDFEYLETGLKSTQ-PLNT
+tr|A0A8C4QA90|Inshore_Hagfish       CHKDDKELYTVVRQVKAFNEVLEFGETQEFSDDVEYLLSGLKPEQ-PVNI
+tr|A0AAJ7TDB1|Sea_Lamprey           CHKEDKELYTVVRQVKHFNEVLEFGETQEYTDDVEYLMSGLKPRQ-PLST
+tr|A0A8K0EDP5|Amphioxus             VPREQKELYTVVSNVKNYNDCIELGETQEFSDDIEYLLDGLKNTE-SAGT
+sp|H2L0H5|Celegans                  SKPLASGYGSRVRHIKEANELRESGEYDDFKQDLVYILSSLQSSDASMKV
+sp|Q9W517|Drome                     VDRKTKDYYPVVRNVKTAHQIQEIGEYQEMDDDVEYILDALQPHN-PPAT
+tr|A0A8D8CT73|Mosquito              CNRNAKPYYTVVRNVKKAHQIQEIGESQEMDDDVEYILSALQSDN-PIAT
+
+sp|Q7Z5K2|Human                     RCLSVISLATKCAMPSFRMHLRAHGMVAMVFKTLDDSQHHQNLSLCTAAL
+sp|Q65Z40|Mouse                     RCLSVISLATKCAMPSFRMHLRAHGMVAMVFKTLDDSQHHQNLSLCTAAL
+tr|F7E4C6|Frog                      RCLSVISLATKCAMPSFRMHLRAHGMVAMVFKTLDDSQQHQNLALCTAAL
+tr|A0A8N7TDM0|Zebrafish             RCLSIISLATRCAMPSFRMHLRARGKVAQVFKMLSDAQQHPNMALCTASL
+tr|A0A8C4QA90|Inshore_Hagfish       RCLSTVSLAMKCAMPSFRMHLRAHGMVVKLFRLLSDAQEDQNLALCTAAL
+tr|A0AAJ7TDB1|Sea_Lamprey           RCLSVISLAMKCAMPGFRMHLRAHGQVAKVFKLLIDAQENQNLALCTAAL
+tr|A0A8K0EDP5|Amphioxus             RCLSLISLATKCLAPIFRLQLRAHGTVNKVFGELQDASSDPALSLCTALL
+sp|H2L0H5|Celegans                  KCLSAISLAKKCVSPDFRQFIKSENMTKSIVKALMDSPEDDLFALAASTV
+sp|Q9W517|Drome                     RCLSALQLAAKCMMPAFRMHVRAHGVVTKFFKALSDANKDLSLGLCTSAI
+tr|A0A8D8CT73|Mosquito              RCLSAMTLATKCMTPAFRMHVRAHGVVTRFFKALQDAHRDQSLGLCTATI
+
+sp|Q7Z5K2|Human                     MYILSRDRLNMDLDRASLDLMIRLLELEQDASS-----------------
+sp|Q65Z40|Mouse                     MYILSRDRLNMDLDRASLDLMIRLLELEQDASS-----------------
+tr|F7E4C6|Frog                      MYILSRDRLNMDLDRASLDLMIRLLEMEQDPS------------------
+tr|A0A8N7TDM0|Zebrafish             MYILSRDRLNMDLDRSCLELMIRLLEMEQDDSV-----------------
+tr|A0A8C4QA90|Inshore_Hagfish       MYVLSRDRLNMDLDRGCLELLIRLLELDPAGGAD------------GSGT
+tr|A0AAJ7TDB1|Sea_Lamprey           MYVLSRDRLNMDLDRGCLELLIRLLEMEGGGAGGTAEEDAGGRKGAVVGA
+tr|A0A8K0EDP5|Amphioxus             MYMLSRDRMNMDLDSTCLQLMIQLLCVDAQPTEPT---------------
+sp|H2L0H5|Celegans                  LYLLTRDFNSIKIDFPSLRLVSQLLRIEKFEQRPED--------------
+sp|Q9W517|Drome                     MYILSQEGLNMDLDRDSLELMINLLEADGVGGSTE---------------
+tr|A0A8D8CT73|Mosquito              MFVLSQDTLNMDLDRDSLELMLNLLDTDHHRT-DE---------------
+
+sp|Q7Z5K2|Human                     -----AKLLNEKDMNKIKEKIRRLCETVH------NKHLDLENITTGHLA
+sp|Q65Z40|Mouse                     -----AKLLNEKDMNKIKEKIRRLCETVH------NKHLDLENITTGHLA
+tr|F7E4C6|Frog                      -----ARQMNEKEMNKIKEKIRKLCETVH------NKHLDLENITTGHLA
+tr|A0A8N7TDM0|Zebrafish             -----ADQLTAKEMSKVKEKIRKLCETVH------NKHLDLENITTGHLA
+tr|A0A8C4QA90|Inshore_Hagfish       GGDVGMDSGESREGQRHRERIRKLCERVH------DRHLDLENITTAHLA
+tr|A0AAJ7TDB1|Sea_Lamprey           GGAAAARAADIREGDRLRERIRKLCEKVH------NRHLDLENMTTGHLA
+tr|A0A8K0EDP5|Amphioxus             -----DGAVHGREYNKIREKVQQLCEKTN------NKHLKMNTISAGLLA
+sp|H2L0H5|Celegans                  ---------KDKVVNMVWEVFNSYIEKQEVGGQKVSFDMRKESLTPSSLI
+sp|Q9W517|Drome                     -----TGHPDRAGYDRNKQKVRELCEEIK--AQGKGTHLNVDSLTVGTLA
+tr|A0A8D8CT73|Mosquito              -----PDPATRGQLEKNRLKVRELCEEIK--NSGKAKHMDLDAITVGSLA
+
+sp|Q7Z5K2|Human                     METLLSLTSKRA-GDWFKEELRLLGGLDHIVDKVKECVDHLSRD----ED
+sp|Q65Z40|Mouse                     METLLSLTSKRA-GDWFKEELRLLGGLDHIVDKVKECVDHLSRDD---ED
+tr|F7E4C6|Frog                      METLLSLTSKRA-GDWFKEELRLLGGLDHIVDKVKECANHLDRD----ES
+tr|A0A8N7TDM0|Zebrafish             METLLSLTSKRA-GDWFKEELRLLGGLDHIVDKVKECVENLNKE----ED
+tr|A0A8C4QA90|Inshore_Hagfish       METLLSLTSRRA-GDWFKEELRLLGGLDHIIDKVTECGRKFTEE----VE
+tr|A0AAJ7TDB1|Sea_Lamprey           METLLSLTSRRA-GDWFKEELRLLGGLDHIVDKVADCAEKLRSAD--RGA
+tr|A0A8K0EDP5|Amphioxus             MECLLTLTSKRA-GDSFKEEVRKLGGLDRLADMVMGCEACLGDGE--KKP
+sp|H2L0H5|Celegans                  IEALVFICSRSVNDDNLKSELLNLGILQFVVAKIETNVNLIADN------
+sp|Q9W517|Drome                     METLLSLTSKRA-GEWFKEDLRKLGGLEHIIKTISDFCRPVIACDTEIDW
+tr|A0A8D8CT73|Mosquito              MESLLSLTSKRA-GDWFKDELRNLGGLEHLIKTVSDCCREIS--DYVIEW
+
+sp|Q7Z5K2|Human                     EEKLVASLWGAERCLRVLESVTVHNPENQSYLIAYKDSQLIVSSAKALQH
+sp|Q65Z40|Mouse                     EEKLVASLWGAERCLRVLESVTVHNPENQSYLIAYKDSQLIISSAKALQH
+tr|F7E4C6|Frog                      EEKLVASLWGAERCLRVLESVTVHNPENQSYLIAYKDSQLIVSSAKALRH
+tr|A0A8N7TDM0|Zebrafish             KESLVASLWGAERCLRVLESVTVHNPENQAYLIAYKDSQLIMSSARALQH
+tr|A0A8C4QA90|Inshore_Hagfish       DDELVVALRGAERCLRVLESVTVHNPENQVYLIAYSDSQLVVSTARVLCF
+tr|A0AAJ7TDB1|Sea_Lamprey           EEKLVDSLRGAERCLRVLESVTVHNPENQGYLIAYQDSQLIVSTARVLGL
+tr|A0A8K0EDP5|Amphioxus             DDPAMLRLRKMDRCLRVLENMTFMNTDNQGYLLSYKDAELVGAVVRALKS
+sp|H2L0H5|Celegans                  -ADDTYSILILNRCFRILESSSVFHKKNQAFLISHRSNILISSLAKFLQV
+sp|Q9W517|Drome                     QPTLLDNMQTVARCLRVLENVTQHNETNQRYMLTSGQGKAVETLCQLYRL
+tr|A0A8D8CT73|Mosquito              TDELLSKLRKIERCLRVLENVTLLNEQNQSYILNYNGGSLVATLAKLFKL
+
+sp|Q7Z5K2|Human                     CEELIQQYNRAEDSICLADSKP--------LPHQNVTNHVGKAVEDCMRA
+sp|Q65Z40|Mouse                     CEDLIQQYNRAENSICVADSNP--------LPYQNVTNHVGKAVEDCMRA
+tr|F7E4C6|Frog                      CEELIQRYNRAEDSICIPYSKS--------LPHHNVSSHVGKAVEDCMRS
+tr|A0A8N7TDM0|Zebrafish             CEQMIQRYSREVSSSSSSTLP------------QSSHSNVGKAVEDCMRA
+tr|A0A8C4QA90|Inshore_Hagfish       CEKETRRRGQITLDTQVGFTPPPVHYKGGPTFQSRSASPVAKALEGCLRA
+tr|A0AAJ7TDB1|Sea_Lamprey           CEVLLLRKERAETRNEEGTVN----------NAGAEWSPLLKALEGCLRA
+tr|A0A8K0EDP5|Amphioxus             FTKMCEHFSDDDSLPLNGQHE----------EDDSVLATPGTVVRSCLLA
+sp|H2L0H5|Celegans                  ILDRVHQLAE----------------------------EEVKKYISCLAL
+sp|Q9W517|Drome                     CSRQIMLHPSD--------------------GGGSNKEHPGVAMRELLVP
+tr|A0A8D8CT73|Mosquito              VDGEVVLYPTN--------------------E-RTPKEDRGAVLREVIPP
+
+sp|Q7Z5K2|Human                     IIGVLLNLTNDN-----EWGSTKTGEQDGLIGTALNCVLQVPKYLPQEQR
+sp|Q65Z40|Mouse                     IIGVLLNLTNDN-----EWGSTKTGEQEGLIGTAMNCVLQVPKYLPQEQR
+tr|F7E4C6|Frog                      IIGVLLNLTNDN-----EWGSTKTGEQDNLISTALNCVLQVPKFLPQEQR
+tr|A0A8N7TDM0|Zebrafish             VIGVLLNLTHDN-----EWGSTKTGEQDGLILTALDCVLKVPRYLPQEQR
+tr|A0A8C4QA90|Inshore_Hagfish       AFGVLLNLTNNN-----GESQMPHGKTSRHIW------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           SFGVLLNLTHDN-----EWGSTKAGEQDRLVGSVLGCVLHVPSLLPAEQR
+tr|A0A8K0EDP5|Amphioxus             LLRVLLNLTHDN-----EWGSTKVGEQPGLLKTALLCVLLAPQYLPTEQR
+sp|H2L0H5|Celegans                  MCRLLINISHDN-----ELCCSKLGQIEGFLPNAITTFTYLAPKFGKENS
+sp|Q9W517|Drome                     VLKVLINLTHTFNEAQPSLGAELLGQRGDVVETSFRLLLLSANYIPDQCV
+tr|A0A8D8CT73|Mosquito              VLKIFISLTHPFNDT--AYGAGVIGCQPHVIETTLHLLLRVGDYVPQKFI
+
+sp|Q7Z5K2|Human                     FDIRVLGLGLLINLVEYSARNRHCLVNMETSCSFDSSICS----------
+sp|Q65Z40|Mouse                     FDIRVLGLGLLINLVEYSARNRHCLVNMQTSCSFDSSFSS----------
+tr|F7E4C6|Frog                      FDIRVLGLGLLINLVEYSARNRHCLVNMQTTPSYDSF--C----------
+tr|A0A8N7TDM0|Zebrafish             FDIRVLGLGLLINLVEYSARNRECLVEMEVDMSYLMEAEAVVKIENDVKT
+tr|A0A8C4QA90|Inshore_Hagfish       --------------------------------------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           FDIRVLGLALLVNLVELSARNRQCLVAMETEGVSADSSCI----------
+tr|A0A8K0EDP5|Amphioxus             FDMHVLGLGLLINLLEHSAKNRRLLTETRAPFAYDSV-------------
+sp|H2L0H5|Celegans                  YDINVMMTSLLTNLVERCNANRKVLIAQTVKMVIPGH-------------
+sp|Q9W517|Drome                     FELSILVLTLLINLCMHTVPNRAALMQAAAPAEYVAD-------------
+tr|A0A8D8CT73|Mosquito              FEMNILVLLFLINLSMYTRANRTRLMTAHAPDDYGTT-------------
+
+sp|Q7Z5K2|Human                     --------GEGDDSLRIGGQVHAVQALVQLFLERERAAQLAESKTDELIK
+sp|Q65Z40|Mouse                     --------GEGDHSLRLAGQVHAVQALVQLFLERERAAQLAESKTDELIK
+tr|F7E4C6|Frog                      --------GEGEEPVRIPGQVDAVQAMVLLFLERERAAQLAESQTDELIK
+tr|A0A8N7TDM0|Zebrafish             EEQKRDQMEEEEKRKATLKSLNALAALVQLFLERERAAVLAEAQTDDLIS
+tr|A0A8C4QA90|Inshore_Hagfish       --------------------------------------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           ------------ADTGPGCCVPALEALVQLYLQREHAAQLAETQTDDIIK
+tr|A0A8K0EDP5|Amphioxus             ----------GTSPERRAVETTAVEALIKLFLDREAAAREAEGTTE----
+sp|H2L0H5|Celegans                  ----------------DVEEVPALEAITRLFVYHESQAQIVDADLDRELA
+sp|Q9W517|Drome                     ------------NPP-AQGSVSALQALLEYFYKCEELARLVEKNTDAFLE
+tr|A0A8D8CT73|Mosquito              ------------AEEDSPRDEMAVQALVEYFYRQDELARYAEKNTDAILD
+
+sp|Q7Z5K2|Human                     DAPTT---------------------------------------------
+sp|Q65Z40|Mouse                     DAPTT---------------------------------------------
+tr|F7E4C6|Frog                      EVPTA---------------------------------------------
+tr|A0A8N7TDM0|Zebrafish             EAPKS---------------------------------------------
+tr|A0A8C4QA90|Inshore_Hagfish       --------------------------------------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           GAMKTAASSQPGGAAAPAAEGATTSSASLPSSTTTATTQQEQQQQLELQQ
+tr|A0A8K0EDP5|Amphioxus             --------------------------------------------------
+sp|H2L0H5|Celegans                  FDEGG---------------------------------------------
+sp|Q9W517|Drome                     SNE-----------------------------------------------
+tr|A0A8D8CT73|Mosquito              AKS-----------------------------------------------
+
+sp|Q7Z5K2|Human                     --------------QHDKSGEWQETSGEIQWVSTEKTDGTEE--------
+sp|Q65Z40|Mouse                     --------------QHDKSGEWQETSGEIQWVSTEKTDGAEE--------
+tr|F7E4C6|Frog                      --------------QHDKSGEWQETGGEIQWVSAEKSPNSEE--------
+tr|A0A8N7TDM0|Zebrafish             --------------QADQSGEWQETSGEIQWVASETNDTN----------
+tr|A0A8C4QA90|Inshore_Hagfish       --------------------------------------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           QQQQQTQQQKQQHRGSDPDGEWHESESGLEWVEASPEPGRTGRPGDIRSA
+tr|A0A8K0EDP5|Amphioxus             --------------QAEQSGEWRVTGDGLEWVSGDSKEEEEK--------
+sp|H2L0H5|Celegans                  -----------------CGDEEEEEEGGDESSD----EDGVRKDGRLDR-
+sp|Q9W517|Drome                     --------------------------------------------------
+tr|A0A8D8CT73|Mosquito              --------------------------------------------------
+
+sp|Q7Z5K2|Human                     --KHKKEEEDEELDLNKALQHAGKHMEDCIVASYTALLLGCLCQESPINV
+sp|Q65Z40|Mouse                     --KQKKEEEDEELDLNKALQHAGKHMEDCIVASYTALLLGCLCQESPINV
+tr|F7E4C6|Frog                      --PEKKEEEDEELDLNKALQHAGKHMEDCIVASYTALLLGCLCQESPVSA
+tr|A0A8N7TDM0|Zebrafish             ---DKKEEEEEELDLNKALQHAGKHMEDSIVASYSALLLGCLCQGSPMNV
+tr|A0A8C4QA90|Inshore_Hagfish       --------------------------------------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           KQAAAAAEEEEMDTLKKALAQAGKHMEDCIVASYTALVLGCLCHESPTTV
+tr|A0A8K0EDP5|Amphioxus             KEEEPSSQEDEKDVLSKALHKAGKHMEDSIVSSYVALLLGCFVQESEGNV
+sp|H2L0H5|Celegans                  NKMDRMDQVDVVHALQQVMNKASAHMEGSVIASYHALLVGFVLQQNEDHL
+sp|Q9W517|Drome                     --KGKKKQEEVEETVNNLVQRAGHHMEHTLKGSYAAILVGNLIADNELYE
+tr|A0A8D8CT73|Mosquito              -----KKNEDIEETVTKLLQKAGHHMEHTLMASYVCLLIGWLVIGSEENE
+
+sp|Q7Z5K2|Human                     TTVREYLPEGDFSIMTEMLKKFLSFMNLTCAVGT---TGQKSISRVIEYL
+sp|Q65Z40|Mouse                     TTVREYLPEGDFSIMTEMLKKFLSFMNLTCAVGT---TGQKSISRVIEYL
+tr|F7E4C6|Frog                      HRLQRLFARAGIIC---------------------------TIANHIDQC
+tr|A0A8N7TDM0|Zebrafish             KTVRENLPKGDFSIMTEMLKKFLNFMNLTCSVGT---TGQKSISRVIDYL
+tr|A0A8C4QA90|Inshore_Hagfish       --------------------------------------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           QTIRECLPKGDFSSMTEMLQKFLCFMNLTSTVGT---TGQKSIARVIECL
+tr|A0A8K0EDP5|Amphioxus             ESVRQHLPNGDFSRMVTMLKKFLSFISLTNAVGN---KGDMKIAHIIDVL
+sp|H2L0H5|Celegans                  DEVRKHLPGKNFQNMISQLKRLYDFTKATMAKRVESNSGFRAIERVIEYL
+sp|Q9W517|Drome                     SVVRRQLRGNSFKEIIGVLEKYHTFMNLTSSLEAAFVAHMKSTKRIIDNF
+tr|A0A8D8CT73|Mosquito              TTVRTYLREGNFVMMVSSLEKYYNFLNLTANSDALSLQHVRQTKNIIDNL
+
+sp|Q7Z5K2|Human                     EHC-----------------------------------------------
+sp|Q65Z40|Mouse                     EHC-----------------------------------------------
+tr|F7E4C6|Frog                      DYCTG---------------------------------------------
+tr|A0A8N7TDM0|Zebrafish             EHC-----------------------------------------------
+tr|A0A8C4QA90|Inshore_Hagfish       --------------------------------------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           ERC-----------------------------------------------
+tr|A0A8K0EDP5|Amphioxus             EEC-----------------------------------------------
+sp|H2L0H5|Celegans                  ERLE----------------------------------------------
+sp|Q9W517|Drome                     KKRDYIYEHSDEHDNPLPLNLETTAQVLAVGADASHAATSSTTVGSGSAP
+tr|A0A8D8CT73|Mosquito              KRLDAADRVPSTSSQQQPEASTS-A-------------------------
+
+sp|Q7Z5K2|Human                     -------------------------
+sp|Q65Z40|Mouse                     -------------------------
+tr|F7E4C6|Frog                      -------------------------
+tr|A0A8N7TDM0|Zebrafish             -------------------------
+tr|A0A8C4QA90|Inshore_Hagfish       -------------------------
+tr|A0AAJ7TDB1|Sea_Lamprey           -------------------------
+tr|A0A8K0EDP5|Amphioxus             -------------------------
+sp|H2L0H5|Celegans                  -------------------------
+sp|Q9W517|Drome                     SSTSATGTTRAPRVYKTYSSHR---
+tr|A0A8D8CT73|Mosquito              --QPQAPQPQQPHRYGSRSSTRAHY
+
+

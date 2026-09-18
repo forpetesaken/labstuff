@@ -10,6 +10,8 @@ venv/
 # Reproducible run outputs are kept locally and archived outside Git.
 outputs/latest/*
 outputs/archive/*
+!outputs/archive/aiden_lab_alignments/
+!outputs/archive/aiden_lab_alignments/**
 data/raw/*
 data/interim/*
 data/processed/*
